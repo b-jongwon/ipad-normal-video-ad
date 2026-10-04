@@ -1,0 +1,542 @@
+{
+  "objects": [
+    "yellow forklift",
+    "black pallet",
+    "white rolls"
+  ],
+  "phases": [
+    {
+      "id": 0,
+      "name": "separate ground load",
+      "visual_description": "A yellow toy forklift is separate from a black pallet carrying white rolls on the floor.",
+      "expected_objects": [
+        "yellow forklift",
+        "black pallet",
+        "white rolls"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "forks at ground load",
+      "visual_description": "The yellow toy forklift forks are close to a black pallet carrying white rolls at ground level.",
+      "expected_objects": [
+        "yellow forklift",
+        "black pallet",
+        "white rolls"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "raised load",
+      "visual_description": "White rolls on a black pallet are raised on the yellow toy forklift forks.",
+      "expected_objects": [
+        "yellow forklift",
+        "black pallet",
+        "white rolls"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "lowered load near forklift",
+      "visual_description": "White rolls and a black pallet rest on the floor close to the yellow toy forklift.",
+      "expected_objects": [
+        "yellow forklift",
+        "black pallet",
+        "white rolls"
+      ]
+    }
+  ],
+  "observable_process_order": true,
+  "cyclic_process": true,
+  "required_phase_order": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "allowed_transitions": [
+    {
+      "from_phase": 0,
+      "to_phase": 1
+    },
+    {
+      "from_phase": 1,
+      "to_phase": 2
+    },
+    {
+      "from_phase": 2,
+      "to_phase": 3
+    },
+    {
+      "from_phase": 3,
+      "to_phase": 0
+    }
+  ],
+  "normal_summary": "The observed process consists of a yellow forklift approaching a black pallet carrying white rolls on a green mat, lifting the pallet, carrying it elevated, lowering it back to the mat, and then withdrawing forks to separate from the pallet. This cycle repeats in the recordings with consistent visible evidence.",
+  "uncertainties": [
+    "This is a toy forklift scene, not an actual factory deployment. Approach/withdrawal may look alike in still images.",
+    "Sparse keyframe annotations are approximate weak labels, not verified phase ground truth.",
+    "No timestamp/FPS metadata: durations are in sampled observations, not seconds."
+  ],
+  "evidence_labels": [
+    {
+      "clip": "01",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 60,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 121,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 181,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 242,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 303,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 363,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 424,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 485,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 545,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 606,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 667,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 67,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 135,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 202,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 270,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 338,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 405,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 473,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 541,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 608,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 676,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "12",
+      "ordinal": 744,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 63,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 127,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 191,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 255,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 319,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 382,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 446,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 510,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 574,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 638,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "22",
+      "ordinal": 702,
+      "phase": 0,
+      "visually_confident": true
+    }
+  ],
+  "scene": "R03",
+  "evidence": [
+    {
+      "clip": "01",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R03/training/frames/01/000.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 60,
+      "frame": 60,
+      "member": "IPAD_dataset/R03/training/frames/01/060.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 121,
+      "frame": 121,
+      "member": "IPAD_dataset/R03/training/frames/01/121.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 181,
+      "frame": 181,
+      "member": "IPAD_dataset/R03/training/frames/01/181.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 242,
+      "frame": 242,
+      "member": "IPAD_dataset/R03/training/frames/01/242.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 303,
+      "frame": 303,
+      "member": "IPAD_dataset/R03/training/frames/01/303.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 363,
+      "frame": 363,
+      "member": "IPAD_dataset/R03/training/frames/01/363.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 424,
+      "frame": 424,
+      "member": "IPAD_dataset/R03/training/frames/01/424.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 485,
+      "frame": 485,
+      "member": "IPAD_dataset/R03/training/frames/01/485.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 545,
+      "frame": 545,
+      "member": "IPAD_dataset/R03/training/frames/01/545.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 606,
+      "frame": 606,
+      "member": "IPAD_dataset/R03/training/frames/01/606.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 667,
+      "frame": 667,
+      "member": "IPAD_dataset/R03/training/frames/01/667.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R03/training/frames/12/000.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 67,
+      "frame": 67,
+      "member": "IPAD_dataset/R03/training/frames/12/067.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 135,
+      "frame": 135,
+      "member": "IPAD_dataset/R03/training/frames/12/135.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 202,
+      "frame": 202,
+      "member": "IPAD_dataset/R03/training/frames/12/202.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 270,
+      "frame": 270,
+      "member": "IPAD_dataset/R03/training/frames/12/270.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 338,
+      "frame": 338,
+      "member": "IPAD_dataset/R03/training/frames/12/338.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 405,
+      "frame": 405,
+      "member": "IPAD_dataset/R03/training/frames/12/405.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 473,
+      "frame": 473,
+      "member": "IPAD_dataset/R03/training/frames/12/473.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 541,
+      "frame": 541,
+      "member": "IPAD_dataset/R03/training/frames/12/541.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 608,
+      "frame": 608,
+      "member": "IPAD_dataset/R03/training/frames/12/608.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 676,
+      "frame": 676,
+      "member": "IPAD_dataset/R03/training/frames/12/676.jpg"
+    },
+    {
+      "clip": "12",
+      "ordinal": 744,
+      "frame": 744,
+      "member": "IPAD_dataset/R03/training/frames/12/744.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R03/training/frames/22/000.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 63,
+      "frame": 63,
+      "member": "IPAD_dataset/R03/training/frames/22/063.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 127,
+      "frame": 127,
+      "member": "IPAD_dataset/R03/training/frames/22/127.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 191,
+      "frame": 191,
+      "member": "IPAD_dataset/R03/training/frames/22/191.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 255,
+      "frame": 255,
+      "member": "IPAD_dataset/R03/training/frames/22/255.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 319,
+      "frame": 319,
+      "member": "IPAD_dataset/R03/training/frames/22/319.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 382,
+      "frame": 382,
+      "member": "IPAD_dataset/R03/training/frames/22/382.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 446,
+      "frame": 446,
+      "member": "IPAD_dataset/R03/training/frames/22/446.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 510,
+      "frame": 510,
+      "member": "IPAD_dataset/R03/training/frames/22/510.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 574,
+      "frame": 574,
+      "member": "IPAD_dataset/R03/training/frames/22/574.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 638,
+      "frame": 638,
+      "member": "IPAD_dataset/R03/training/frames/22/638.jpg"
+    },
+    {
+      "clip": "22",
+      "ordinal": 702,
+      "frame": 702,
+      "member": "IPAD_dataset/R03/training/frames/22/702.jpg"
+    }
+  ],
+  "normal_training_clips": [
+    "01",
+    "12",
+    "22"
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "human_verified": false,
+  "estimated_cost_usd": 0.0037232000000000003,
+  "usage": {
+    "input_tokens": 4504,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1201,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5705
+  },
+  "status": "AI contact-sheet-reviewed conservative proposal; human confirmation still required",
+  "created_utc": "2026-10-04T08:44:13Z",
+  "visual_review_version": 1,
+  "review_notes": "This is a toy forklift scene, not an actual factory deployment. Approach/withdrawal may look alike in still images."
+}

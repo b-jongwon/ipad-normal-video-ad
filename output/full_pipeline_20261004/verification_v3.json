@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "scenes": [
+    {
+      "scene": "R01",
+      "records": 2893,
+      "normal_train_clips": 27,
+      "normal_val_clips": 7,
+      "counts": {
+        "train": 1564,
+        "val": 402,
+        "test": 927
+      },
+      "comparisons": 18,
+      "feature_digest_valid": true,
+      "normal_split_disjoint": true,
+      "thresholds_normal_val_only": true,
+      "finite_features_weights_losses_scores": true,
+      "epoch5_to10_parameter_squared_change": {
+        "phase": 1.0163065758824814,
+        "joint_ae": 52.04404729291855,
+        "track_forecast": 35.47858204715885
+      },
+      "first_test_clip_streaming_roundtrip_observations": 58,
+      "streaming_phase_mismatches": 0,
+      "streaming_max_absolute_score_difference": {
+        "frame_only": 1.1175870895385742e-08,
+        "crop_only": 1.4901161193847656e-07,
+        "frame_object_joint": 8.940696716308594e-08,
+        "frame_global_no_phase": 5.587935447692871e-09,
+        "object_global_no_phase": 1.1920928955078125e-07,
+        "motion_only": 1.52587890625e-05,
+        "patch_phase_only": 0.0016326904296875,
+        "explicit_process_only": 0,
+        "visual_fusion": 2.058972967500239e-05,
+        "visual_process": 1.6376416308361286e-05,
+        "joint_ae_5": 1.1920928955078125e-07,
+        "track_forecast_5": 4.76837158203125e-07,
+        "spatial_temporal_5": 1.4299736790235329e-05,
+        "full_pipeline_5": 1.23420334388058e-05,
+        "joint_ae_10": 1.1920928955078125e-07,
+        "track_forecast_10": 7.152557373046875e-07,
+        "spatial_temporal_10": 1.4567751948746377e-05,
+        "full_pipeline_10": 1.2520710210850439e-05
+      },
+      "object_or_phase_ground_truth_available": false
+    },
+    {
+      "scene": "R02",
+      "records": 6378,
+      "normal_train_clips": 24,
+      "normal_val_clips": 6,
+      "counts": {
+        "train": 3562,
+        "val": 886,
+        "test": 1930
+      },
+      "comparisons": 18,
+      "feature_digest_valid": true,
+      "normal_split_disjoint": true,
+      "thresholds_normal_val_only": true,
+      "finite_features_weights_losses_scores": true,
+      "epoch5_to10_parameter_squared_change": {
+        "phase": 2.6433093475934584,
+        "joint_ae": 67.60659752276115,
+        "track_forecast": 91.55696846637875
+      },
+      "first_test_clip_streaming_roundtrip_observations": 146,
+      "streaming_phase_mismatches": 0,
+      "streaming_max_absolute_score_difference": {
+        "frame_only": 2.9802322387695312e-08,
+        "crop_only": 1.7881393432617188e-07,
+        "frame_object_joint": 1.1920928955078125e-07,
+        "frame_global_no_phase": 2.9802322387695312e-08,
+        "object_global_no_phase": 1.4901161193847656e-07,
+        "motion_only": 1.9073486328125e-06,
+        "patch_phase_only": 0.001312255859375,
+        "explicit_process_only": 0,
+        "visual_fusion": 1.1650637231103156e-05,
+        "visual_process": 9.311569088177318e-06,
+        "joint_ae_5": 8.940696716308594e-08,
+        "track_forecast_5": 5.424022674560547e-06,
+        "spatial_temporal_5": 1.023983687924862e-05,
+        "full_pipeline_5": 7.327987394594587e-06,
+        "joint_ae_10": 5.960464477539063e-08,
+        "track_forecast_10": 1.952052116394043e-06,
+        "spatial_temporal_10": 8.127963831650042e-06,
+        "full_pipeline_10": 6.987955423864989e-06
+      },
+      "object_or_phase_ground_truth_available": false
+    },
+    {
+      "scene": "R03",
+      "records": 6852,
+      "normal_train_clips": 17,
+      "normal_val_clips": 5,
+      "counts": {
+        "train": 2968,
+        "val": 877,
+        "test": 3007
+      },
+      "comparisons": 18,
+      "feature_digest_valid": true,
+      "normal_split_disjoint": true,
+      "thresholds_normal_val_only": true,
+      "finite_features_weights_losses_scores": true,
+      "epoch5_to10_parameter_squared_change": {
+        "phase": 1.5465122139867162,
+        "joint_ae": 66.87138776956272,
+        "track_forecast": 123.19983763061464
+      },
+      "first_test_clip_streaming_roundtrip_observations": 180,
+      "streaming_phase_mismatches": 0,
+      "streaming_max_absolute_score_difference": {
+        "frame_only": 2.9802322387695312e-08,
+        "crop_only": 8.940696716308594e-08,
+        "frame_object_joint": 1.1920928955078125e-07,
+        "frame_global_no_phase": 2.9802322387695312e-08,
+        "object_global_no_phase": 1.4901161193847656e-07,
+        "motion_only": 9.5367431640625e-07,
+        "patch_phase_only": 0.0029296875,
+        "explicit_process_only": 0,
+        "visual_fusion": 2.4642106211558712e-05,
+        "visual_process": 1.9618317537606345e-05,
+        "joint_ae_5": 1.1920928955078125e-07,
+        "track_forecast_5": 3.5762786865234375e-06,
+        "spatial_temporal_5": 1.710975227720013e-05,
+        "full_pipeline_5": 1.4517275388037376e-05,
+        "joint_ae_10": 1.7881393432617188e-07,
+        "track_forecast_10": 1.0848045349121094e-05,
+        "spatial_temporal_10": 2.138149404196099e-05,
+        "full_pipeline_10": 1.4509864207923329e-05
+      },
+      "object_or_phase_ground_truth_available": false
+    },
+    {
+      "scene": "R04",
+      "records": 4489,
+      "normal_train_clips": 20,
+      "normal_val_clips": 5,
+      "counts": {
+        "train": 1949,
+        "val": 493,
+        "test": 2047
+      },
+      "comparisons": 18,
+      "feature_digest_valid": true,
+      "normal_split_disjoint": true,
+      "thresholds_normal_val_only": true,
+      "finite_features_weights_losses_scores": true,
+      "epoch5_to10_parameter_squared_change": {
+        "phase": 1.748950758134015,
+        "joint_ae": 54.31012309808284,
+        "track_forecast": 42.526625690981746
+      },
+      "first_test_clip_streaming_roundtrip_observations": 103,
+      "streaming_phase_mismatches": 0,
+      "streaming_max_absolute_score_difference": {
+        "frame_only": 4.470348358154297e-08,
+        "crop_only": 2.086162567138672e-07,
+        "frame_object_joint": 1.043081283569336e-07,
+        "frame_global_no_phase": 4.470348358154297e-08,
+        "object_global_no_phase": 1.4901161193847656e-07,
+        "motion_only": 4.76837158203125e-07,
+        "patch_phase_only": 0.001129150390625,
+        "explicit_process_only": 0,
+        "visual_fusion": 1.0339571597128838e-05,
+        "visual_process": 8.271657277791888e-06,
+        "joint_ae_5": 1.1920928955078125e-07,
+        "track_forecast_5": 2.384185791015625e-07,
+        "spatial_temporal_5": 7.22164122279878e-06,
+        "full_pipeline_5": 6.113564168463981e-06,
+        "joint_ae_10": 1.1920928955078125e-07,
+        "track_forecast_10": 1.1920928955078125e-07,
+        "spatial_temporal_10": 7.212277965962244e-06,
+        "full_pipeline_10": 6.147058427163898e-06
+      },
+      "object_or_phase_ground_truth_available": false
+    }
+  ],
+  "cumulative_api_budget": {
+    "limit_usd": 4.0,
+    "reserved_usd": 1.2,
+    "measured_estimate_usd": 0.0175632,
+    "attempts": 9,
+    "successful_calls": 8,
+    "pricing_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "price_as_checked": "0.40 USD input / 1.60 USD output per 1M tokens",
+    "note": "Price estimate; actual account invoice is authoritative. Failed-call reservations retained."
+  }
+}

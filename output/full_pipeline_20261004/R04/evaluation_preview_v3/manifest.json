@@ -1,0 +1,11 @@
+{
+  "scene": "R04",
+  "clip": "01",
+  "observations": 103,
+  "selection": "First eligible test recording, independent of label values or model scores",
+  "preview_fps": 10,
+  "source_fps": null,
+  "source": "fitted-model evaluation features, not re-detected raw inference",
+  "localized_gt_available": false,
+  "object_boxes_are_scored_candidates": true
+}

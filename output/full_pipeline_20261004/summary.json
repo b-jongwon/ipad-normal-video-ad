@@ -1,0 +1,151 @@
+{
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "results": [
+    {
+      "method": "frame_only",
+      "macro_frame_auroc": 0.6727476661302534,
+      "macro_frame_ap": 0.5801642359776584,
+      "macro_test_normal_fpr": 0.14223101380787379
+    },
+    {
+      "method": "crop_only",
+      "macro_frame_auroc": 0.6843638562480532,
+      "macro_frame_ap": 0.6125697511418291,
+      "macro_test_normal_fpr": 0.10838859277512734
+    },
+    {
+      "method": "frame_object_joint",
+      "macro_frame_auroc": 0.7004795560624274,
+      "macro_frame_ap": 0.617800826530218,
+      "macro_test_normal_fpr": 0.15557677207796528
+    },
+    {
+      "method": "frame_global_no_phase",
+      "macro_frame_auroc": 0.7221283603106969,
+      "macro_frame_ap": 0.6136492514410977,
+      "macro_test_normal_fpr": 0.1226099514148057
+    },
+    {
+      "method": "object_global_no_phase",
+      "macro_frame_auroc": 0.7331557976787813,
+      "macro_frame_ap": 0.6418234943985424,
+      "macro_test_normal_fpr": 0.12077651580303846
+    },
+    {
+      "method": "motion_only",
+      "macro_frame_auroc": 0.6051997587583132,
+      "macro_frame_ap": 0.4822878075477304,
+      "macro_test_normal_fpr": 0.048540290723736494
+    },
+    {
+      "method": "patch_phase_only",
+      "macro_frame_auroc": 0.6881799375089629,
+      "macro_frame_ap": 0.5560305479764116,
+      "macro_test_normal_fpr": 0.016024853575422947
+    },
+    {
+      "method": "explicit_process_only",
+      "macro_frame_auroc": 0.5022116600921998,
+      "macro_frame_ap": 0.42391241383271294,
+      "macro_test_normal_fpr": 0.002347417840375587
+    },
+    {
+      "method": "visual_fusion",
+      "macro_frame_auroc": 0.7030579699406356,
+      "macro_frame_ap": 0.6049401197470058,
+      "macro_test_normal_fpr": 0.174299244601866
+    },
+    {
+      "method": "visual_process",
+      "macro_frame_auroc": 0.7034578662859148,
+      "macro_frame_ap": 0.605822166896741,
+      "macro_test_normal_fpr": 0.1714583355109569
+    },
+    {
+      "method": "joint_ae_5",
+      "macro_frame_auroc": 0.7500840310490651,
+      "macro_frame_ap": 0.6596837861890192,
+      "macro_test_normal_fpr": 0.16296027357084278
+    },
+    {
+      "method": "joint_ae_10",
+      "macro_frame_auroc": 0.7486905178004932,
+      "macro_frame_ap": 0.6537225737051244,
+      "macro_test_normal_fpr": 0.16914646122433713
+    },
+    {
+      "method": "track_forecast_5",
+      "macro_frame_auroc": 0.7029754877218284,
+      "macro_frame_ap": 0.6127823489749715,
+      "macro_test_normal_fpr": 0.15574451942008605
+    },
+    {
+      "method": "track_forecast_10",
+      "macro_frame_auroc": 0.7056144951277327,
+      "macro_frame_ap": 0.613905836628434,
+      "macro_test_normal_fpr": 0.1609111473649963
+    },
+    {
+      "method": "spatial_temporal_5",
+      "macro_frame_auroc": 0.7213588564199335,
+      "macro_frame_ap": 0.6177898798320489,
+      "macro_test_normal_fpr": 0.1826447390782415
+    },
+    {
+      "method": "spatial_temporal_10",
+      "macro_frame_auroc": 0.7230747414591681,
+      "macro_frame_ap": 0.6186685200347171,
+      "macro_test_normal_fpr": 0.18568500411902547
+    },
+    {
+      "method": "full_pipeline_5",
+      "macro_frame_auroc": 0.7195877480730302,
+      "macro_frame_ap": 0.6171382876583045,
+      "macro_test_normal_fpr": 0.1821205723306705
+    },
+    {
+      "method": "full_pipeline_10",
+      "macro_frame_auroc": 0.7208137247973747,
+      "macro_frame_ap": 0.6177976796148874,
+      "macro_test_normal_fpr": 0.1833522022963028
+    }
+  ],
+  "previews": [
+    {
+      "scene": "R01",
+      "clip": "01",
+      "observations": 58
+    },
+    {
+      "scene": "R02",
+      "clip": "01",
+      "observations": 146
+    },
+    {
+      "scene": "R03",
+      "clip": "01",
+      "observations": 180
+    },
+    {
+      "scene": "R04",
+      "clip": "01",
+      "observations": 103
+    }
+  ],
+  "cumulative_api_budget": {
+    "limit_usd": 4.0,
+    "reserved_usd": 1.2,
+    "measured_estimate_usd": 0.0175632,
+    "attempts": 9,
+    "successful_calls": 8,
+    "pricing_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "price_as_checked": "0.40 USD input / 1.60 USD output per 1M tokens",
+    "note": "Price estimate; actual account invoice is authoritative. Failed-call reservations retained."
+  },
+  "claim": "End-to-end experimental implementation, not production validation"
+}

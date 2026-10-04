@@ -1,0 +1,546 @@
+{
+  "objects": [
+    "metal blade",
+    "cardboard sheet"
+  ],
+  "phases": [
+    {
+      "id": 0,
+      "name": "empty cutter",
+      "visual_description": "The metal cutter has its blade raised and no cardboard in the cutting area.",
+      "expected_objects": [
+        "metal blade"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "cardboard with blade raised",
+      "visual_description": "A cardboard sheet passes through a cutter whose metal blade is raised.",
+      "expected_objects": [
+        "metal blade",
+        "cardboard sheet"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "cardboard with blade down",
+      "visual_description": "The metal cutter blade is down against the cardboard sheet.",
+      "expected_objects": [
+        "metal blade",
+        "cardboard sheet"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "cut pieces accumulated",
+      "visual_description": "Several cut cardboard pieces are accumulated near the cutter while the blade is raised.",
+      "expected_objects": [
+        "metal blade",
+        "cardboard sheet"
+      ]
+    }
+  ],
+  "observable_process_order": true,
+  "cyclic_process": true,
+  "required_phase_order": [
+    1,
+    2
+  ],
+  "allowed_transitions": [
+    {
+      "from_phase": 0,
+      "to_phase": 1
+    },
+    {
+      "from_phase": 1,
+      "to_phase": 2
+    },
+    {
+      "from_phase": 2,
+      "to_phase": 1
+    },
+    {
+      "from_phase": 2,
+      "to_phase": 3
+    },
+    {
+      "from_phase": 3,
+      "to_phase": 1
+    },
+    {
+      "from_phase": 3,
+      "to_phase": 2
+    },
+    {
+      "from_phase": 1,
+      "to_phase": 3
+    }
+  ],
+  "normal_summary": "The process shows a cycle of loading a cardboard sheet into a metal base, lowering a metal blade to press and cut the cardboard partly, then stacking the cut cardboard sheets inside the base, and repeating the same steps to cut multiple sheets.",
+  "uncertainties": [
+    "Repeated raised/down blade cycles are used; pressing vs cutting cannot reliably be separate still-image stages. Exact blade timing varies across recordings.",
+    "Sparse keyframe annotations are approximate weak labels, not verified phase ground truth.",
+    "No timestamp/FPS metadata: durations are in sampled observations, not seconds."
+  ],
+  "evidence_labels": [
+    {
+      "clip": "01",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 28,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 56,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 84,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 112,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 140,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 168,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 196,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 224,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 252,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 280,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 308,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 34,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 69,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 103,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 138,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 173,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 207,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 242,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 277,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 311,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 346,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "13",
+      "ordinal": 381,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 33,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 66,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 100,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 133,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 166,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 200,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 233,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 266,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 300,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 333,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "24",
+      "ordinal": 367,
+      "phase": 3,
+      "visually_confident": true
+    }
+  ],
+  "scene": "R04",
+  "evidence": [
+    {
+      "clip": "01",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R04/training/frames/01/000.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 28,
+      "frame": 28,
+      "member": "IPAD_dataset/R04/training/frames/01/028.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 56,
+      "frame": 56,
+      "member": "IPAD_dataset/R04/training/frames/01/056.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 84,
+      "frame": 84,
+      "member": "IPAD_dataset/R04/training/frames/01/084.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 112,
+      "frame": 112,
+      "member": "IPAD_dataset/R04/training/frames/01/112.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 140,
+      "frame": 140,
+      "member": "IPAD_dataset/R04/training/frames/01/140.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 168,
+      "frame": 168,
+      "member": "IPAD_dataset/R04/training/frames/01/168.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 196,
+      "frame": 196,
+      "member": "IPAD_dataset/R04/training/frames/01/196.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 224,
+      "frame": 224,
+      "member": "IPAD_dataset/R04/training/frames/01/224.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 252,
+      "frame": 252,
+      "member": "IPAD_dataset/R04/training/frames/01/252.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 280,
+      "frame": 280,
+      "member": "IPAD_dataset/R04/training/frames/01/280.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 308,
+      "frame": 308,
+      "member": "IPAD_dataset/R04/training/frames/01/308.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R04/training/frames/13/000.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 34,
+      "frame": 34,
+      "member": "IPAD_dataset/R04/training/frames/13/034.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 69,
+      "frame": 69,
+      "member": "IPAD_dataset/R04/training/frames/13/069.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 103,
+      "frame": 103,
+      "member": "IPAD_dataset/R04/training/frames/13/103.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 138,
+      "frame": 138,
+      "member": "IPAD_dataset/R04/training/frames/13/138.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 173,
+      "frame": 173,
+      "member": "IPAD_dataset/R04/training/frames/13/173.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 207,
+      "frame": 207,
+      "member": "IPAD_dataset/R04/training/frames/13/207.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 242,
+      "frame": 242,
+      "member": "IPAD_dataset/R04/training/frames/13/242.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 277,
+      "frame": 277,
+      "member": "IPAD_dataset/R04/training/frames/13/277.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 311,
+      "frame": 311,
+      "member": "IPAD_dataset/R04/training/frames/13/311.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 346,
+      "frame": 346,
+      "member": "IPAD_dataset/R04/training/frames/13/346.jpg"
+    },
+    {
+      "clip": "13",
+      "ordinal": 381,
+      "frame": 381,
+      "member": "IPAD_dataset/R04/training/frames/13/381.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R04/training/frames/24/000.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 33,
+      "frame": 33,
+      "member": "IPAD_dataset/R04/training/frames/24/033.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 66,
+      "frame": 66,
+      "member": "IPAD_dataset/R04/training/frames/24/066.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 100,
+      "frame": 100,
+      "member": "IPAD_dataset/R04/training/frames/24/100.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 133,
+      "frame": 133,
+      "member": "IPAD_dataset/R04/training/frames/24/133.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 166,
+      "frame": 166,
+      "member": "IPAD_dataset/R04/training/frames/24/166.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 200,
+      "frame": 200,
+      "member": "IPAD_dataset/R04/training/frames/24/200.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 233,
+      "frame": 233,
+      "member": "IPAD_dataset/R04/training/frames/24/233.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 266,
+      "frame": 266,
+      "member": "IPAD_dataset/R04/training/frames/24/266.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 300,
+      "frame": 300,
+      "member": "IPAD_dataset/R04/training/frames/24/300.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 333,
+      "frame": 333,
+      "member": "IPAD_dataset/R04/training/frames/24/333.jpg"
+    },
+    {
+      "clip": "24",
+      "ordinal": 367,
+      "frame": 367,
+      "member": "IPAD_dataset/R04/training/frames/24/367.jpg"
+    }
+  ],
+  "normal_training_clips": [
+    "01",
+    "13",
+    "24"
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "human_verified": false,
+  "estimated_cost_usd": 0.003576,
+  "usage": {
+    "input_tokens": 4504,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5613
+  },
+  "status": "AI contact-sheet-reviewed conservative proposal; human confirmation still required",
+  "created_utc": "2026-10-04T08:44:25Z",
+  "visual_review_version": 1,
+  "review_notes": "Repeated raised/down blade cycles are used; pressing vs cutting cannot reliably be separate still-image stages. Exact blade timing varies across recordings."
+}

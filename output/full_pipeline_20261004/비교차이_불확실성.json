@@ -1,0 +1,86 @@
+[
+  {
+    "candidate": "full_pipeline_10",
+    "reference": "previous_dino_pca",
+    "macro_auroc_delta_pp": -2.580881799308327,
+    "video_cluster_95_interval_pp": [
+      -7.4669098824279825,
+      1.958817614801595
+    ],
+    "requested_bootstrap_iterations": 500,
+    "valid_iterations": 500,
+    "scope": "Exploratory comparisons conditional on four R scenes; no multiple-comparison correction or unseen-factory guarantee."
+  },
+  {
+    "candidate": "full_pipeline_10",
+    "reference": "visual_fusion",
+    "macro_auroc_delta_pp": 1.7755754856738943,
+    "video_cluster_95_interval_pp": [
+      0.30238467979413713,
+      3.3516877684807724
+    ],
+    "requested_bootstrap_iterations": 500,
+    "valid_iterations": 500,
+    "scope": "Exploratory comparisons conditional on four R scenes; no multiple-comparison correction or unseen-factory guarantee."
+  },
+  {
+    "candidate": "spatial_temporal_10",
+    "reference": "visual_fusion",
+    "macro_auroc_delta_pp": 2.001677151853243,
+    "video_cluster_95_interval_pp": [
+      0.3789287780550111,
+      3.876793339834478
+    ],
+    "requested_bootstrap_iterations": 500,
+    "valid_iterations": 500,
+    "scope": "Exploratory comparisons conditional on four R scenes; no multiple-comparison correction or unseen-factory guarantee."
+  },
+  {
+    "candidate": "visual_process",
+    "reference": "visual_fusion",
+    "macro_auroc_delta_pp": 0.03998963452789828,
+    "video_cluster_95_interval_pp": [
+      -0.2656477782979443,
+      0.3824208808502757
+    ],
+    "requested_bootstrap_iterations": 500,
+    "valid_iterations": 500,
+    "scope": "Exploratory comparisons conditional on four R scenes; no multiple-comparison correction or unseen-factory guarantee."
+  },
+  {
+    "candidate": "frame_only",
+    "reference": "frame_global_no_phase",
+    "macro_auroc_delta_pp": -4.9380694180443525,
+    "video_cluster_95_interval_pp": [
+      -7.786423375677424,
+      -1.7448561151153075
+    ],
+    "requested_bootstrap_iterations": 500,
+    "valid_iterations": 500,
+    "scope": "Exploratory comparisons conditional on four R scenes; no multiple-comparison correction or unseen-factory guarantee."
+  },
+  {
+    "candidate": "frame_object_joint",
+    "reference": "crop_only",
+    "macro_auroc_delta_pp": 1.6115699814374134,
+    "video_cluster_95_interval_pp": [
+      -0.30605679506004263,
+      3.7478296855814053
+    ],
+    "requested_bootstrap_iterations": 500,
+    "valid_iterations": 500,
+    "scope": "Exploratory comparisons conditional on four R scenes; no multiple-comparison correction or unseen-factory guarantee."
+  },
+  {
+    "candidate": "full_pipeline_10",
+    "reference": "full_pipeline_5",
+    "macro_auroc_delta_pp": 0.12259767243444908,
+    "video_cluster_95_interval_pp": [
+      -0.07224517367780797,
+      0.35578950048495167
+    ],
+    "requested_bootstrap_iterations": 500,
+    "valid_iterations": 500,
+    "scope": "Exploratory comparisons conditional on four R scenes; no multiple-comparison correction or unseen-factory guarantee."
+  }
+]

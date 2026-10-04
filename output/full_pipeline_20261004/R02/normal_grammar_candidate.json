@@ -1,0 +1,548 @@
+{
+  "objects": [
+    "multimeter",
+    "scissor lift platform"
+  ],
+  "phases": [
+    {
+      "id": 0,
+      "name": "empty low platform",
+      "visual_description": "An empty scissor lift platform is near its low position.",
+      "expected_objects": [
+        "scissor lift platform"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "loaded low platform",
+      "visual_description": "A multimeter rests on the scissor lift platform near its low position.",
+      "expected_objects": [
+        "multimeter",
+        "scissor lift platform"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "loaded raised platform",
+      "visual_description": "A multimeter rests on the elevated scissor lift platform.",
+      "expected_objects": [
+        "multimeter",
+        "scissor lift platform"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "empty raised platform",
+      "visual_description": "The scissor lift platform is elevated with no multimeter on it.",
+      "expected_objects": [
+        "scissor lift platform"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "empty intermediate platform",
+      "visual_description": "The empty scissor lift platform is at an intermediate height.",
+      "expected_objects": [
+        "scissor lift platform"
+      ]
+    }
+  ],
+  "observable_process_order": true,
+  "cyclic_process": true,
+  "required_phase_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "allowed_transitions": [
+    {
+      "from_phase": 0,
+      "to_phase": 1
+    },
+    {
+      "from_phase": 1,
+      "to_phase": 2
+    },
+    {
+      "from_phase": 2,
+      "to_phase": 3
+    },
+    {
+      "from_phase": 3,
+      "to_phase": 4
+    },
+    {
+      "from_phase": 4,
+      "to_phase": 0
+    }
+  ],
+  "normal_summary": "The process involves placing a multimeter onto a scissor lift platform initially empty, then lifting the platform with the multimeter on it, and finally lowering the platform back down. The platform and multimeter remain visible throughout the process, with a power outlet visible in the background. This sequence is observed to repeat in all three video recordings.",
+  "uncertainties": [
+    "Object removal visibly precedes platform lowering. Intermediate heights overlap; sampled labels are approximate.",
+    "Sparse keyframe annotations are approximate weak labels, not verified phase ground truth.",
+    "No timestamp/FPS metadata: durations are in sampled observations, not seconds."
+  ],
+  "evidence_labels": [
+    {
+      "clip": "01",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 58,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 116,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 174,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 233,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 291,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 349,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 407,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 466,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 524,
+      "phase": 4,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 582,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "01",
+      "ordinal": 641,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 53,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 106,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 160,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 213,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 266,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 320,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 373,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 426,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 480,
+      "phase": 4,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 533,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "16",
+      "ordinal": 587,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 0,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 51,
+      "phase": 1,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 103,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 154,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 206,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 257,
+      "phase": 2,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 309,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 360,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 412,
+      "phase": 3,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 463,
+      "phase": 4,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 515,
+      "phase": 0,
+      "visually_confident": true
+    },
+    {
+      "clip": "30",
+      "ordinal": 567,
+      "phase": 0,
+      "visually_confident": true
+    }
+  ],
+  "scene": "R02",
+  "evidence": [
+    {
+      "clip": "01",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R02/training/frames/01/000.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 58,
+      "frame": 58,
+      "member": "IPAD_dataset/R02/training/frames/01/058.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 116,
+      "frame": 116,
+      "member": "IPAD_dataset/R02/training/frames/01/116.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 174,
+      "frame": 174,
+      "member": "IPAD_dataset/R02/training/frames/01/174.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 233,
+      "frame": 233,
+      "member": "IPAD_dataset/R02/training/frames/01/233.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 291,
+      "frame": 291,
+      "member": "IPAD_dataset/R02/training/frames/01/291.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 349,
+      "frame": 349,
+      "member": "IPAD_dataset/R02/training/frames/01/349.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 407,
+      "frame": 407,
+      "member": "IPAD_dataset/R02/training/frames/01/407.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 466,
+      "frame": 466,
+      "member": "IPAD_dataset/R02/training/frames/01/466.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 524,
+      "frame": 524,
+      "member": "IPAD_dataset/R02/training/frames/01/524.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 582,
+      "frame": 582,
+      "member": "IPAD_dataset/R02/training/frames/01/582.jpg"
+    },
+    {
+      "clip": "01",
+      "ordinal": 641,
+      "frame": 641,
+      "member": "IPAD_dataset/R02/training/frames/01/641.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R02/training/frames/16/000.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 53,
+      "frame": 53,
+      "member": "IPAD_dataset/R02/training/frames/16/053.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 106,
+      "frame": 106,
+      "member": "IPAD_dataset/R02/training/frames/16/106.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 160,
+      "frame": 160,
+      "member": "IPAD_dataset/R02/training/frames/16/160.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 213,
+      "frame": 213,
+      "member": "IPAD_dataset/R02/training/frames/16/213.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 266,
+      "frame": 266,
+      "member": "IPAD_dataset/R02/training/frames/16/266.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 320,
+      "frame": 320,
+      "member": "IPAD_dataset/R02/training/frames/16/320.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 373,
+      "frame": 373,
+      "member": "IPAD_dataset/R02/training/frames/16/373.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 426,
+      "frame": 426,
+      "member": "IPAD_dataset/R02/training/frames/16/426.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 480,
+      "frame": 480,
+      "member": "IPAD_dataset/R02/training/frames/16/480.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 533,
+      "frame": 533,
+      "member": "IPAD_dataset/R02/training/frames/16/533.jpg"
+    },
+    {
+      "clip": "16",
+      "ordinal": 587,
+      "frame": 587,
+      "member": "IPAD_dataset/R02/training/frames/16/587.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 0,
+      "frame": 0,
+      "member": "IPAD_dataset/R02/training/frames/30/000.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 51,
+      "frame": 51,
+      "member": "IPAD_dataset/R02/training/frames/30/051.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 103,
+      "frame": 103,
+      "member": "IPAD_dataset/R02/training/frames/30/103.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 154,
+      "frame": 154,
+      "member": "IPAD_dataset/R02/training/frames/30/154.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 206,
+      "frame": 206,
+      "member": "IPAD_dataset/R02/training/frames/30/206.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 257,
+      "frame": 257,
+      "member": "IPAD_dataset/R02/training/frames/30/257.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 309,
+      "frame": 309,
+      "member": "IPAD_dataset/R02/training/frames/30/309.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 360,
+      "frame": 360,
+      "member": "IPAD_dataset/R02/training/frames/30/360.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 412,
+      "frame": 412,
+      "member": "IPAD_dataset/R02/training/frames/30/412.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 463,
+      "frame": 463,
+      "member": "IPAD_dataset/R02/training/frames/30/463.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 515,
+      "frame": 515,
+      "member": "IPAD_dataset/R02/training/frames/30/515.jpg"
+    },
+    {
+      "clip": "30",
+      "ordinal": 567,
+      "frame": 567,
+      "member": "IPAD_dataset/R02/training/frames/30/567.jpg"
+    }
+  ],
+  "normal_training_clips": [
+    "01",
+    "16",
+    "30"
+  ],
+  "model": "gpt-4.1-mini-2025-04-14",
+  "human_verified": false,
+  "estimated_cost_usd": 0.0034992,
+  "usage": {
+    "input_tokens": 4504,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1061,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5565
+  },
+  "status": "AI contact-sheet-reviewed conservative proposal; human confirmation still required",
+  "created_utc": "2026-10-04T08:44:01Z",
+  "visual_review_version": 1,
+  "review_notes": "Object removal visibly precedes platform lowering. Intermediate heights overlap; sampled labels are approximate."
+}

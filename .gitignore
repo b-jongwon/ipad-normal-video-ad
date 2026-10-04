@@ -1,0 +1,21 @@
+# No credentials, datasets, runtime caches or large trained assets in Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*api_key*.txt
+*apikey*.txt
+.venv/
+__pycache__/
+*.pyc
+*.zip
+*.pt
+local_experiments/cache/
+local_experiments/runs/
+local_experiments/data/
+local_experiments/references/
+tmp/
+.setup-tmp/
+output/my_video/
+output/full_pipeline_20261004/fixtures/
