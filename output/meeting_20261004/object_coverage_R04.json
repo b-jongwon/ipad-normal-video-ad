@@ -1,0 +1,10 @@
+{
+  "processed_records": 4489,
+  "per_class_presence_rate": {
+    "metal frame": 1.0,
+    "clamp": 0.9959901982624193,
+    "cardboard sheet": 0.9402985074626866,
+    "metal blade": 0.9697037202049454
+  },
+  "note": "Presence rate is not detector accuracy; includes propagated boxes."
+}

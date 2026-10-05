@@ -1,0 +1,29 @@
+{
+  "old_source_seals": {
+    "R01": true,
+    "R02": true,
+    "R03": true,
+    "R04": true
+  },
+  "raw_cases": 16,
+  "raw_observations": 1880,
+  "oracle_cases": 99,
+  "oracle_pass": 99,
+  "visual_frames": 48,
+  "AI_reference_human_verified": false,
+  "new_paid_API_calls": 0,
+  "repair_pilots_adopted": false,
+  "old_defaults_changed": false,
+  "guard_applied_to_all_audit_traces": true,
+  "source_code": {
+    "analyze.py": "b0e450f9d246d8511c64865434986cfaa0db18eacb1a3305adc5aed9372753f3",
+    "foreground_pilot.py": "45d2d93c105f4b052a31a7ec1b6b77f6cbadc41f5be84619794c2640852f054b",
+    "grounding_pilot.py": "f8f74e1624412d57eb2bfe7ac7e1c1305ac6cca6863f2f8432fc8c8d12f384f3",
+    "prepare.py": "827fc3d4a43e5ac384480bac4be17b94b4a05d42ccae69bf7a8d0ded3cf9b7d9",
+    "report.py": "0ab2f9bd33849a1994a442a933dcb2563750ad72fa262a095f3609eabac51e15",
+    "safety.py": "6458f0de0238684320d839dd4dd824c38989fce33d4f7fecc8cc63cfdf9f645d",
+    "stress.py": "ac282e87621c867b44d544335b1db1bef438a7b853b3549ba79dd2349a827450",
+    "tests.py": "4cb014594fb57355cfa6766afb29cff1d8267824f161b492e868b71f4ca0ba9f",
+    "__init__.py": "b9bab1760a06b687ccac28e8875cd04034a622d3ff4fda99de23cf6b25aa0dba"
+  }
+}

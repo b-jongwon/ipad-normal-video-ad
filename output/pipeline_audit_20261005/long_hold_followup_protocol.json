@@ -1,0 +1,6 @@
+{
+  "hold_observations": 140,
+  "reason": "80-observation hold can be shorter than a fitted normal dwell limit (R04 phase2=121). Use 140 for ALL four scenes, above every existing fitted dwell limit.",
+  "scope": "Explicit diagnostic follow-up; 80-hold results retained, no defect labels or weight/threshold selection",
+  "new_raw_model_fitting": false
+}

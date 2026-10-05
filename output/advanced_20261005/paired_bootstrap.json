@@ -1,0 +1,92 @@
+[
+  {
+    "group": "all16",
+    "a": "dino_frame_denoising_ae",
+    "b": "dino_global_pca",
+    "seed": 0,
+    "bootstrap_unit": "whole test recording within each fixed scene",
+    "replicates_valid": 480,
+    "requested_replicates": 500,
+    "warning": "Conditional on these scenes/seed; not unseen-factory evidence, not multiple-comparison adjusted.",
+    "auroc_difference_ci95": [
+      0.02484241611598132,
+      0.05255762110388735
+    ],
+    "ap_difference_ci95": [
+      0.017450198503033268,
+      0.037832477073414424
+    ]
+  },
+  {
+    "group": "all16",
+    "a": "dino_full_ema",
+    "b": "dino_frame_denoising_ae",
+    "seed": 0,
+    "bootstrap_unit": "whole test recording within each fixed scene",
+    "replicates_valid": 480,
+    "requested_replicates": 500,
+    "warning": "Conditional on these scenes/seed; not unseen-factory evidence, not multiple-comparison adjusted.",
+    "auroc_difference_ci95": [
+      0.03171004637759974,
+      0.06180528636616842
+    ],
+    "ap_difference_ci95": [
+      0.013783611083866193,
+      0.050886167896915795
+    ]
+  },
+  {
+    "group": "all16",
+    "a": "dino_fewshot3_denoising_ae",
+    "b": "dino_frame_denoising_ae",
+    "seed": 0,
+    "bootstrap_unit": "whole test recording within each fixed scene",
+    "replicates_valid": 480,
+    "requested_replicates": 500,
+    "warning": "Conditional on these scenes/seed; not unseen-factory evidence, not multiple-comparison adjusted.",
+    "auroc_difference_ci95": [
+      -0.03688020600220108,
+      0.018843502028034604
+    ],
+    "ap_difference_ci95": [
+      -0.06031405163352853,
+      -0.013482385472956306
+    ]
+  },
+  {
+    "group": "real4",
+    "a": "roi_hybrid_ema",
+    "b": "object_raw_plain_ae",
+    "seed": 0,
+    "bootstrap_unit": "whole test recording within each fixed scene",
+    "replicates_valid": 500,
+    "requested_replicates": 500,
+    "warning": "Conditional on these scenes/seed; not unseen-factory evidence, not multiple-comparison adjusted.",
+    "auroc_difference_ci95": [
+      0.014148208017061327,
+      0.051486482720222916
+    ],
+    "ap_difference_ci95": [
+      0.0036956499901173224,
+      0.04697582570780425
+    ]
+  },
+  {
+    "group": "real4",
+    "a": "object_roi_plain_ae",
+    "b": "object_raw_plain_ae",
+    "seed": 0,
+    "bootstrap_unit": "whole test recording within each fixed scene",
+    "replicates_valid": 500,
+    "requested_replicates": 500,
+    "warning": "Conditional on these scenes/seed; not unseen-factory evidence, not multiple-comparison adjusted.",
+    "auroc_difference_ci95": [
+      -0.010522219297358222,
+      0.007094533680201826
+    ],
+    "ap_difference_ci95": [
+      -0.00616013304428163,
+      0.006709348596846171
+    ]
+  }
+]

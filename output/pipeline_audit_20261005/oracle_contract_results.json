@@ -1,0 +1,1187 @@
+[
+  {
+    "scene": "R01",
+    "case": "edge_0_1",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "edge_0_2",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->2",
+      "skipped_required_phase:1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "edge_1_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->0",
+      "reversed_required_order:1->0"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "edge_1_2",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "edge_2_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->0",
+      "reversed_required_order:2->0"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "edge_2_1",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->1",
+      "reversed_required_order:2->1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "skip_1",
+    "observations": 8,
+    "target_reason": "skipped_required_phase:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->2",
+      "skipped_required_phase:1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "dwell_0",
+    "observations": 56,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "dwell_1",
+    "observations": 41,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "dwell_2",
+    "observations": 60,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "missing_0_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "missing_0_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "missing_1_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "missing_1_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "missing_2_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "missing_2_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R01",
+    "case": "unknown_is_not_evidence",
+    "observations": 6,
+    "target_reason": "uncertain_phase",
+    "pass": true,
+    "observed_reasons": [
+      "uncertain_phase"
+    ],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_0_1",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_0_2",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->2",
+      "skipped_required_phase:1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_0_3",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->3",
+      "skipped_required_phase:1,2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_0_4",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->4",
+      "skipped_required_phase:1,2,3"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_1_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->0",
+      "reversed_required_order:1->0"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_1_2",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_1_3",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->3",
+      "skipped_required_phase:2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_1_4",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->4",
+      "skipped_required_phase:2,3"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_2_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->0",
+      "reversed_required_order:2->0"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_2_1",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->1",
+      "reversed_required_order:2->1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_2_3",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_2_4",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->4",
+      "skipped_required_phase:3"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_3_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:3->0",
+      "reversed_required_order:3->0"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_3_1",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:3->1",
+      "reversed_required_order:3->1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_3_2",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:3->2",
+      "reversed_required_order:3->2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_3_4",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_4_0",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_4_1",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:4->1",
+      "reversed_required_order:4->1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_4_2",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:4->2",
+      "reversed_required_order:4->2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "edge_4_3",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:4->3",
+      "reversed_required_order:4->3"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "skip_1",
+    "observations": 8,
+    "target_reason": "skipped_required_phase:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->2",
+      "skipped_required_phase:1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "skip_2",
+    "observations": 8,
+    "target_reason": "skipped_required_phase:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->3",
+      "skipped_required_phase:2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "skip_3",
+    "observations": 8,
+    "target_reason": "skipped_required_phase:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->4",
+      "skipped_required_phase:3"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "dwell_0",
+    "observations": 38,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "dwell_1",
+    "observations": 111,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "dwell_2",
+    "observations": 98,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "dwell_3",
+    "observations": 74,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:3"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "dwell_4",
+    "observations": 33,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:4"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "missing_0_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "missing_1_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "missing_1_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "missing_2_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "missing_2_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "missing_3_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "missing_4_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R02",
+    "case": "unknown_is_not_evidence",
+    "observations": 6,
+    "target_reason": "uncertain_phase",
+    "pass": true,
+    "observed_reasons": [
+      "uncertain_phase"
+    ],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_0_1",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_0_2",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->2",
+      "skipped_required_phase:1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_0_3",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->3",
+      "skipped_required_phase:1,2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_1_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->0",
+      "reversed_required_order:1->0"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_1_2",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_1_3",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->3",
+      "skipped_required_phase:2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_2_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->0",
+      "reversed_required_order:2->0"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_2_1",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->1",
+      "reversed_required_order:2->1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_2_3",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_3_0",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_3_1",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:3->1",
+      "reversed_required_order:3->1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "edge_3_2",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:3->2",
+      "reversed_required_order:3->2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "skip_1",
+    "observations": 8,
+    "target_reason": "skipped_required_phase:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->2",
+      "skipped_required_phase:1"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "skip_2",
+    "observations": 8,
+    "target_reason": "skipped_required_phase:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->3",
+      "skipped_required_phase:2"
+    ],
+    "max_score": 2.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "dwell_0",
+    "observations": 107,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "dwell_1",
+    "observations": 63,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "dwell_2",
+    "observations": 96,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "dwell_3",
+    "observations": 65,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:3"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_0_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_0_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_0_2",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_1_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_1_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_1_2",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_2_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_3_0",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_3_1",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "missing_3_2",
+    "observations": 6,
+    "target_reason": "missing_expected_object:",
+    "pass": true,
+    "observed_reasons": [
+      "missing_expected_object:2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R03",
+    "case": "unknown_is_not_evidence",
+    "observations": 6,
+    "target_reason": "uncertain_phase",
+    "pass": true,
+    "observed_reasons": [
+      "uncertain_phase"
+    ],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_0_1",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_0_2",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_0_3",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:0->3"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_1_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:1->0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_1_2",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_1_3",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_2_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:2->0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_2_1",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_2_3",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_3_0",
+    "observations": 8,
+    "target_reason": "illegal_order:",
+    "pass": true,
+    "observed_reasons": [
+      "illegal_order:3->0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_3_1",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "edge_3_2",
+    "observations": 8,
+    "target_reason": null,
+    "pass": true,
+    "observed_reasons": [],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "dwell_0",
+    "observations": 36,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:0"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "dwell_1",
+    "observations": 44,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:1"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "dwell_2",
+    "observations": 125,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:2"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "dwell_3",
+    "observations": 15,
+    "target_reason": "phase_too_long:",
+    "pass": true,
+    "observed_reasons": [
+      "phase_too_long:3"
+    ],
+    "max_score": 1.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  },
+  {
+    "scene": "R04",
+    "case": "unknown_is_not_evidence",
+    "observations": 6,
+    "target_reason": "uncertain_phase",
+    "pass": true,
+    "observed_reasons": [
+      "uncertain_phase"
+    ],
+    "max_score": 0.0,
+    "reference": "constructed phase symbols; bypasses visual perception"
+  }
+]

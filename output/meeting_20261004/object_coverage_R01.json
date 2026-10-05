@@ -1,0 +1,11 @@
+{
+  "processed_records": 2893,
+  "per_class_presence_rate": {
+    "adjustable wrench": 1.0,
+    "red and silver metal clip": 1.0,
+    "green conveyor belt": 1.0,
+    "black electronic component": 0.9913584514344971,
+    "screwdriver with orange handle": 0.5993778085032838
+  },
+  "note": "Presence rate is not detector accuracy; includes propagated boxes."
+}

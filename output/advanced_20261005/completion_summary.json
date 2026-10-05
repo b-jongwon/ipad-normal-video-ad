@@ -1,0 +1,23 @@
+{
+  "scenes": 16,
+  "real_camera_scenes": 4,
+  "synthetic_scenes": 12,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "learned_heads": 208,
+  "scene_seed_configs_evaluated": 580,
+  "best_normal_tune_epoch_min": 12,
+  "median": 92.5,
+  "max": 100,
+  "cap100_heads": 87,
+  "normal_plateau_heads": 121,
+  "head_training_seconds_sum": 1346.4597661000444,
+  "extra_paid_api_calls": 0,
+  "n_observations": 148060,
+  "extra_exploratory_heads": 24,
+  "total_learned_heads": 232,
+  "extra_head_training_seconds_sum": 146.07543509998504
+}

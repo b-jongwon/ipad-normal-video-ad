@@ -1,0 +1,11 @@
+{
+  "manual_noun_full_frame": "Rejected diagnostic: reviewed boxes enclose nearly full scene, not moving product",
+  "manual_noun_belt_roi": "Rejected diagnostic: most boxes enclose belt, not moving product",
+  "normal_background_foreground": "Rejected diagnostic: belt illumination reflections and multiple/missing components",
+  "foreground_sparse_AI_phase_agreement": 0.375,
+  "original_R01_sparse_AI_phase_agreement": 0.5,
+  "normal_reference_frames": 8,
+  "human_verified": false,
+  "default_model_changed": false,
+  "selection_warning": "Exploratory diagnosis on already inspected normal subset, not independent accuracy proof"
+}

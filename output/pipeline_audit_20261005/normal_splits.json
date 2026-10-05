@@ -1,0 +1,65 @@
+{
+  "R01": {
+    "normal_calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "normal_evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "visual_review_clips": [
+      "24",
+      "26"
+    ]
+  },
+  "R02": {
+    "normal_calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "normal_evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "visual_review_clips": [
+      "12",
+      "22"
+    ]
+  },
+  "R03": {
+    "normal_calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "normal_evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "visual_review_clips": [
+      "17",
+      "20"
+    ]
+  },
+  "R04": {
+    "normal_calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "normal_evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "visual_review_clips": [
+      "20",
+      "25"
+    ]
+  }
+}

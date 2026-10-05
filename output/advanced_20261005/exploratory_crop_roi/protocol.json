@@ -1,0 +1,14 @@
+{
+  "rule": {
+    "camera_assumption": "fixed",
+    "normal_region": "class center q01/q99 + .05 padding",
+    "minimum_fit_observations": 30,
+    "minimum_fit_recordings": 3,
+    "features": "CLIP crop512 + geometry6, NO whole-image CLIP context",
+    "selection": "existing normal-only early stopping, independent normal calibration q99",
+    "previous_R_test_results_seen_before_design": true,
+    "prospective_S_validation": false,
+    "risk": "Regions from stationary normal objects can hide position anomalies; benchmark only, not default deployment."
+  },
+  "created_utc": "2026-10-05T03:20:46.892533+00:00"
+}

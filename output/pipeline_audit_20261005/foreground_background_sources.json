@@ -1,0 +1,1442 @@
+[
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "27",
+    "frame": 216,
+    "ordinal": 216,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/27/216.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "33",
+    "frame": 160,
+    "ordinal": 160,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/33/160.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "06",
+    "frame": 180,
+    "ordinal": 180,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/06/180.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "15",
+    "frame": 164,
+    "ordinal": 164,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/15/164.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "04",
+    "frame": 96,
+    "ordinal": 96,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/04/096.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "21",
+    "frame": 112,
+    "ordinal": 112,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/21/112.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "23",
+    "frame": 196,
+    "ordinal": 196,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/23/196.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "30",
+    "frame": 12,
+    "ordinal": 12,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/30/012.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "02",
+    "frame": 60,
+    "ordinal": 60,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/02/060.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "28",
+    "frame": 176,
+    "ordinal": 176,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/28/176.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 128,
+    "ordinal": 128,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/128.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "18",
+    "frame": 220,
+    "ordinal": 220,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/18/220.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "04",
+    "frame": 44,
+    "ordinal": 44,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/04/044.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "23",
+    "frame": 144,
+    "ordinal": 144,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/23/144.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "04",
+    "frame": 152,
+    "ordinal": 152,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/04/152.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "16",
+    "frame": 48,
+    "ordinal": 48,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/16/048.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "33",
+    "frame": 40,
+    "ordinal": 40,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/33/040.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 216,
+    "ordinal": 216,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/216.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 44,
+    "ordinal": 44,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/044.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "04",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/04/092.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "28",
+    "frame": 88,
+    "ordinal": 88,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/28/088.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "16",
+    "frame": 164,
+    "ordinal": 164,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/16/164.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 88,
+    "ordinal": 88,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/088.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 140,
+    "ordinal": 140,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/140.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "17",
+    "frame": 188,
+    "ordinal": 188,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/17/188.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "07",
+    "frame": 24,
+    "ordinal": 24,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/07/024.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 152,
+    "ordinal": 152,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/152.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "23",
+    "frame": 140,
+    "ordinal": 140,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/23/140.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "30",
+    "frame": 148,
+    "ordinal": 148,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/30/148.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "02",
+    "frame": 192,
+    "ordinal": 192,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/02/192.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "29",
+    "frame": 84,
+    "ordinal": 84,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/29/084.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "06",
+    "frame": 168,
+    "ordinal": 168,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/06/168.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 228,
+    "ordinal": 228,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/228.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "14",
+    "frame": 116,
+    "ordinal": 116,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/14/116.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "25",
+    "frame": 28,
+    "ordinal": 28,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/25/028.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 136,
+    "ordinal": 136,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/136.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 104,
+    "ordinal": 104,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/104.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "30",
+    "frame": 24,
+    "ordinal": 24,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/30/024.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 68,
+    "ordinal": 68,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/068.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 172,
+    "ordinal": 172,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/172.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 116,
+    "ordinal": 116,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/116.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 80,
+    "ordinal": 80,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/080.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "23",
+    "frame": 164,
+    "ordinal": 164,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/23/164.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "21",
+    "frame": 12,
+    "ordinal": 12,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/21/012.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 16,
+    "ordinal": 16,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/016.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 28,
+    "ordinal": 28,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/028.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "28",
+    "frame": 44,
+    "ordinal": 44,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/28/044.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 36,
+    "ordinal": 36,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/036.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "06",
+    "frame": 176,
+    "ordinal": 176,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/06/176.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "07",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/07/000.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 116,
+    "ordinal": 116,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/116.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "30",
+    "frame": 212,
+    "ordinal": 212,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/30/212.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "29",
+    "frame": 184,
+    "ordinal": 184,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/29/184.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "28",
+    "frame": 128,
+    "ordinal": 128,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/28/128.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "30",
+    "frame": 124,
+    "ordinal": 124,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/30/124.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "02",
+    "frame": 32,
+    "ordinal": 32,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/02/032.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "25",
+    "frame": 120,
+    "ordinal": 120,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/25/120.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "32",
+    "frame": 200,
+    "ordinal": 200,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/32/200.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "22",
+    "frame": 188,
+    "ordinal": 188,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/22/188.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "25",
+    "frame": 164,
+    "ordinal": 164,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/25/164.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "15",
+    "frame": 52,
+    "ordinal": 52,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/15/052.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "25",
+    "frame": 104,
+    "ordinal": 104,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/25/104.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 60,
+    "ordinal": 60,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/060.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "15",
+    "frame": 144,
+    "ordinal": 144,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/15/144.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "21",
+    "frame": 152,
+    "ordinal": 152,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/21/152.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "14",
+    "frame": 64,
+    "ordinal": 64,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/14/064.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "17",
+    "frame": 192,
+    "ordinal": 192,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/17/192.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/000.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "27",
+    "frame": 188,
+    "ordinal": 188,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/27/188.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "08",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/08/092.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "04",
+    "frame": 148,
+    "ordinal": 148,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/04/148.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "30",
+    "frame": 152,
+    "ordinal": 152,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/30/152.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "08",
+    "frame": 60,
+    "ordinal": 60,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/08/060.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "17",
+    "frame": 220,
+    "ordinal": 220,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/17/220.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "07",
+    "frame": 112,
+    "ordinal": 112,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/07/112.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 8,
+    "ordinal": 8,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/008.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 8,
+    "ordinal": 8,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/008.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "25",
+    "frame": 108,
+    "ordinal": 108,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/25/108.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "17",
+    "frame": 52,
+    "ordinal": 52,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/17/052.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "32",
+    "frame": 108,
+    "ordinal": 108,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/32/108.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "28",
+    "frame": 84,
+    "ordinal": 84,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/28/084.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "14",
+    "frame": 112,
+    "ordinal": 112,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/14/112.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 68,
+    "ordinal": 68,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/068.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "23",
+    "frame": 60,
+    "ordinal": 60,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/23/060.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "28",
+    "frame": 200,
+    "ordinal": 200,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/28/200.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/000.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "08",
+    "frame": 184,
+    "ordinal": 184,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/08/184.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "29",
+    "frame": 32,
+    "ordinal": 32,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/29/032.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "09",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/09/000.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "33",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/33/092.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/092.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "27",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/27/092.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "09",
+    "frame": 68,
+    "ordinal": 68,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/09/068.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 168,
+    "ordinal": 168,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/168.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "33",
+    "frame": 156,
+    "ordinal": 156,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/33/156.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "33",
+    "frame": 124,
+    "ordinal": 124,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/33/124.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "16",
+    "frame": 60,
+    "ordinal": 60,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/16/060.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "21",
+    "frame": 188,
+    "ordinal": 188,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/21/188.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "25",
+    "frame": 208,
+    "ordinal": 208,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/25/208.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "17",
+    "frame": 72,
+    "ordinal": 72,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/17/072.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 128,
+    "ordinal": 128,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/128.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 88,
+    "ordinal": 88,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/088.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "27",
+    "frame": 228,
+    "ordinal": 228,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/27/228.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "17",
+    "frame": 32,
+    "ordinal": 32,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/17/032.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 136,
+    "ordinal": 136,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/136.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "18",
+    "frame": 140,
+    "ordinal": 140,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/18/140.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "28",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/28/000.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 184,
+    "ordinal": 184,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/184.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "16",
+    "frame": 188,
+    "ordinal": 188,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/16/188.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "09",
+    "frame": 12,
+    "ordinal": 12,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/09/012.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "18",
+    "frame": 72,
+    "ordinal": 72,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/18/072.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "15",
+    "frame": 112,
+    "ordinal": 112,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/15/112.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "07",
+    "frame": 20,
+    "ordinal": 20,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/07/020.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "23",
+    "frame": 4,
+    "ordinal": 4,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/23/004.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "08",
+    "frame": 120,
+    "ordinal": 120,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/08/120.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 204,
+    "ordinal": 204,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/204.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "09",
+    "frame": 208,
+    "ordinal": 208,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/09/208.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 4,
+    "ordinal": 4,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/004.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "07",
+    "frame": 144,
+    "ordinal": 144,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/07/144.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "07",
+    "frame": 52,
+    "ordinal": 52,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/07/052.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "32",
+    "frame": 52,
+    "ordinal": 52,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/32/052.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "15",
+    "frame": 128,
+    "ordinal": 128,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/15/128.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 4,
+    "ordinal": 4,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/004.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "22",
+    "frame": 196,
+    "ordinal": 196,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/22/196.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "31",
+    "frame": 20,
+    "ordinal": 20,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/31/020.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "02",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/02/092.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 120,
+    "ordinal": 120,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/120.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "15",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/15/000.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "22",
+    "frame": 156,
+    "ordinal": 156,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/22/156.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "08",
+    "frame": 24,
+    "ordinal": 24,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/08/024.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "32",
+    "frame": 208,
+    "ordinal": 208,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/32/208.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "15",
+    "frame": 96,
+    "ordinal": 96,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/15/096.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "02",
+    "frame": 136,
+    "ordinal": 136,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/02/136.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "14",
+    "frame": 156,
+    "ordinal": 156,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/14/156.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "18",
+    "frame": 132,
+    "ordinal": 132,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/18/132.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 36,
+    "ordinal": 36,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/036.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "02",
+    "frame": 36,
+    "ordinal": 36,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/02/036.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 72,
+    "ordinal": 72,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/072.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 124,
+    "ordinal": 124,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/124.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 20,
+    "ordinal": 20,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/020.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "19",
+    "frame": 24,
+    "ordinal": 24,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/19/024.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 156,
+    "ordinal": 156,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/156.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "23",
+    "frame": 76,
+    "ordinal": 76,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/23/076.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 100,
+    "ordinal": 100,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/100.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 208,
+    "ordinal": 208,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/208.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "04",
+    "frame": 200,
+    "ordinal": 200,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/04/200.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 48,
+    "ordinal": 48,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/048.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "07",
+    "frame": 164,
+    "ordinal": 164,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/07/164.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "10",
+    "frame": 56,
+    "ordinal": 56,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/10/056.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "17",
+    "frame": 152,
+    "ordinal": 152,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/17/152.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "29",
+    "frame": 48,
+    "ordinal": 48,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/29/048.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "13",
+    "frame": 204,
+    "ordinal": 204,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/13/204.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "11",
+    "frame": 116,
+    "ordinal": 116,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/11/116.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "16",
+    "frame": 56,
+    "ordinal": 56,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/16/056.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "14",
+    "frame": 152,
+    "ordinal": 152,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/14/152.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "02",
+    "frame": 140,
+    "ordinal": 140,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/02/140.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "16",
+    "frame": 140,
+    "ordinal": 140,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/16/140.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "33",
+    "frame": 108,
+    "ordinal": 108,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/33/108.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "18",
+    "frame": 212,
+    "ordinal": 212,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/18/212.jpg"
+  },
+  {
+    "scene": "R01",
+    "split": "train",
+    "clip": "01",
+    "frame": 156,
+    "ordinal": 156,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/156.jpg"
+  }
+]

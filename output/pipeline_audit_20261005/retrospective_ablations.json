@@ -1,0 +1,282 @@
+[
+  {
+    "scene": "R01",
+    "method": "frame_global_no_phase",
+    "sampled_observations": 927,
+    "AUROC": 0.6973916356954942,
+    "AP": 0.45508195986814604
+  },
+  {
+    "scene": "R01",
+    "method": "frame_only",
+    "sampled_observations": 927,
+    "AUROC": 0.7008550131540484,
+    "AP": 0.44726206061302987
+  },
+  {
+    "scene": "R01",
+    "method": "object_global_no_phase",
+    "sampled_observations": 927,
+    "AUROC": 0.686166325635779,
+    "AP": 0.4212314502520587
+  },
+  {
+    "scene": "R01",
+    "method": "frame_object_joint",
+    "sampled_observations": 927,
+    "AUROC": 0.6814110326972063,
+    "AP": 0.4316228611809519
+  },
+  {
+    "scene": "R01",
+    "method": "visual_fusion",
+    "sampled_observations": 927,
+    "AUROC": 0.6752202781141687,
+    "AP": 0.4213968414533601
+  },
+  {
+    "scene": "R01",
+    "method": "visual_process",
+    "sampled_observations": 927,
+    "AUROC": 0.668147367102351,
+    "AP": 0.4151799613613098
+  },
+  {
+    "scene": "R01",
+    "method": "spatial_temporal_10",
+    "sampled_observations": 927,
+    "AUROC": 0.6978796926546122,
+    "AP": 0.42890082465105167
+  },
+  {
+    "scene": "R01",
+    "method": "full_pipeline_10",
+    "sampled_observations": 927,
+    "AUROC": 0.6831544661126655,
+    "AP": 0.41957399351796276
+  },
+  {
+    "scene": "R01",
+    "method": "joint_ae_10",
+    "sampled_observations": 927,
+    "AUROC": 0.7395707186703971,
+    "AP": 0.4795200653690037
+  },
+  {
+    "scene": "R01",
+    "method": "explicit_process_only",
+    "sampled_observations": 927,
+    "AUROC": 0.4610494007600117,
+    "AP": 0.3194368321986393
+  },
+  {
+    "scene": "R02",
+    "method": "frame_global_no_phase",
+    "sampled_observations": 1930,
+    "AUROC": 0.7976348205113435,
+    "AP": 0.7203607741762027
+  },
+  {
+    "scene": "R02",
+    "method": "frame_only",
+    "sampled_observations": 1930,
+    "AUROC": 0.7614364613036091,
+    "AP": 0.6850214219250095
+  },
+  {
+    "scene": "R02",
+    "method": "object_global_no_phase",
+    "sampled_observations": 1930,
+    "AUROC": 0.8060956056722064,
+    "AP": 0.7443449929549715
+  },
+  {
+    "scene": "R02",
+    "method": "frame_object_joint",
+    "sampled_observations": 1930,
+    "AUROC": 0.755392100386916,
+    "AP": 0.7037193805469657
+  },
+  {
+    "scene": "R02",
+    "method": "visual_fusion",
+    "sampled_observations": 1930,
+    "AUROC": 0.7730337375308429,
+    "AP": 0.7069619554294517
+  },
+  {
+    "scene": "R02",
+    "method": "visual_process",
+    "sampled_observations": 1930,
+    "AUROC": 0.7745458778574652,
+    "AP": 0.7104794882376615
+  },
+  {
+    "scene": "R02",
+    "method": "spatial_temporal_10",
+    "sampled_observations": 1930,
+    "AUROC": 0.8168774062232975,
+    "AP": 0.7506925228426278
+  },
+  {
+    "scene": "R02",
+    "method": "full_pipeline_10",
+    "sampled_observations": 1930,
+    "AUROC": 0.8141531534126367,
+    "AP": 0.7483921457062818
+  },
+  {
+    "scene": "R02",
+    "method": "joint_ae_10",
+    "sampled_observations": 1930,
+    "AUROC": 0.7946921474312816,
+    "AP": 0.7426009911085134
+  },
+  {
+    "scene": "R02",
+    "method": "explicit_process_only",
+    "sampled_observations": 1930,
+    "AUROC": 0.5158288689190357,
+    "AP": 0.3598146828980457
+  },
+  {
+    "scene": "R03",
+    "method": "frame_global_no_phase",
+    "sampled_observations": 3007,
+    "AUROC": 0.6751115166445054,
+    "AP": 0.5638742402181807
+  },
+  {
+    "scene": "R03",
+    "method": "frame_only",
+    "sampled_observations": 3007,
+    "AUROC": 0.6459219555819998,
+    "AP": 0.5646181830488186
+  },
+  {
+    "scene": "R03",
+    "method": "object_global_no_phase",
+    "sampled_observations": 3007,
+    "AUROC": 0.686374969841981,
+    "AP": 0.6446944585398187
+  },
+  {
+    "scene": "R03",
+    "method": "frame_object_joint",
+    "sampled_observations": 3007,
+    "AUROC": 0.6767026355841042,
+    "AP": 0.6397218119895884
+  },
+  {
+    "scene": "R03",
+    "method": "visual_fusion",
+    "sampled_observations": 3007,
+    "AUROC": 0.6885152821792864,
+    "AP": 0.6241732195155472
+  },
+  {
+    "scene": "R03",
+    "method": "visual_process",
+    "sampled_observations": 3007,
+    "AUROC": 0.6955110355674152,
+    "AP": 0.630116529583955
+  },
+  {
+    "scene": "R03",
+    "method": "spatial_temporal_10",
+    "sampled_observations": 3007,
+    "AUROC": 0.6992878172487542,
+    "AP": 0.6240210796186275
+  },
+  {
+    "scene": "R03",
+    "method": "full_pipeline_10",
+    "sampled_observations": 3007,
+    "AUROC": 0.7053316656477944,
+    "AP": 0.6313760655287333
+  },
+  {
+    "scene": "R03",
+    "method": "joint_ae_10",
+    "sampled_observations": 3007,
+    "AUROC": 0.7062389004885146,
+    "AP": 0.6314075283703267
+  },
+  {
+    "scene": "R03",
+    "method": "explicit_process_only",
+    "sampled_observations": 3007,
+    "AUROC": 0.5283911671924291,
+    "AP": 0.4545209442950675
+  },
+  {
+    "scene": "R04",
+    "method": "frame_global_no_phase",
+    "sampled_observations": 2047,
+    "AUROC": 0.7183754683914446,
+    "AP": 0.7152800315018615
+  },
+  {
+    "scene": "R04",
+    "method": "frame_only",
+    "sampled_observations": 2047,
+    "AUROC": 0.5827772344813563,
+    "AP": 0.6237552783237759
+  },
+  {
+    "scene": "R04",
+    "method": "object_global_no_phase",
+    "sampled_observations": 2047,
+    "AUROC": 0.7539862895651586,
+    "AP": 0.7570230758473204
+  },
+  {
+    "scene": "R04",
+    "method": "frame_object_joint",
+    "sampled_observations": 2047,
+    "AUROC": 0.6884124555814831,
+    "AP": 0.696139252403366
+  },
+  {
+    "scene": "R04",
+    "method": "visual_fusion",
+    "sampled_observations": 2047,
+    "AUROC": 0.6754625819382449,
+    "AP": 0.6672284625896644
+  },
+  {
+    "scene": "R04",
+    "method": "visual_process",
+    "sampled_observations": 2047,
+    "AUROC": 0.6756271846164275,
+    "AP": 0.6675126884040375
+  },
+  {
+    "scene": "R04",
+    "method": "spatial_temporal_10",
+    "sampled_observations": 2047,
+    "AUROC": 0.6782540497100087,
+    "AP": 0.6710596530265615
+  },
+  {
+    "scene": "R04",
+    "method": "full_pipeline_10",
+    "sampled_observations": 2047,
+    "AUROC": 0.6806156140164021,
+    "AP": 0.6718485137065721
+  },
+  {
+    "scene": "R04",
+    "method": "joint_ae_10",
+    "sampled_observations": 2047,
+    "AUROC": 0.7542603046117798,
+    "AP": 0.7613617099726541
+  },
+  {
+    "scene": "R04",
+    "method": "explicit_process_only",
+    "sampled_observations": 2047,
+    "AUROC": 0.5035772034973227,
+    "AP": 0.5618771959390992
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "archive": "D:\\종합설계 프로젝트\\output\\pipeline_audit_20261005\\R01_R04_검증_팀공유.zip",
+  "bytes": 7234357,
+  "sha256": "394fa1f21acc80a7772120da614c95313dcd28d857fd89199c9dae6609fe62c9",
+  "entries": 163,
+  "CRC_and_every_entry_SHA256_verified": true,
+  "included": "Source, numerical evidence, report, normal review derived images; local team-review packet",
+  "excluded": "Dataset ZIP, model weights, credentials, environment, Git history, raw video previews",
+  "remote_uploads": 0
+}

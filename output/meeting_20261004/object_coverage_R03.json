@@ -1,0 +1,10 @@
+{
+  "processed_records": 6852,
+  "per_class_presence_rate": {
+    "toy forklift": 1.0,
+    "green cutting mat": 1.0,
+    "white cylindrical parts": 0.9973730297723292,
+    "plastic pallets": 0.9908056042031523
+  },
+  "note": "Presence rate is not detector accuracy; includes propagated boxes."
+}

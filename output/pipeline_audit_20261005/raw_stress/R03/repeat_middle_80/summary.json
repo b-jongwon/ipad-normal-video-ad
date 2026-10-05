@@ -1,0 +1,31 @@
+{
+  "scene": "R03",
+  "normal_source_clip": "17",
+  "case": "repeat_middle_80",
+  "observations": 144,
+  "wall_seconds": 22.78967329999432,
+  "process_threshold_separate_normal_calibration": 0.0,
+  "process_positive_fraction": 0.20833333333333334,
+  "process_q99_alarm_fraction": 0.20833333333333334,
+  "full10_alarm_fraction": 0.0,
+  "max_process_score": 1.0,
+  "max_full10_score": 1.1845202902847456,
+  "phase_counts": {
+    "0": 132,
+    "-1": 5,
+    "1": 7
+  },
+  "reason_counts": {
+    "uncertain_phase": 5,
+    "phase_too_long:0": 30
+  },
+  "has_order_or_skip_reason": false,
+  "has_dwell_reason": true,
+  "source_annotation": "Known normal recording; modified streams artificial, not real process-error GT",
+  "sampling": "Original cached normal observations (stride4), replayed in constructed order; detector/tracker/encoders freshly rerun",
+  "preview_fps": 10,
+  "source_fps": null,
+  "preview_fps_is_not_source_fps_or_throughput": true,
+  "api_calls": 0,
+  "test_labels_read": false
+}

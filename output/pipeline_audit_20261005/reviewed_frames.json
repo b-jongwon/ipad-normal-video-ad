@@ -1,0 +1,2723 @@
+[
+  {
+    "scene": "R01",
+    "tile": 0,
+    "row": 2253,
+    "split": "val",
+    "clip": "24",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 1,
+    "phase_probability": [
+      0.27258768677711487,
+      0.46040087938308716,
+      0.26701149344444275
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4419403076172,
+          200.85238647460938,
+          218.3451690673828,
+          255.90625
+        ],
+        "confidence": 0.4321420192718506,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          39.74091339111328,
+          255.99624633789062,
+          224.15567016601562
+        ],
+        "confidence": 0.43185487389564514,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 1,
+    "row": 2264,
+    "split": "val",
+    "clip": "24",
+    "frame": 44,
+    "ordinal": 44,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/044.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.5485631823539734,
+      0.13833265006542206,
+      0.31310412287712097
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.45596313476562,
+          200.82540893554688,
+          218.40280151367188,
+          255.9329833984375
+        ],
+        "confidence": 0.41337576508522034,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.48262023925781,
+          255.98196411132812,
+          224.6653594970703
+        ],
+        "confidence": 0.36052536964416504,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 2,
+    "row": 2275,
+    "split": "val",
+    "clip": "24",
+    "frame": 88,
+    "ordinal": 88,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/088.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.3555692732334137,
+      0.2468116283416748,
+      0.3976191282272339
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.45838928222656,
+          200.88540649414062,
+          218.38905334472656,
+          255.9339599609375
+        ],
+        "confidence": 0.3939168453216553,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.07054138183594,
+          255.98818969726562,
+          223.59519958496094
+        ],
+        "confidence": 0.3780205547809601,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 3,
+    "row": 2287,
+    "split": "val",
+    "clip": "24",
+    "frame": 136,
+    "ordinal": 136,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/136.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": -1,
+    "phase_probability": [
+      0.41099968552589417,
+      0.1675889939069748,
+      0.42141130566596985
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4946746826172,
+          201.11892700195312,
+          218.5532684326172,
+          255.91497802734375
+        ],
+        "confidence": 0.3949632942676544,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          41.95399475097656,
+          255.96588134765625,
+          225.3882293701172
+        ],
+        "confidence": 0.3617270886898041,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 4,
+    "row": 2298,
+    "split": "val",
+    "clip": "24",
+    "frame": 180,
+    "ordinal": 180,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/180.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.37020230293273926,
+      0.0719323456287384,
+      0.5578653812408447
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.5581817626953,
+          201.04954528808594,
+          218.67335510253906,
+          255.9324493408203
+        ],
+        "confidence": 0.39076945185661316,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          41.110321044921875,
+          255.9913330078125,
+          224.71670532226562
+        ],
+        "confidence": 0.3916637599468231,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 2,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 5,
+    "row": 2310,
+    "split": "val",
+    "clip": "24",
+    "frame": 228,
+    "ordinal": 228,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/228.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.2731689214706421,
+      0.26618707180023193,
+      0.460644006729126
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4550018310547,
+          200.9970703125,
+          218.5006561279297,
+          255.92327880859375
+        ],
+        "confidence": 0.41799283027648926,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.008758544921875,
+          39.59571838378906,
+          256.0,
+          223.68040466308594
+        ],
+        "confidence": 0.40545332431793213,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 6,
+    "row": 2368,
+    "split": "val",
+    "clip": "26",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.5608322024345398,
+      0.24240678548812866,
+      0.19676104187965393
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.49459838867188,
+          201.07461547851562,
+          218.5682373046875,
+          255.93072509765625
+        ],
+        "confidence": 0.41227948665618896,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.711631774902344,
+          255.979736328125,
+          225.41650390625
+        ],
+        "confidence": 0.3802333474159241,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 7,
+    "row": 2379,
+    "split": "val",
+    "clip": "26",
+    "frame": 44,
+    "ordinal": 44,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/044.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.5458834171295166,
+      0.1098078116774559,
+      0.3443087637424469
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.5161590576172,
+          200.98341369628906,
+          218.5726776123047,
+          255.91078186035156
+        ],
+        "confidence": 0.4056145250797272,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.204933166503906,
+          255.98785400390625,
+          224.43817138671875
+        ],
+        "confidence": 0.37919947504997253,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 8,
+    "row": 2391,
+    "split": "val",
+    "clip": "26",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/092.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.25888028740882874,
+      0.32172080874443054,
+      0.4193989038467407
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4676055908203,
+          200.94419860839844,
+          218.5042266845703,
+          255.9270782470703
+        ],
+        "confidence": 0.37367862462997437,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.008697509765625,
+          39.468017578125,
+          256.0,
+          224.43145751953125
+        ],
+        "confidence": 0.3908846378326416,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 9,
+    "row": 2403,
+    "split": "val",
+    "clip": "26",
+    "frame": 140,
+    "ordinal": 140,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/140.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.1262424737215042,
+      0.3207789957523346,
+      0.5529785752296448
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.50303649902344,
+          201.0544891357422,
+          218.56187438964844,
+          255.9365692138672
+        ],
+        "confidence": 0.37166839838027954,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0172576904296875,
+          39.59630584716797,
+          256.0,
+          254.38482666015625
+        ],
+        "confidence": 0.344032347202301,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 10,
+    "row": 2415,
+    "split": "val",
+    "clip": "26",
+    "frame": 188,
+    "ordinal": 188,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/188.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.16010494530200958,
+      0.2525885999202728,
+      0.5873064398765564
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.5091552734375,
+          200.96583557128906,
+          218.54586791992188,
+          255.9269561767578
+        ],
+        "confidence": 0.3781747817993164,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          42.056922912597656,
+          255.9849853515625,
+          224.23196411132812
+        ],
+        "confidence": 0.35016968846321106,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 2,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 11,
+    "row": 2427,
+    "split": "val",
+    "clip": "26",
+    "frame": 236,
+    "ordinal": 236,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/236.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.19993053376674652,
+      0.21486227214336395,
+      0.5852072238922119
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.44326782226562,
+          201.07418823242188,
+          218.48471069335938,
+          255.9163818359375
+        ],
+        "confidence": 0.41067618131637573,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.00286865234375,
+          39.28191375732422,
+          256.0,
+          223.55157470703125
+        ],
+        "confidence": 0.35839831829071045,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 0,
+    "row": 3576,
+    "split": "val",
+    "clip": "12",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/12/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.9492750763893127,
+      0.010096993297338486,
+      0.01249514427036047,
+      0.017710145562887192,
+      0.01042263489216566
+    ],
+    "objects": [],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 1,
+    "row": 3605,
+    "split": "val",
+    "clip": "12",
+    "frame": 116,
+    "ordinal": 116,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/12/116.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.036445245146751404,
+      0.017770076170563698,
+      0.9084751009941101,
+      0.021799733862280846,
+      0.015509809367358685
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          99.69416809082031,
+          94.75868225097656,
+          171.46229553222656,
+          145.32225036621094
+        ],
+        "confidence": 0.5809571146965027,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          78.43103790283203,
+          70.5269775390625,
+          197.14804077148438,
+          255.34844970703125
+        ],
+        "confidence": 0.46837273240089417,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 2,
+    "row": 3634,
+    "split": "val",
+    "clip": "12",
+    "frame": 232,
+    "ordinal": 232,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/12/232.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.031854111701250076,
+      0.02691701613366604,
+      0.8700492978096008,
+      0.0529499314725399,
+      0.018229588866233826
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          97.42801666259766,
+          62.320953369140625,
+          176.54501342773438,
+          115.41580200195312
+        ],
+        "confidence": 0.5900188088417053,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          73.89415740966797,
+          43.46739196777344,
+          205.542724609375,
+          255.1729278564453
+        ],
+        "confidence": 0.5769997239112854,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 2,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 3,
+    "row": 3664,
+    "split": "val",
+    "clip": "12",
+    "frame": 352,
+    "ordinal": 352,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/12/352.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 3,
+    "phase_probability": [
+      0.01007436029613018,
+      0.007003480102866888,
+      0.006394989788532257,
+      0.9714622497558594,
+      0.0050649200566112995
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          72.00013732910156,
+          34.10130310058594,
+          206.8793182373047,
+          150.48931884765625
+        ],
+        "confidence": 0.44161760807037354,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          71.51984405517578,
+          33.6075439453125,
+          207.5689697265625,
+          255.27224731445312
+        ],
+        "confidence": 0.45437806844711304,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 3,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 4,
+    "row": 3693,
+    "split": "val",
+    "clip": "12",
+    "frame": 468,
+    "ordinal": 468,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/12/468.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 4,
+    "phase_probability": [
+      0.03390178456902504,
+      0.04793901368975639,
+      0.02163001149892807,
+      0.11335154622793198,
+      0.7831776142120361
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          75.7844009399414,
+          58.920406341552734,
+          199.46270751953125,
+          176.63328552246094
+        ],
+        "confidence": 0.32918328046798706,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          75.45732116699219,
+          58.30345916748047,
+          200.03199768066406,
+          255.35342407226562
+        ],
+        "confidence": 0.4355224370956421,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 4,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 5,
+    "row": 3723,
+    "split": "val",
+    "clip": "12",
+    "frame": 588,
+    "ordinal": 588,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/12/588.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.8593046069145203,
+      0.01851836033165455,
+      0.04284611716866493,
+      0.040325362235307693,
+      0.039005573838949203
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          80.82063293457031,
+          91.57362365722656,
+          189.60972595214844,
+          255.2416534423828
+        ],
+        "confidence": 0.34499531984329224,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 6,
+    "row": 5056,
+    "split": "val",
+    "clip": "22",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/22/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.9038367867469788,
+      0.010883166454732418,
+      0.023943394422531128,
+      0.03247842937707901,
+      0.028858192265033722
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          81.18818664550781,
+          90.85885620117188,
+          189.8800811767578,
+          255.21246337890625
+        ],
+        "confidence": 0.3798643946647644,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 7,
+    "row": 5086,
+    "split": "val",
+    "clip": "22",
+    "frame": 120,
+    "ordinal": 120,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/22/120.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.029742881655693054,
+      0.13939613103866577,
+      0.7094530463218689,
+      0.06199483200907707,
+      0.05941316857933998
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          101.43486022949219,
+          95.76484680175781,
+          174.7528839111328,
+          149.09141540527344
+        ],
+        "confidence": 0.5834821462631226,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          78.8104476928711,
+          69.75657653808594,
+          197.53067016601562,
+          255.3966522216797
+        ],
+        "confidence": 0.4561157524585724,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 8,
+    "row": 5116,
+    "split": "val",
+    "clip": "22",
+    "frame": 240,
+    "ordinal": 240,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/22/240.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.042951758950948715,
+      0.014798302203416824,
+      0.8412783741950989,
+      0.07064321637153625,
+      0.030328283086419106
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          99.73515319824219,
+          62.502986907958984,
+          180.41578674316406,
+          118.84425354003906
+        ],
+        "confidence": 0.481862872838974,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          74.06365966796875,
+          41.946754455566406,
+          206.15481567382812,
+          255.17376708984375
+        ],
+        "confidence": 0.5747725963592529,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 2,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 9,
+    "row": 5146,
+    "split": "val",
+    "clip": "22",
+    "frame": 360,
+    "ordinal": 360,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/22/360.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 3,
+    "phase_probability": [
+      0.01706976257264614,
+      0.02084415964782238,
+      0.021871736273169518,
+      0.9251148700714111,
+      0.015099507756531239
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          71.86941528320312,
+          33.95146560668945,
+          207.52053833007812,
+          151.0123748779297
+        ],
+        "confidence": 0.45000123977661133,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          71.47252655029297,
+          33.24470520019531,
+          208.06704711914062,
+          255.39854431152344
+        ],
+        "confidence": 0.40254607796669006,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 3,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 10,
+    "row": 5176,
+    "split": "val",
+    "clip": "22",
+    "frame": 480,
+    "ordinal": 480,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/22/480.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 4,
+    "phase_probability": [
+      0.020109208300709724,
+      0.025868333876132965,
+      0.02903863787651062,
+      0.048492491245269775,
+      0.8764912486076355
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "multimeter",
+        "bbox": [
+          76.30850219726562,
+          60.37376403808594,
+          199.16900634765625,
+          176.7310791015625
+        ],
+        "confidence": 0.29653236269950867,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          75.97467041015625,
+          59.77562713623047,
+          199.6431884765625,
+          255.2257080078125
+        ],
+        "confidence": 0.44537660479545593,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          89.06685638427734,
+          170.3247833251953,
+          178.19729614257812,
+          255.01292419433594
+        ],
+        "confidence": 0.2758216857910156,
+        "AI_reference_status": "ambiguous_extent"
+      }
+    ],
+    "AI_reference_phase": 4,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R02",
+    "tile": 11,
+    "row": 5206,
+    "split": "val",
+    "clip": "22",
+    "frame": 600,
+    "ordinal": 600,
+    "stride": 4,
+    "member": "IPAD_dataset/R02/training/frames/22/600.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.8167961239814758,
+      0.029928281903266907,
+      0.06688147783279419,
+      0.04698687419295311,
+      0.03940718248486519
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 1,
+        "name": "scissor lift platform",
+        "bbox": [
+          81.17689514160156,
+          90.562744140625,
+          189.9507293701172,
+          255.2254638671875
+        ],
+        "confidence": 0.36433252692222595,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 0,
+    "row": 5805,
+    "split": "val",
+    "clip": "17",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/17/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.6628844738006592,
+      0.13916313648223877,
+      0.13165555894374847,
+      0.06629682332277298
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          97.17410278320312,
+          0.0,
+          208.85592651367188,
+          110.65167999267578
+        ],
+        "confidence": 0.81735759973526,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          23.20322608947754,
+          101.2685546875,
+          63.208030700683594,
+          172.75985717773438
+        ],
+        "confidence": 0.5514735579490662,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          24.292978286743164,
+          106.46886444091797,
+          58.62284851074219,
+          152.3497314453125
+        ],
+        "confidence": 0.4526641070842743,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 1,
+    "row": 5839,
+    "split": "val",
+    "clip": "17",
+    "frame": 136,
+    "ordinal": 136,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/17/136.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.6965654492378235,
+      0.09710917621850967,
+      0.061314914375543594,
+      0.14501048624515533
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          100.63990783691406,
+          0.00720977783203125,
+          208.8626251220703,
+          110.94569396972656
+        ],
+        "confidence": 0.8119260668754578,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          23.36240005493164,
+          101.36661529541016,
+          63.12900924682617,
+          172.47491455078125
+        ],
+        "confidence": 0.46839433908462524,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          0.0,
+          0.0047760009765625,
+          255.94967651367188,
+          256.0
+        ],
+        "confidence": 0.323986679315567,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 3,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          24.339290618896484,
+          106.42898559570312,
+          58.54093551635742,
+          152.27130126953125
+        ],
+        "confidence": 0.4271411895751953,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 2,
+    "row": 5873,
+    "split": "val",
+    "clip": "17",
+    "frame": 272,
+    "ordinal": 272,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/17/272.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 1,
+    "phase_probability": [
+      0.01972503960132599,
+      0.9276755452156067,
+      0.027813591063022614,
+      0.024785831570625305
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          19.954185485839844,
+          0.0,
+          147.24188232421875,
+          167.16519165039062
+        ],
+        "confidence": 0.47810235619544983,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          21.41567039489746,
+          98.84820556640625,
+          61.84166717529297,
+          168.11837768554688
+        ],
+        "confidence": 0.49109795689582825,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          22.214075088500977,
+          99.8580322265625,
+          56.84149169921875,
+          147.57437133789062
+        ],
+        "confidence": 0.5310850739479065,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 3,
+    "row": 5907,
+    "split": "val",
+    "clip": "17",
+    "frame": 408,
+    "ordinal": 408,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/17/408.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.0056624761782586575,
+      0.013180638663470745,
+      0.9793574213981628,
+      0.0017995251109823585
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          22.089527130126953,
+          0.0,
+          147.38929748535156,
+          146.22921752929688
+        ],
+        "confidence": 0.7482481598854065,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          0.005359649658203125,
+          26.81292724609375,
+          45.01254653930664,
+          114.53204345703125
+        ],
+        "confidence": 0.38495686650276184,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          0.013439178466796875,
+          27.780569076538086,
+          39.39467239379883,
+          80.6796646118164
+        ],
+        "confidence": 0.595514178276062,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 2,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 4,
+    "row": 5941,
+    "split": "val",
+    "clip": "17",
+    "frame": 544,
+    "ordinal": 544,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/17/544.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.04040771350264549,
+      0.03244135156273842,
+      0.7514508366584778,
+      0.1757001280784607
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          111.27317810058594,
+          0.0,
+          220.0511932373047,
+          104.22457885742188
+        ],
+        "confidence": 0.5785264372825623,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          110.59553527832031,
+          37.06163024902344,
+          152.71336364746094,
+          95.80789184570312
+        ],
+        "confidence": 0.3679923415184021,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          116.72936248779297,
+          37.300106048583984,
+          149.30532836914062,
+          78.72389221191406
+        ],
+        "confidence": 0.5387841463088989,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 5,
+    "row": 5976,
+    "split": "val",
+    "clip": "17",
+    "frame": 684,
+    "ordinal": 684,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/17/684.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.9723194241523743,
+      0.0025780063588172197,
+      0.014051002450287342,
+      0.011051568202674389
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          202.0143585205078,
+          0.0,
+          255.9380340576172,
+          69.42500305175781
+        ],
+        "confidence": 0.3867906332015991,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          110.8661117553711,
+          67.68893432617188,
+          150.9162139892578,
+          123.20944213867188
+        ],
+        "confidence": 0.5811666250228882,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          118.25650024414062,
+          67.4756851196289,
+          146.77670288085938,
+          106.28755950927734
+        ],
+        "confidence": 0.5236356854438782,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 6,
+    "row": 6324,
+    "split": "val",
+    "clip": "20",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/20/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.844624936580658,
+      0.029291581362485886,
+      0.09716310352087021,
+      0.02892034873366356
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          101.1785888671875,
+          0.0,
+          216.09902954101562,
+          117.007568359375
+        ],
+        "confidence": 0.8114722371101379,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          20.126968383789062,
+          99.6478042602539,
+          58.63640594482422,
+          168.01034545898438
+        ],
+        "confidence": 0.6144635677337646,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          23.78284454345703,
+          103.28223419189453,
+          55.66426086425781,
+          150.34913635253906
+        ],
+        "confidence": 0.4578695595264435,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 7,
+    "row": 6358,
+    "split": "val",
+    "clip": "20",
+    "frame": 136,
+    "ordinal": 136,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/20/136.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.6661273837089539,
+      0.0925111174583435,
+      0.18285977840423584,
+      0.05850180611014366
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          103.77333068847656,
+          0.0613861083984375,
+          216.7356719970703,
+          117.17863464355469
+        ],
+        "confidence": 0.8529125452041626,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          20.084978103637695,
+          99.45156860351562,
+          58.8707275390625,
+          167.8270263671875
+        ],
+        "confidence": 0.7108257412910461,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          23.86920928955078,
+          103.59779357910156,
+          55.708770751953125,
+          150.7566680908203
+        ],
+        "confidence": 0.4946521520614624,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 8,
+    "row": 6392,
+    "split": "val",
+    "clip": "20",
+    "frame": 272,
+    "ordinal": 272,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/20/272.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 1,
+    "phase_probability": [
+      0.026340901851654053,
+      0.8833597302436829,
+      0.043936002999544144,
+      0.04636338725686073
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          18.099063873291016,
+          0.0,
+          144.0012664794922,
+          156.0726776123047
+        ],
+        "confidence": 0.8336659073829651,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          18.58692741394043,
+          100.774658203125,
+          58.035301208496094,
+          166.36520385742188
+        ],
+        "confidence": 0.8022146821022034,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          21.05150032043457,
+          102.50787353515625,
+          52.25830078125,
+          148.30303955078125
+        ],
+        "confidence": 0.6675857305526733,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 9,
+    "row": 6427,
+    "split": "val",
+    "clip": "20",
+    "frame": 412,
+    "ordinal": 412,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/20/412.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.009478605352342129,
+      0.028759906068444252,
+      0.9569456577301025,
+      0.004815826658159494
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          13.452201843261719,
+          0.0,
+          144.43572998046875,
+          148.90345764160156
+        ],
+        "confidence": 0.7977153658866882,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          0.021547317504882812,
+          30.46120834350586,
+          39.24009704589844,
+          133.49322509765625
+        ],
+        "confidence": 0.38038700819015503,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          0.06341934204101562,
+          31.960647583007812,
+          37.52891159057617,
+          106.61468505859375
+        ],
+        "confidence": 0.42966827750205994,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 2,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 10,
+    "row": 6461,
+    "split": "val",
+    "clip": "20",
+    "frame": 548,
+    "ordinal": 548,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/20/548.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": -1,
+    "phase_probability": [
+      0.033949967473745346,
+      0.021262995898723602,
+      0.5404513478279114,
+      0.40433570742607117
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          116.94470977783203,
+          0.0,
+          233.78793334960938,
+          112.50340270996094
+        ],
+        "confidence": 0.8274832963943481,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          116.64445495605469,
+          42.87255096435547,
+          158.3597869873047,
+          101.70410919189453
+        ],
+        "confidence": 0.4126577079296112,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          0.0,
+          0.0140838623046875,
+          255.9635009765625,
+          256.0
+        ],
+        "confidence": 0.3159257471561432,
+        "AI_reference_status": "false_role_or_region"
+      },
+      {
+        "slot": 3,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          124.58113861083984,
+          43.23323440551758,
+          155.83265686035156,
+          86.27146911621094
+        ],
+        "confidence": 0.6096338629722595,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R03",
+    "tile": 11,
+    "row": 6496,
+    "split": "val",
+    "clip": "20",
+    "frame": 688,
+    "ordinal": 688,
+    "stride": 4,
+    "member": "IPAD_dataset/R03/training/frames/20/688.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.8988712430000305,
+      0.0014082161942496896,
+      0.05475747212767601,
+      0.04496309533715248
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "yellow forklift",
+        "bbox": [
+          187.802734375,
+          0.060756683349609375,
+          256.0,
+          88.73651123046875
+        ],
+        "confidence": 0.7641351819038391,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "black pallet",
+        "bbox": [
+          116.9832763671875,
+          71.33104705810547,
+          155.74456787109375,
+          127.36563873291016
+        ],
+        "confidence": 0.6104069352149963,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 2,
+        "name": "white rolls",
+        "bbox": [
+          124.34710693359375,
+          72.33873748779297,
+          152.99722290039062,
+          112.50997161865234
+        ],
+        "confidence": 0.5216570496559143,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0,
+      1,
+      2
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 0,
+    "row": 3900,
+    "split": "val",
+    "clip": "20",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/20/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.7192956209182739,
+      0.16283729672431946,
+      0.054984092712402344,
+      0.06288300454616547
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "metal blade",
+        "bbox": [
+          0.15230560302734375,
+          34.456565856933594,
+          202.13702392578125,
+          247.339599609375
+        ],
+        "confidence": 0.4098620116710663,
+        "AI_reference_status": "ambiguous_extent"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          0.0,
+          0.0485687255859375,
+          255.96432495117188,
+          256.0
+        ],
+        "confidence": 0.5596807599067688,
+        "AI_reference_status": "false_role_or_region"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 1,
+    "row": 3920,
+    "split": "val",
+    "clip": "20",
+    "frame": 80,
+    "ordinal": 80,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/20/080.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.4633936882019043,
+      0.14003074169158936,
+      0.25027385354042053,
+      0.14630170166492462
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          0.0,
+          0.0,
+          203.24769592285156,
+          254.15966796875
+        ],
+        "confidence": 0.3229590654373169,
+        "AI_reference_status": "false_role_or_region"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 2,
+    "row": 3940,
+    "split": "val",
+    "clip": "20",
+    "frame": 160,
+    "ordinal": 160,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/20/160.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.040859293192625046,
+      0.06206424534320831,
+      0.8218738436698914,
+      0.0752025917172432
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "metal blade",
+        "bbox": [
+          18.736915588378906,
+          0.24660110473632812,
+          202.41409301757812,
+          90.33616638183594
+        ],
+        "confidence": 0.6069973111152649,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          91.97088623046875,
+          71.52081298828125,
+          169.39108276367188,
+          147.323486328125
+        ],
+        "confidence": 0.5887152552604675,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 3,
+    "row": 3960,
+    "split": "val",
+    "clip": "20",
+    "frame": 240,
+    "ordinal": 240,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/20/240.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.1916622519493103,
+      0.09250009059906006,
+      0.5802037715911865,
+      0.13563384115695953
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          74.13081359863281,
+          17.4764404296875,
+          169.0439453125,
+          220.0594024658203
+        ],
+        "confidence": 0.6210634112358093,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 4,
+    "row": 3980,
+    "split": "val",
+    "clip": "20",
+    "frame": 320,
+    "ordinal": 320,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/20/320.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.13028696179389954,
+      0.11163688451051712,
+      0.5892940759658813,
+      0.168782040476799
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          97.31885528564453,
+          163.60134887695312,
+          179.96484375,
+          254.30691528320312
+        ],
+        "confidence": 0.5599913001060486,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 5,
+    "row": 4000,
+    "split": "val",
+    "clip": "20",
+    "frame": 400,
+    "ordinal": 400,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/20/400.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.17878060042858124,
+      0.22525669634342194,
+      0.4050714075565338,
+      0.1908913105726242
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          97.98278045654297,
+          118.37696075439453,
+          179.57489013671875,
+          254.17080688476562
+        ],
+        "confidence": 0.3488651514053345,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 3,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 6,
+    "row": 4388,
+    "split": "val",
+    "clip": "25",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/25/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.8092056512832642,
+      0.051693737506866455,
+      0.09466569125652313,
+      0.04443490505218506
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "metal blade",
+        "bbox": [
+          0.19979095458984375,
+          86.69064331054688,
+          200.52215576171875,
+          240.432861328125
+        ],
+        "confidence": 0.38801249861717224,
+        "AI_reference_status": "ambiguous_extent"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          0.0,
+          0.0,
+          255.96630859375,
+          255.9921417236328
+        ],
+        "confidence": 0.5549851059913635,
+        "AI_reference_status": "false_role_or_region"
+      }
+    ],
+    "AI_reference_phase": 0,
+    "AI_reference_present_roles": [
+      0
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 7,
+    "row": 4408,
+    "split": "val",
+    "clip": "25",
+    "frame": 80,
+    "ordinal": 80,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/25/080.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.06763610243797302,
+      0.36156582832336426,
+      0.48168501257896423,
+      0.08911307901144028
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "metal blade",
+        "bbox": [
+          0.1450042724609375,
+          85.2745590209961,
+          200.34005737304688,
+          241.319580078125
+        ],
+        "confidence": 0.288453608751297,
+        "AI_reference_status": "ambiguous_extent"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          76.01227569580078,
+          0.031612396240234375,
+          175.43655395507812,
+          111.63972473144531
+        ],
+        "confidence": 0.48543107509613037,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 8,
+    "row": 4428,
+    "split": "val",
+    "clip": "25",
+    "frame": 160,
+    "ordinal": 160,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/25/160.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 1,
+    "phase_probability": [
+      0.150468111038208,
+      0.6063442826271057,
+      0.1508203148841858,
+      0.0923672690987587
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "metal blade",
+        "bbox": [
+          0.22878265380859375,
+          59.241249084472656,
+          200.928466796875,
+          239.83544921875
+        ],
+        "confidence": 0.3750157952308655,
+        "AI_reference_status": "ambiguous_extent"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          140.4410400390625,
+          114.51494598388672,
+          177.00485229492188,
+          214.98565673828125
+        ],
+        "confidence": 0.258671373128891,
+        "AI_reference_status": "visible_target_coarse"
+      },
+      {
+        "slot": 2,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          70.97225952148438,
+          0.024982452392578125,
+          153.99388122558594,
+          87.02459716796875
+        ],
+        "confidence": 0.46069473028182983,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 9,
+    "row": 4448,
+    "split": "val",
+    "clip": "25",
+    "frame": 240,
+    "ordinal": 240,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/25/240.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.17839385569095612,
+      0.1074485182762146,
+      0.6380916237831116,
+      0.07606597989797592
+    ],
+    "objects": [],
+    "AI_reference_phase": 2,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 10,
+    "row": 4468,
+    "split": "val",
+    "clip": "25",
+    "frame": 320,
+    "ordinal": 320,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/25/320.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": -1,
+    "phase_probability": [
+      0.11609294265508652,
+      0.32171037793159485,
+      0.38420370221138,
+      0.17799295485019684
+    ],
+    "objects": [],
+    "AI_reference_phase": -1,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "tile": 11,
+    "row": 4488,
+    "split": "val",
+    "clip": "25",
+    "frame": 400,
+    "ordinal": 400,
+    "stride": 4,
+    "member": "IPAD_dataset/R04/training/frames/25/400.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 1,
+    "phase_probability": [
+      0.08910882472991943,
+      0.46309661865234375,
+      0.17166484892368317,
+      0.27612969279289246
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "metal blade",
+        "bbox": [
+          0.25717926025390625,
+          59.51478576660156,
+          199.36019897460938,
+          239.7999725341797
+        ],
+        "confidence": 0.31019607186317444,
+        "AI_reference_status": "ambiguous_extent"
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "cardboard sheet",
+        "bbox": [
+          114.068359375,
+          102.89060974121094,
+          180.65841674804688,
+          239.28199768066406
+        ],
+        "confidence": 0.34323856234550476,
+        "AI_reference_status": "visible_target_coarse"
+      }
+    ],
+    "AI_reference_phase": 3,
+    "AI_reference_present_roles": [
+      0,
+      1
+    ],
+    "human_verified": false
+  }
+]

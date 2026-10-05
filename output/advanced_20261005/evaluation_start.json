@@ -1,0 +1,6 @@
+{
+  "evaluation_started_utc": "2026-10-05T03:16:33.933802+00:00",
+  "training_seal_sha256": "f3bc7b120dfb810d56c69b9049065f19c14bddb1816315b39a592b791d9135f2",
+  "models_and_thresholds_frozen_before_label_values_used_for_metrics": true,
+  "earlier_label_load_for_length_and_binary_format_check_only": true
+}

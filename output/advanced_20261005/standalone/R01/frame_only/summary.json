@@ -1,0 +1,19 @@
+{
+  "scene": "R01",
+  "observations": 58,
+  "total_seconds_including_decode_log_preview": 1.1570933000039076,
+  "object_branch": false,
+  "selected_method": "dino_full_ema",
+  "sampled_observations_per_second_end_to_end": 50.125603527221294,
+  "model_pipeline_latency_ms_p50": 11.423150001064641,
+  "model_pipeline_latency_ms_p95": 17.295050001484924,
+  "peak_gpu_allocated_gib": 0.10206937789916992,
+  "selected_alarm_observations": 56,
+  "mean_retained_objects": null,
+  "source_fps": null,
+  "source": "R01/testing/1",
+  "preview_fps_not_throughput": true,
+  "test_labels_read": false,
+  "paid_api_calls": 0,
+  "warning": "Short functional smoke test, not a deployment accuracy benchmark. ZIP true FPS unknown."
+}

@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "heads": 24,
+  "runs": [
+    {
+      "scene": "R01",
+      "seed": 0,
+      "observations": 58,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 7.62939453125e-06,
+        "crop_roi_forecast": 7.62939453125e-06,
+        "crop_roi_fusion": 3.450679901817466e-06,
+        "crop_roi_ema": 1.369223749492221e-06
+      }
+    },
+    {
+      "scene": "R01",
+      "seed": 1,
+      "observations": 58,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 3.814697265625e-06,
+        "crop_roi_forecast": 4.291534423828125e-06,
+        "crop_roi_fusion": 2.870946483213288e-06,
+        "crop_roi_ema": 1.0225411433140152e-06
+      }
+    },
+    {
+      "scene": "R01",
+      "seed": 2,
+      "observations": 58,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 3.814697265625e-06,
+        "crop_roi_forecast": 1.621246337890625e-05,
+        "crop_roi_fusion": 3.5412296739423255e-06,
+        "crop_roi_ema": 1.932489695377626e-06
+      }
+    },
+    {
+      "scene": "R02",
+      "seed": 0,
+      "observations": 120,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 2.384185791015625e-06,
+        "crop_roi_forecast": 1.9371509552001953e-06,
+        "crop_roi_fusion": 1.2612760391661482e-06,
+        "crop_roi_ema": 6.981608118294957e-07
+      }
+    },
+    {
+      "scene": "R02",
+      "seed": 1,
+      "observations": 120,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 2.86102294921875e-06,
+        "crop_roi_forecast": 1.1920928955078125e-06,
+        "crop_roi_fusion": 1.5673064677201864e-06,
+        "crop_roi_ema": 4.516418523614618e-07
+      }
+    },
+    {
+      "scene": "R02",
+      "seed": 2,
+      "observations": 120,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 2.86102294921875e-06,
+        "crop_roi_forecast": 4.3958425521850586e-07,
+        "crop_roi_fusion": 2.6625509015332227e-06,
+        "crop_roi_ema": 1.3242830085857804e-06
+      }
+    },
+    {
+      "scene": "R03",
+      "seed": 0,
+      "observations": 120,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 1.9073486328125e-06,
+        "crop_roi_forecast": 1.9073486328125e-06,
+        "crop_roi_fusion": 1.3728009982116873e-06,
+        "crop_roi_ema": 6.778473053969947e-07
+      }
+    },
+    {
+      "scene": "R03",
+      "seed": 1,
+      "observations": 120,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 2.86102294921875e-06,
+        "crop_roi_forecast": 1.8358230590820312e-05,
+        "crop_roi_fusion": 3.665527791518741e-06,
+        "crop_roi_ema": 2.2471290002101796e-06
+      }
+    },
+    {
+      "scene": "R03",
+      "seed": 2,
+      "observations": 120,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 2.86102294921875e-06,
+        "crop_roi_forecast": 1.430511474609375e-06,
+        "crop_roi_fusion": 1.6034263117248315e-06,
+        "crop_roi_ema": 8.321160160917884e-07
+      }
+    },
+    {
+      "scene": "R04",
+      "seed": 0,
+      "observations": 103,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 1.1920928955078125e-06,
+        "crop_roi_forecast": 7.152557373046875e-07,
+        "crop_roi_fusion": 1.0423286922467412e-06,
+        "crop_roi_ema": 6.084001773487557e-07
+      }
+    },
+    {
+      "scene": "R04",
+      "seed": 1,
+      "observations": 103,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 9.5367431640625e-07,
+        "crop_roi_forecast": 1.5497207641601562e-06,
+        "crop_roi_fusion": 9.004952978841629e-07,
+        "crop_roi_ema": 3.505374073231593e-07
+      }
+    },
+    {
+      "scene": "R04",
+      "seed": 2,
+      "observations": 103,
+      "passed": true,
+      "errors": {
+        "crop_roi_denoising_ae": 7.152557373046875e-07,
+        "crop_roi_forecast": 7.152557373046875e-07,
+        "crop_roi_fusion": 7.050156560772791e-07,
+        "crop_roi_ema": 3.203747160895887e-07
+      }
+    }
+  ],
+  "no_test_label_read_during_replay": true
+}

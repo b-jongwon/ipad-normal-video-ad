@@ -1,5 +1,7 @@
 # 18가지 비교 구성
 
+이 문서는 **2026-10-04 `full_pipeline_v3`, R01~R04**만 설명합니다. 전체16개 고도화의 method명/결합식/평균은 [고도화 설명](ADVANCED_EXPERIMENTS.md)과 [전체 비교표](RESULT_TABLES.md)에 별도로 있습니다. 여기의 `frame_only`는 phase 조건 CLIP이고 고도화 `infer --frame-only`는 detector를 생략하는 DINO 경로입니다.
+
 완전히 다른 사전학습 모델18종이 아니라, 같은 특징 추출기에서 어떤 정보를 점수에 사용하는지 바꾼 구성입니다. 각 수치는 R01~R04 평균 프레임 AUROC입니다. `only`는 최종 점수의 정보 범위를 뜻하며 단계 추정에는 화면/객체 특징이 함께 사용될 수 있습니다.
 
 | 방법 | 점수에 사용하는 정보 | 평균 AUROC |

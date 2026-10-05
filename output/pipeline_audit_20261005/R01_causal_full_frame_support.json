@@ -1,0 +1,22 @@
+{
+  "visual_fusion": {
+    "full_frames": 3685,
+    "AUROC": 0.676339047011718,
+    "AP": 0.4267929535182604
+  },
+  "explicit_process_only": {
+    "full_frames": 3685,
+    "AUROC": 0.4583201300060293,
+    "AP": 0.3236429002919517
+  },
+  "spatial_temporal_10": {
+    "full_frames": 3685,
+    "AUROC": 0.6966246062784198,
+    "AP": 0.43280878940687817
+  },
+  "full_pipeline_10": {
+    "full_frames": 3685,
+    "AUROC": 0.6820317312858828,
+    "AP": 0.42367120641311684
+  }
+}

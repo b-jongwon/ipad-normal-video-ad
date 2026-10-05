@@ -1,0 +1,110 @@
+[
+  {
+    "scene": "R01",
+    "reviewed_normal_frames": 12,
+    "unambiguous_phase_reference_frames": 8,
+    "phase_reference_agreement_including_unknown_as_disagreement": 0.5,
+    "phase_correct": 4,
+    "phase_unknown_on_reference_frames": 1,
+    "coarse_target_boxes": 12,
+    "false_role_or_region_boxes": 12,
+    "ambiguous_extent_boxes": 0,
+    "visible_role_frames": 20,
+    "role_frames_without_unambiguous_grounding": 8,
+    "per_role": {
+      "1": {
+        "visible_role_frames": 12,
+        "coarse_grounding_hits": 12
+      },
+      "0": {
+        "visible_role_frames": 8,
+        "coarse_grounding_hits": 0
+      }
+    },
+    "notes": "All 12 role0 boxes enclose the stationary red instrument below the belt, not the moving target on the belt. The target is visible in eight review frames and no corresponding role0 box is present. Empty-belt frames have no defined phase in the current grammar. Left/middle/right are coarse spatial bands, not factory action GT. Belt boxes have loose spatial extent.",
+    "human_verified": false,
+    "not_object_mAP_or_actual_phase_accuracy": true
+  },
+  {
+    "scene": "R02",
+    "reviewed_normal_frames": 12,
+    "unambiguous_phase_reference_frames": 10,
+    "phase_reference_agreement_including_unknown_as_disagreement": 1.0,
+    "phase_correct": 10,
+    "phase_unknown_on_reference_frames": 0,
+    "coarse_target_boxes": 15,
+    "false_role_or_region_boxes": 4,
+    "ambiguous_extent_boxes": 1,
+    "visible_role_frames": 16,
+    "role_frames_without_unambiguous_grounding": 1,
+    "per_role": {
+      "1": {
+        "visible_role_frames": 12,
+        "coarse_grounding_hits": 11
+      },
+      "0": {
+        "visible_role_frames": 4,
+        "coarse_grounding_hits": 4
+      }
+    },
+    "notes": "Instrument detections on empty platform in four frames are role confusion. In tile0 the platform is visible but no detection is returned. Tiles1/7 are intermediate loaded heights, so low-versus-raised phase is ambiguous; excluded rather than inferred from the prediction. Tile10 has overlapping platform/scissor-structure boxes whose instance convention is unspecified.",
+    "human_verified": false,
+    "not_object_mAP_or_actual_phase_accuracy": true
+  },
+  {
+    "scene": "R03",
+    "reviewed_normal_frames": 12,
+    "unambiguous_phase_reference_frames": 10,
+    "phase_reference_agreement_including_unknown_as_disagreement": 1.0,
+    "phase_correct": 10,
+    "phase_unknown_on_reference_frames": 0,
+    "coarse_target_boxes": 36,
+    "false_role_or_region_boxes": 2,
+    "ambiguous_extent_boxes": 0,
+    "visible_role_frames": 36,
+    "role_frames_without_unambiguous_grounding": 0,
+    "per_role": {
+      "0": {
+        "visible_role_frames": 12,
+        "coarse_grounding_hits": 12
+      },
+      "1": {
+        "visible_role_frames": 12,
+        "coarse_grounding_hits": 12
+      },
+      "2": {
+        "visible_role_frames": 12,
+        "coarse_grounding_hits": 12
+      }
+    },
+    "notes": "Whole-image black-pallet boxes in tiles1/10 are not valid pallet grounding. Raised versus just-lowered load is not reliably discriminable in tiles4/10 from sparse stills, and those phases are excluded. Forklift is partly outside the image at the last frames but a visible part remains. Role boxes include load context; no tight-box IoU or identity accuracy claimed.",
+    "human_verified": false,
+    "not_object_mAP_or_actual_phase_accuracy": true
+  },
+  {
+    "scene": "R04",
+    "reviewed_normal_frames": 12,
+    "unambiguous_phase_reference_frames": 8,
+    "phase_reference_agreement_including_unknown_as_disagreement": 0.625,
+    "phase_correct": 5,
+    "phase_unknown_on_reference_frames": 0,
+    "coarse_target_boxes": 9,
+    "false_role_or_region_boxes": 3,
+    "ambiguous_extent_boxes": 5,
+    "visible_role_frames": 21,
+    "role_frames_without_unambiguous_grounding": 13,
+    "per_role": {
+      "0": {
+        "visible_role_frames": 12,
+        "coarse_grounding_hits": 1
+      },
+      "1": {
+        "visible_role_frames": 9,
+        "coarse_grounding_hits": 7
+      }
+    },
+    "notes": "Cardboard boxes cover empty machine or entire image in tiles0/1/6. Several metal-blade boxes enclose much of the cutter assembly, so they are marked ambiguous rather than counted as correct tight grounding. Tiles9/10 contain visible objects with no detections. Raised/down blade and accumulated pieces are overlapping state definitions; ambiguous frames are excluded.",
+    "human_verified": false,
+    "not_object_mAP_or_actual_phase_accuracy": true
+  }
+]

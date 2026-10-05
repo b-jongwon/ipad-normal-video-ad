@@ -11,6 +11,20 @@ __pycache__/
 *.pyc
 *.zip
 *.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.jpg
+*.jpeg
+*.mp4
+*.webm
+# Existing tracked historical previews remain; block newly generated dataset media.
+*cost_ledger*.json
+*budget_ledger*.json
+*credentials*.json
 local_experiments/cache/
 local_experiments/runs/
 local_experiments/data/

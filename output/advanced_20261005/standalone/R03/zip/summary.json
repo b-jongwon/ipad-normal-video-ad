@@ -1,0 +1,19 @@
+{
+  "scene": "R03",
+  "observations": 100,
+  "total_seconds_including_decode_log_preview": 15.884576299999026,
+  "object_branch": true,
+  "selected_method": "roi_hybrid_ema",
+  "sampled_observations_per_second_end_to_end": 6.295415005813289,
+  "model_pipeline_latency_ms_p50": 149.95674999954645,
+  "model_pipeline_latency_ms_p95": 158.44056499809085,
+  "peak_gpu_allocated_gib": 1.5911469459533691,
+  "selected_alarm_observations": 0,
+  "mean_retained_objects": 3.0,
+  "source_fps": null,
+  "source": "R03/testing/1",
+  "preview_fps_not_throughput": true,
+  "test_labels_read": false,
+  "paid_api_calls": 0,
+  "warning": "Short functional smoke test, not a deployment accuracy benchmark. ZIP true FPS unknown."
+}

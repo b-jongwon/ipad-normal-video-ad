@@ -1,0 +1,636 @@
+[
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "train",
+    "clip": "01",
+    "frame": 0,
+    "tile": 0,
+    "member": "IPAD_dataset/R01/training/frames/01/000.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          13.7022705078125,
+          255.97760009765625,
+          226.3019256591797
+        ],
+        "confidence": 0.350850909948349
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "train",
+    "clip": "01",
+    "frame": 40,
+    "tile": 1,
+    "member": "IPAD_dataset/R01/training/frames/01/040.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          11.91796875,
+          255.99037170410156,
+          226.54946899414062
+        ],
+        "confidence": 0.3519493043422699
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "train",
+    "clip": "01",
+    "frame": 80,
+    "tile": 2,
+    "member": "IPAD_dataset/R01/training/frames/01/080.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          40.48759460449219,
+          255.96197509765625,
+          225.1199188232422
+        ],
+        "confidence": 0.32591110467910767
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "train",
+    "clip": "01",
+    "frame": 120,
+    "tile": 3,
+    "member": "IPAD_dataset/R01/training/frames/01/120.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          43.165771484375,
+          255.96591186523438,
+          225.16476440429688
+        ],
+        "confidence": 0.35615262389183044
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "train",
+    "clip": "01",
+    "frame": 160,
+    "tile": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/160.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          42.34295654296875,
+          255.97238159179688,
+          225.55728149414062
+        ],
+        "confidence": 0.3623495399951935
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "train",
+    "clip": "01",
+    "frame": 204,
+    "tile": 5,
+    "member": "IPAD_dataset/R01/training/frames/01/204.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          38.531463623046875,
+          255.9609375,
+          225.74053955078125
+        ],
+        "confidence": 0.3381505310535431
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 0,
+    "tile": 0,
+    "member": "IPAD_dataset/R01/training/frames/24/000.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          11.16033935546875,
+          255.97840881347656,
+          226.95257568359375
+        ],
+        "confidence": 0.3792390823364258
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 44,
+    "tile": 1,
+    "member": "IPAD_dataset/R01/training/frames/24/044.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          12.337890625,
+          255.98727416992188,
+          227.1353759765625
+        ],
+        "confidence": 0.34048110246658325
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 88,
+    "tile": 2,
+    "member": "IPAD_dataset/R01/training/frames/24/088.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          38.79907989501953,
+          255.97647094726562,
+          225.13546752929688
+        ],
+        "confidence": 0.3430006504058838
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 136,
+    "tile": 3,
+    "member": "IPAD_dataset/R01/training/frames/24/136.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          39.239418029785156,
+          255.97055053710938,
+          226.03237915039062
+        ],
+        "confidence": 0.37013885378837585
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 180,
+    "tile": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/180.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          38.767906188964844,
+          255.9876708984375,
+          225.87252807617188
+        ],
+        "confidence": 0.3560905158519745
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 228,
+    "tile": 5,
+    "member": "IPAD_dataset/R01/training/frames/24/228.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          10.887214660644531,
+          255.9736328125,
+          226.51559448242188
+        ],
+        "confidence": 0.3547724187374115
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 0,
+    "tile": 6,
+    "member": "IPAD_dataset/R01/training/frames/26/000.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          38.625633239746094,
+          255.9747314453125,
+          226.056640625
+        ],
+        "confidence": 0.36645448207855225
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 44,
+    "tile": 7,
+    "member": "IPAD_dataset/R01/training/frames/26/044.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          11.509780883789062,
+          255.98382568359375,
+          226.848388671875
+        ],
+        "confidence": 0.36671173572540283
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 92,
+    "tile": 8,
+    "member": "IPAD_dataset/R01/training/frames/26/092.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0062408447265625,
+          11.94500732421875,
+          256.0,
+          226.97760009765625
+        ],
+        "confidence": 0.4213692843914032
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 140,
+    "tile": 9,
+    "member": "IPAD_dataset/R01/training/frames/26/140.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0064239501953125,
+          10.73040771484375,
+          256.0,
+          226.73883056640625
+        ],
+        "confidence": 0.3810984492301941
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 188,
+    "tile": 10,
+    "member": "IPAD_dataset/R01/training/frames/26/188.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          10.616920471191406,
+          255.9996337890625,
+          226.995361328125
+        ],
+        "confidence": 0.3533865213394165
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_full_frame",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 236,
+    "tile": 11,
+    "member": "IPAD_dataset/R01/training/frames/26/236.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          10.145904541015625,
+          255.950927734375,
+          227.2797393798828
+        ],
+        "confidence": 0.35989683866500854
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "train",
+    "clip": "01",
+    "frame": 0,
+    "tile": 0,
+    "member": "IPAD_dataset/R01/training/frames/01/000.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.04498291015625,
+          69.24956783652306,
+          256.0,
+          160.57941436767578
+        ],
+        "confidence": 0.45871463418006897
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "train",
+    "clip": "01",
+    "frame": 40,
+    "tile": 1,
+    "member": "IPAD_dataset/R01/training/frames/01/040.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0476226806640625,
+          70.47488462924957,
+          256.0,
+          156.65044403076172
+        ],
+        "confidence": 0.30226829648017883
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "train",
+    "clip": "01",
+    "frame": 80,
+    "tile": 2,
+    "member": "IPAD_dataset/R01/training/frames/01/080.jpg",
+    "detections": []
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "train",
+    "clip": "01",
+    "frame": 120,
+    "tile": 3,
+    "member": "IPAD_dataset/R01/training/frames/01/120.jpg",
+    "detections": []
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "train",
+    "clip": "01",
+    "frame": 160,
+    "tile": 4,
+    "member": "IPAD_dataset/R01/training/frames/01/160.jpg",
+    "detections": []
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "train",
+    "clip": "01",
+    "frame": 204,
+    "tile": 5,
+    "member": "IPAD_dataset/R01/training/frames/01/204.jpg",
+    "detections": []
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 0,
+    "tile": 0,
+    "member": "IPAD_dataset/R01/training/frames/24/000.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0522003173828125,
+          69.39290940761566,
+          256.0,
+          161.97408294677734
+        ],
+        "confidence": 0.45058608055114746
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 44,
+    "tile": 1,
+    "member": "IPAD_dataset/R01/training/frames/24/044.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0163421630859375,
+          69.44375902414322,
+          256.0,
+          159.37890625
+        ],
+        "confidence": 0.41513529419898987
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 88,
+    "tile": 2,
+    "member": "IPAD_dataset/R01/training/frames/24/088.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.05682373046875,
+          69.44759804010391,
+          256.0,
+          159.46503448486328
+        ],
+        "confidence": 0.31609588861465454
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 136,
+    "tile": 3,
+    "member": "IPAD_dataset/R01/training/frames/24/136.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          69.61273354291916,
+          255.99258422851562,
+          159.02750396728516
+        ],
+        "confidence": 0.3076905608177185
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 180,
+    "tile": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/180.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0712432861328125,
+          69.41718366742134,
+          256.0,
+          158.39702606201172
+        ],
+        "confidence": 0.3057887852191925
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "24",
+    "frame": 228,
+    "tile": 5,
+    "member": "IPAD_dataset/R01/training/frames/24/228.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0193634033203125,
+          69.42062664031982,
+          256.0,
+          160.36930084228516
+        ],
+        "confidence": 0.5192888975143433
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 0,
+    "tile": 6,
+    "member": "IPAD_dataset/R01/training/frames/26/000.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0134124755859375,
+          69.28614833950996,
+          256.0,
+          161.17923736572266
+        ],
+        "confidence": 0.4668392241001129
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 44,
+    "tile": 7,
+    "member": "IPAD_dataset/R01/training/frames/26/044.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.006500244140625,
+          69.39397612214088,
+          256.0,
+          161.0797348022461
+        ],
+        "confidence": 0.46635058522224426
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 92,
+    "tile": 8,
+    "member": "IPAD_dataset/R01/training/frames/26/092.jpg",
+    "detections": []
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 140,
+    "tile": 9,
+    "member": "IPAD_dataset/R01/training/frames/26/140.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0381317138671875,
+          69.43396779894829,
+          256.0,
+          157.7118682861328
+        ],
+        "confidence": 0.28001803159713745
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 188,
+    "tile": 10,
+    "member": "IPAD_dataset/R01/training/frames/26/188.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.069976806640625,
+          69.44313460588455,
+          256.0,
+          158.1371078491211
+        ],
+        "confidence": 0.285980761051178
+      }
+    ]
+  },
+  {
+    "arm": "manual_noun_belt_roi",
+    "split": "normal_review",
+    "clip": "26",
+    "frame": 236,
+    "tile": 11,
+    "member": "IPAD_dataset/R01/training/frames/26/236.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0692901611328125,
+          69.50043076276779,
+          256.0,
+          159.51236724853516
+        ],
+        "confidence": 0.48058250546455383
+      }
+    ]
+  }
+]

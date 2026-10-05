@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "R01",
+    "clip": "01",
+    "observations": 58,
+    "seed": 0,
+    "passed": true,
+    "object_branch": false,
+    "max_score_absolute_errors": {
+      "dino_global_pca": 2.2351741790771484e-08,
+      "visual_state_transition": 2.1828679397373207e-07,
+      "dino_frame_plain_ae": 2.384185791015625e-07,
+      "dino_frame_denoising_ae": 3.5762786865234375e-07,
+      "dino_frame_forecast": 3.5762786865234375e-07,
+      "dino_fewshot3_denoising_ae": 4.76837158203125e-07,
+      "dino_spatiotemporal": 2.5917222927773764e-06,
+      "dino_visual_state": 2.471273326420942e-06,
+      "dino_full": 2.7241102902308967e-06,
+      "dino_full_ema": 1.13886007113706e-06,
+      "dino_state_pca": 3.725290298461914e-08
+    },
+    "alarm_disagreements": {
+      "dino_global_pca": 0,
+      "visual_state_transition": 0,
+      "dino_frame_plain_ae": 0,
+      "dino_frame_denoising_ae": 0,
+      "dino_frame_forecast": 0,
+      "dino_fewshot3_denoising_ae": 0,
+      "dino_spatiotemporal": 0,
+      "dino_visual_state": 0,
+      "dino_full": 0,
+      "dino_full_ema": 0,
+      "dino_state_pca": 0
+    },
+    "test_labels_read": false,
+    "warning": "Serialized head/scoring replay; not a detector/backbone accuracy test."
+  }
+]

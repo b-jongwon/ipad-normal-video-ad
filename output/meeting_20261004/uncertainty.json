@@ -1,0 +1,50 @@
+[
+  {
+    "candidate": "dino/embedding_phase",
+    "reference": "dino/embedding_pca",
+    "observed_macro_auroc_delta_pp": 0.09300306714308537,
+    "video_cluster_bootstrap_95_interval_pp": [
+      -1.6318613686154972,
+      1.893205032994127
+    ],
+    "iterations_requested": 500,
+    "valid_iterations": 500,
+    "scope": "Recorded R01-R04 test videos, exploratory and not multiple-comparison corrected; not unseen-factory uncertainty"
+  },
+  {
+    "candidate": "dino/spatial_temporal_equal",
+    "reference": "dino/embedding_pca",
+    "observed_macro_auroc_delta_pp": -4.063340540592092,
+    "video_cluster_bootstrap_95_interval_pp": [
+      -7.5268562221795605,
+      -0.6687428029856985
+    ],
+    "iterations_requested": 500,
+    "valid_iterations": 500,
+    "scope": "Recorded R01-R04 test videos, exploratory and not multiple-comparison corrected; not unseen-factory uncertainty"
+  },
+  {
+    "candidate": "clip/embedding_pca",
+    "reference": "dino/embedding_pca",
+    "observed_macro_auroc_delta_pp": -2.4375582831871885,
+    "video_cluster_bootstrap_95_interval_pp": [
+      -7.494434996654446,
+      2.352900868861188
+    ],
+    "iterations_requested": 500,
+    "valid_iterations": 500,
+    "scope": "Recorded R01-R04 test videos, exploratory and not multiple-comparison corrected; not unseen-factory uncertainty"
+  },
+  {
+    "candidate": "object_clip/embedding_pca",
+    "reference": "clip/embedding_pca",
+    "observed_macro_auroc_delta_pp": 0.1755117981694837,
+    "video_cluster_bootstrap_95_interval_pp": [
+      -3.585780247863727,
+      3.6586594209659435
+    ],
+    "iterations_requested": 500,
+    "valid_iterations": 500,
+    "scope": "Recorded R01-R04 test videos, exploratory and not multiple-comparison corrected; not unseen-factory uncertainty"
+  }
+]

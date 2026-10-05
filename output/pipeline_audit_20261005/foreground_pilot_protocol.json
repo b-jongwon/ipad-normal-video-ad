@@ -1,0 +1,28 @@
+{
+  "scene": "R01",
+  "background_fit": "Median of fixed random160 original normal FIT observations",
+  "seed": 20261005,
+  "roi_fraction": [
+    0,
+    0.27,
+    1,
+    0.65
+  ],
+  "mean_RGB_absolute_difference_threshold": 35,
+  "morphology": "3x3 open then close",
+  "contour_area_pixels": [
+    50,
+    1600
+  ],
+  "bbox_width_height_ratio": [
+    0.25,
+    2.5
+  ],
+  "max_candidates": 2,
+  "stage_proxy": "Horizontal thirds, spatial progress only; empty or multiple candidates => unknown",
+  "scope": "Exploratory fixed-camera normal-only grounding repair; not general industrial detection or retrained anomaly model",
+  "why": "Previous fixed noun+ROI arms yielded whole-belt boxes, which must remain documented as failures",
+  "API_calls": 0,
+  "test_labels_read": false,
+  "human_verified": false
+}

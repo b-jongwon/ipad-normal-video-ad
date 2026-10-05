@@ -1,0 +1,20 @@
+{
+  "python": "3.12.10",
+  "torch": "2.7.1+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "gpu_total_gib": 7.99560546875,
+  "ram_gib": 31.847747802734375,
+  "cpu_threads": 16,
+  "packages": {
+    "torchvision": "0.22.1+cu128",
+    "transformers": "4.57.6",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "Pillow": "12.3.0",
+    "opencv-python-headless": "4.11.0.86"
+  },
+  "timezone_for_report": "Asia/Seoul",
+  "normal_seed": 0
+}

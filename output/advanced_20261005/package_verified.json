@@ -1,0 +1,17 @@
+{
+  "code_models": {
+    "path": "D:\\\uc885\ud569\uc124\uacc4 \ud504\ub85c\uc81d\ud2b8\\output\\advanced_20261005\\IPAD_advanced_code_models_20261005_final.zip",
+    "bytes": 977179339,
+    "sha256": "ba8576b22b4a0ee890d78324b19bd1bbde746daaabe6bd034882ba51c57ab054",
+    "files": 2374,
+    "verified": true
+  },
+  "results": {
+    "path": "D:\\\uc885\ud569\uc124\uacc4 \ud504\ub85c\uc81d\ud2b8\\output\\advanced_20261005\\IPAD_advanced_results_20261005_final.zip",
+    "bytes": 8005523,
+    "sha256": "d6ccb85dfde67b9a24f524aef0c8fd311c6e8722f256ccbf0a66153a9f351935",
+    "files": 60,
+    "verified": true
+  },
+  "github_modified_this_run": false
+}

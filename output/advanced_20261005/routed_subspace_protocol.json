@@ -1,0 +1,13 @@
+{
+  "rule": {
+    "method": "dino_state_pca",
+    "normal_variance": 0.99,
+    "minimum_state_fit_observations": 30,
+    "state_source": "Already frozen normal-only visual KMeans states, not semantic phase GT",
+    "unknown_or_underrepresented_state": "fallback to global normal PCA",
+    "threshold_source": "independent normal calibration q99",
+    "neural_epochs": "not applicable",
+    "test_labels_used_for_choice": false
+  },
+  "locked_utc": "2026-10-05T03:16:22.996360+00:00"
+}

@@ -1,0 +1,527 @@
+[
+  {
+    "scene": "R01",
+    "method": "component_process",
+    "threshold": 4.0,
+    "calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "evaluation_observations": 176,
+    "evaluation_normal_fpr": 0.0,
+    "normal_process_positive_fraction": 0.1875,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R01",
+    "method": "frame_global_no_phase",
+    "threshold": 0.0008204372134059668,
+    "calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "evaluation_observations": 176,
+    "evaluation_normal_fpr": 0.022727272727272728,
+    "normal_process_positive_fraction": 0.1875,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R01",
+    "method": "frame_only",
+    "threshold": 0.0014275247231125832,
+    "calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "evaluation_observations": 176,
+    "evaluation_normal_fpr": 0.06818181818181818,
+    "normal_process_positive_fraction": 0.1875,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R01",
+    "method": "object_global_no_phase",
+    "threshold": 0.003980245441198349,
+    "calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "evaluation_observations": 176,
+    "evaluation_normal_fpr": 0.017045454545454544,
+    "normal_process_positive_fraction": 0.1875,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R01",
+    "method": "frame_object_joint",
+    "threshold": 0.008484295569360256,
+    "calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "evaluation_observations": 176,
+    "evaluation_normal_fpr": 0.03977272727272727,
+    "normal_process_positive_fraction": 0.1875,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R01",
+    "method": "spatial_temporal_10",
+    "threshold": 1.5636072158813477,
+    "calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "evaluation_observations": 176,
+    "evaluation_normal_fpr": 0.07954545454545454,
+    "normal_process_positive_fraction": 0.1875,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R01",
+    "method": "full_pipeline_10",
+    "threshold": 1.3797125816345215,
+    "calibration_clips": [
+      "03",
+      "05",
+      "12",
+      "20"
+    ],
+    "evaluation_clips": [
+      "24",
+      "26",
+      "34"
+    ],
+    "evaluation_observations": 176,
+    "evaluation_normal_fpr": 0.0625,
+    "normal_process_positive_fraction": 0.1875,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R02",
+    "method": "component_process",
+    "threshold": 1.6199951171875,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "evaluation_observations": 447,
+    "evaluation_normal_fpr": 0.0,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R02",
+    "method": "frame_global_no_phase",
+    "threshold": 0.0034784150775521994,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "evaluation_observations": 447,
+    "evaluation_normal_fpr": 0.0022371364653243847,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R02",
+    "method": "frame_only",
+    "threshold": 0.005612925626337528,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "evaluation_observations": 447,
+    "evaluation_normal_fpr": 0.0022371364653243847,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R02",
+    "method": "object_global_no_phase",
+    "threshold": 0.01126568391919136,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "evaluation_observations": 447,
+    "evaluation_normal_fpr": 0.0044742729306487695,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R02",
+    "method": "frame_object_joint",
+    "threshold": 0.01859171688556671,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "evaluation_observations": 447,
+    "evaluation_normal_fpr": 0.008948545861297539,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R02",
+    "method": "spatial_temporal_10",
+    "threshold": 3.854835033416748,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "evaluation_observations": 447,
+    "evaluation_normal_fpr": 0.0022371364653243847,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R02",
+    "method": "full_pipeline_10",
+    "threshold": 3.0884249210357666,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "12",
+      "22",
+      "27"
+    ],
+    "evaluation_observations": 447,
+    "evaluation_normal_fpr": 0.0022371364653243847,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R03",
+    "method": "component_process",
+    "threshold": 0.0,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "evaluation_observations": 345,
+    "evaluation_normal_fpr": 0.0,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R03",
+    "method": "frame_global_no_phase",
+    "threshold": 0.0025939359329640865,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "evaluation_observations": 345,
+    "evaluation_normal_fpr": 0.04057971014492753,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R03",
+    "method": "frame_only",
+    "threshold": 0.004673838149756193,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "evaluation_observations": 345,
+    "evaluation_normal_fpr": 0.043478260869565216,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R03",
+    "method": "object_global_no_phase",
+    "threshold": 0.015081200748682022,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "evaluation_observations": 345,
+    "evaluation_normal_fpr": 0.028985507246376812,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R03",
+    "method": "frame_object_joint",
+    "threshold": 0.025016065686941147,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "evaluation_observations": 345,
+    "evaluation_normal_fpr": 0.028985507246376812,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R03",
+    "method": "spatial_temporal_10",
+    "threshold": 1.9589087963104248,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "evaluation_observations": 345,
+    "evaluation_normal_fpr": 0.057971014492753624,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R03",
+    "method": "full_pipeline_10",
+    "threshold": 1.600285530090332,
+    "calibration_clips": [
+      "03",
+      "05",
+      "11"
+    ],
+    "evaluation_clips": [
+      "17",
+      "20"
+    ],
+    "evaluation_observations": 345,
+    "evaluation_normal_fpr": 0.05217391304347826,
+    "normal_process_positive_fraction": 0.0,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R04",
+    "method": "component_process",
+    "threshold": 1.0,
+    "calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "evaluation_observations": 202,
+    "evaluation_normal_fpr": 0.0,
+    "normal_process_positive_fraction": 0.024752475247524754,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R04",
+    "method": "frame_global_no_phase",
+    "threshold": 0.0031868009828031063,
+    "calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "evaluation_observations": 202,
+    "evaluation_normal_fpr": 0.1485148514851485,
+    "normal_process_positive_fraction": 0.024752475247524754,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R04",
+    "method": "frame_only",
+    "threshold": 0.0045594992116093636,
+    "calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "evaluation_observations": 202,
+    "evaluation_normal_fpr": 0.18811881188118812,
+    "normal_process_positive_fraction": 0.024752475247524754,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R04",
+    "method": "object_global_no_phase",
+    "threshold": 0.01363733783364296,
+    "calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "evaluation_observations": 202,
+    "evaluation_normal_fpr": 0.14356435643564355,
+    "normal_process_positive_fraction": 0.024752475247524754,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R04",
+    "method": "frame_object_joint",
+    "threshold": 0.0273398756980896,
+    "calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "evaluation_observations": 202,
+    "evaluation_normal_fpr": 0.13861386138613863,
+    "normal_process_positive_fraction": 0.024752475247524754,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R04",
+    "method": "spatial_temporal_10",
+    "threshold": 0.8950377106666565,
+    "calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "evaluation_observations": 202,
+    "evaluation_normal_fpr": 0.2079207920792079,
+    "normal_process_positive_fraction": 0.024752475247524754,
+    "conditional_diagnostic_not_fully_independent": true
+  },
+  {
+    "scene": "R04",
+    "method": "full_pipeline_10",
+    "threshold": 0.7321007251739502,
+    "calibration_clips": [
+      "05",
+      "11",
+      "12"
+    ],
+    "evaluation_clips": [
+      "20",
+      "25"
+    ],
+    "evaluation_observations": 202,
+    "evaluation_normal_fpr": 0.21287128712871287,
+    "normal_process_positive_fraction": 0.024752475247524754,
+    "conditional_diagnostic_not_fully_independent": true
+  }
+]

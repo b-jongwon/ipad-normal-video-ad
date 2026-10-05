@@ -1,0 +1,11 @@
+{
+  "processed_records": 6378,
+  "per_class_presence_rate": {
+    "power outlet": 0.9880840388836626,
+    "metal platform": 1.0,
+    "support frame": 0.989181561618062,
+    "power cable": 0.8060520539354029,
+    "multimeter device": 1.0
+  },
+  "note": "Presence rate is not detector accuracy; includes propagated boxes."
+}

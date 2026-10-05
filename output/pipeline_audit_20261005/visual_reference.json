@@ -1,0 +1,368 @@
+{
+  "authority": "Codex visual review of raw and detection contact sheets, NOT human-certified ground truth",
+  "human_verified": false,
+  "annotation_resolution": "Coarse visible-role grounding and sparse visible state; not precise bbox/identity/pixel annotations",
+  "phase_minus_one": "No product or visually ambiguous state, excluded from phase agreement denominator; not silently mapped to a valid phase",
+  "scene_references": {
+    "R01": {
+      "phase": [
+        -1,
+        0,
+        1,
+        1,
+        2,
+        -1,
+        -1,
+        0,
+        1,
+        1,
+        2,
+        -1
+      ],
+      "present_roles": [
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "false_slots": {
+        "0": [
+          0
+        ],
+        "1": [
+          0
+        ],
+        "2": [
+          0
+        ],
+        "3": [
+          0
+        ],
+        "4": [
+          0
+        ],
+        "5": [
+          0
+        ],
+        "6": [
+          0
+        ],
+        "7": [
+          0
+        ],
+        "8": [
+          0
+        ],
+        "9": [
+          0
+        ],
+        "10": [
+          0
+        ],
+        "11": [
+          0
+        ]
+      },
+      "ambiguous_slots": {},
+      "notes": "All 12 role0 boxes enclose the stationary red instrument below the belt, not the moving target on the belt. The target is visible in eight review frames and no corresponding role0 box is present. Empty-belt frames have no defined phase in the current grammar. Left/middle/right are coarse spatial bands, not factory action GT. Belt boxes have loose spatial extent."
+    },
+    "R02": {
+      "phase": [
+        0,
+        -1,
+        2,
+        3,
+        4,
+        0,
+        0,
+        -1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "present_roles": [
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "false_slots": {
+        "3": [
+          0
+        ],
+        "4": [
+          0
+        ],
+        "9": [
+          0
+        ],
+        "10": [
+          0
+        ]
+      },
+      "ambiguous_slots": {
+        "10": [
+          2
+        ]
+      },
+      "notes": "Instrument detections on empty platform in four frames are role confusion. In tile0 the platform is visible but no detection is returned. Tiles1/7 are intermediate loaded heights, so low-versus-raised phase is ambiguous; excluded rather than inferred from the prediction. Tile10 has overlapping platform/scissor-structure boxes whose instance convention is unspecified."
+    },
+    "R03": {
+      "phase": [
+        0,
+        0,
+        1,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        -1,
+        0
+      ],
+      "present_roles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "false_slots": {
+        "1": [
+          2
+        ],
+        "10": [
+          2
+        ]
+      },
+      "ambiguous_slots": {},
+      "notes": "Whole-image black-pallet boxes in tiles1/10 are not valid pallet grounding. Raised versus just-lowered load is not reliably discriminable in tiles4/10 from sparse stills, and those phases are excluded. Forklift is partly outside the image at the last frames but a visible part remains. Role boxes include load context; no tight-box IoU or identity accuracy claimed."
+    },
+    "R04": {
+      "phase": [
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        3,
+        0,
+        -1,
+        1,
+        2,
+        -1,
+        3
+      ],
+      "present_roles": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "false_slots": {
+        "0": [
+          1
+        ],
+        "1": [
+          0
+        ],
+        "6": [
+          1
+        ]
+      },
+      "ambiguous_slots": {
+        "0": [
+          0
+        ],
+        "6": [
+          0
+        ],
+        "7": [
+          0
+        ],
+        "8": [
+          0
+        ],
+        "11": [
+          0
+        ]
+      },
+      "notes": "Cardboard boxes cover empty machine or entire image in tiles0/1/6. Several metal-blade boxes enclose much of the cutter assembly, so they are marked ambiguous rather than counted as correct tight grounding. Tiles9/10 contain visible objects with no detections. Raised/down blade and accumulated pieces are overlapping state definitions; ambiguous frames are excluded."
+    }
+  }
+}

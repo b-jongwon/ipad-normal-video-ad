@@ -1,0 +1,783 @@
+[
+  {
+    "scene": "R01",
+    "tile": 0,
+    "row": 2253,
+    "split": "val",
+    "clip": "24",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 1,
+    "phase_probability": [
+      0.27258768677711487,
+      0.46040087938308716,
+      0.26701149344444275
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4419403076172,
+          200.85238647460938,
+          218.3451690673828,
+          255.90625
+        ],
+        "confidence": 0.4321420192718506
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          39.74091339111328,
+          255.99624633789062,
+          224.15567016601562
+        ],
+        "confidence": 0.43185487389564514
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          166,
+          123,
+          177,
+          157
+        ],
+        "area": 229.5,
+        "center_x_fraction": 0.669921875
+      }
+    ],
+    "pilot_spatial_phase": 2,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 1,
+    "row": 2264,
+    "split": "val",
+    "clip": "24",
+    "frame": 44,
+    "ordinal": 44,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/044.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.5485631823539734,
+      0.13833265006542206,
+      0.31310412287712097
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.45596313476562,
+          200.82540893554688,
+          218.40280151367188,
+          255.9329833984375
+        ],
+        "confidence": 0.41337576508522034
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.48262023925781,
+          255.98196411132812,
+          224.6653594970703
+        ],
+        "confidence": 0.36052536964416504
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          32,
+          86,
+          49,
+          121
+        ],
+        "area": 349.5,
+        "center_x_fraction": 0.158203125
+      },
+      {
+        "bbox": [
+          166,
+          143,
+          173,
+          156
+        ],
+        "area": 51.5,
+        "center_x_fraction": 0.662109375
+      }
+    ],
+    "pilot_spatial_phase": -1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 2,
+    "row": 2275,
+    "split": "val",
+    "clip": "24",
+    "frame": 88,
+    "ordinal": 88,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/088.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.3555692732334137,
+      0.2468116283416748,
+      0.3976191282272339
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.45838928222656,
+          200.88540649414062,
+          218.38905334472656,
+          255.9339599609375
+        ],
+        "confidence": 0.3939168453216553
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.07054138183594,
+          255.98818969726562,
+          223.59519958496094
+        ],
+        "confidence": 0.3780205547809601
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          85,
+          85,
+          103,
+          141
+        ],
+        "area": 471.5,
+        "center_x_fraction": 0.3671875
+      }
+    ],
+    "pilot_spatial_phase": 1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 3,
+    "row": 2287,
+    "split": "val",
+    "clip": "24",
+    "frame": 136,
+    "ordinal": 136,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/136.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": -1,
+    "phase_probability": [
+      0.41099968552589417,
+      0.1675889939069748,
+      0.42141130566596985
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4946746826172,
+          201.11892700195312,
+          218.5532684326172,
+          255.91497802734375
+        ],
+        "confidence": 0.3949632942676544
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          41.95399475097656,
+          255.96588134765625,
+          225.3882293701172
+        ],
+        "confidence": 0.3617270886898041
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          146,
+          88,
+          164,
+          122
+        ],
+        "area": 285.0,
+        "center_x_fraction": 0.60546875
+      }
+    ],
+    "pilot_spatial_phase": 1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 4,
+    "row": 2298,
+    "split": "val",
+    "clip": "24",
+    "frame": 180,
+    "ordinal": 180,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/180.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.37020230293273926,
+      0.0719323456287384,
+      0.5578653812408447
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.5581817626953,
+          201.04954528808594,
+          218.67335510253906,
+          255.9324493408203
+        ],
+        "confidence": 0.39076945185661316
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          41.110321044921875,
+          255.9913330078125,
+          224.71670532226562
+        ],
+        "confidence": 0.3916637599468231
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          216,
+          88,
+          223,
+          111
+        ],
+        "area": 86.0,
+        "center_x_fraction": 0.857421875
+      },
+      {
+        "bbox": [
+          97,
+          133,
+          103,
+          152
+        ],
+        "area": 80.0,
+        "center_x_fraction": 0.390625
+      }
+    ],
+    "pilot_spatial_phase": -1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 5,
+    "row": 2310,
+    "split": "val",
+    "clip": "24",
+    "frame": 228,
+    "ordinal": 228,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/24/228.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.2731689214706421,
+      0.26618707180023193,
+      0.460644006729126
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4550018310547,
+          200.9970703125,
+          218.5006561279297,
+          255.92327880859375
+        ],
+        "confidence": 0.41799283027648926
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.008758544921875,
+          39.59571838378906,
+          256.0,
+          223.68040466308594
+        ],
+        "confidence": 0.40545332431793213
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          172,
+          107,
+          191,
+          155
+        ],
+        "area": 400.0,
+        "center_x_fraction": 0.708984375
+      },
+      {
+        "bbox": [
+          148,
+          133,
+          166,
+          156
+        ],
+        "area": 252.0,
+        "center_x_fraction": 0.61328125
+      }
+    ],
+    "pilot_spatial_phase": -1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 6,
+    "row": 2368,
+    "split": "val",
+    "clip": "26",
+    "frame": 0,
+    "ordinal": 0,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/000.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.5608322024345398,
+      0.24240678548812866,
+      0.19676104187965393
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.49459838867188,
+          201.07461547851562,
+          218.5682373046875,
+          255.93072509765625
+        ],
+        "confidence": 0.41227948665618896
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.711631774902344,
+          255.979736328125,
+          225.41650390625
+        ],
+        "confidence": 0.3802333474159241
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          95,
+          130,
+          104,
+          158
+        ],
+        "area": 99.5,
+        "center_x_fraction": 0.388671875
+      }
+    ],
+    "pilot_spatial_phase": 1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 7,
+    "row": 2379,
+    "split": "val",
+    "clip": "26",
+    "frame": 44,
+    "ordinal": 44,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/044.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 0,
+    "phase_probability": [
+      0.5458834171295166,
+      0.1098078116774559,
+      0.3443087637424469
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.5161590576172,
+          200.98341369628906,
+          218.5726776123047,
+          255.91078186035156
+        ],
+        "confidence": 0.4056145250797272
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.204933166503906,
+          255.98785400390625,
+          224.43817138671875
+        ],
+        "confidence": 0.37919947504997253
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          25,
+          73,
+          49,
+          115
+        ],
+        "area": 467.5,
+        "center_x_fraction": 0.14453125
+      },
+      {
+        "bbox": [
+          105,
+          115,
+          119,
+          157
+        ],
+        "area": 339.5,
+        "center_x_fraction": 0.4375
+      }
+    ],
+    "pilot_spatial_phase": -1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 8,
+    "row": 2391,
+    "split": "val",
+    "clip": "26",
+    "frame": 92,
+    "ordinal": 92,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/092.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.25888028740882874,
+      0.32172080874443054,
+      0.4193989038467407
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.4676055908203,
+          200.94419860839844,
+          218.5042266845703,
+          255.9270782470703
+        ],
+        "confidence": 0.37367862462997437
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.008697509765625,
+          39.468017578125,
+          256.0,
+          224.43145751953125
+        ],
+        "confidence": 0.3908846378326416
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          88,
+          69,
+          106,
+          112
+        ],
+        "area": 417.0,
+        "center_x_fraction": 0.37890625
+      }
+    ],
+    "pilot_spatial_phase": 1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 9,
+    "row": 2403,
+    "split": "val",
+    "clip": "26",
+    "frame": 140,
+    "ordinal": 140,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/140.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.1262424737215042,
+      0.3207789957523346,
+      0.5529785752296448
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.50303649902344,
+          201.0544891357422,
+          218.56187438964844,
+          255.9365692138672
+        ],
+        "confidence": 0.37166839838027954
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0172576904296875,
+          39.59630584716797,
+          256.0,
+          254.38482666015625
+        ],
+        "confidence": 0.344032347202301
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          131,
+          124,
+          217,
+          166
+        ],
+        "area": 852.5,
+        "center_x_fraction": 0.6796875
+      },
+      {
+        "bbox": [
+          93,
+          127,
+          126,
+          166
+        ],
+        "area": 476.0,
+        "center_x_fraction": 0.427734375
+      }
+    ],
+    "pilot_spatial_phase": -1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 10,
+    "row": 2415,
+    "split": "val",
+    "clip": "26",
+    "frame": 188,
+    "ordinal": 188,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/188.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.16010494530200958,
+      0.2525885999202728,
+      0.5873064398765564
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.5091552734375,
+          200.96583557128906,
+          218.54586791992188,
+          255.9269561767578
+        ],
+        "confidence": 0.3781747817993164
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.0,
+          42.056922912597656,
+          255.9849853515625,
+          224.23196411132812
+        ],
+        "confidence": 0.35016968846321106
+      }
+    ],
+    "pilot_detections": [],
+    "pilot_spatial_phase": -1,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "tile": 11,
+    "row": 2427,
+    "split": "val",
+    "clip": "26",
+    "frame": 236,
+    "ordinal": 236,
+    "stride": 4,
+    "member": "IPAD_dataset/R01/training/frames/26/236.jpg",
+    "image_size": [
+      256,
+      256
+    ],
+    "predicted_phase": 2,
+    "phase_probability": [
+      0.19993053376674652,
+      0.21486227214336395,
+      0.5852072238922119
+    ],
+    "objects": [
+      {
+        "slot": 0,
+        "class_id": 0,
+        "name": "connector block",
+        "bbox": [
+          158.44326782226562,
+          201.07418823242188,
+          218.48471069335938,
+          255.9163818359375
+        ],
+        "confidence": 0.41067618131637573
+      },
+      {
+        "slot": 1,
+        "class_id": 1,
+        "name": "conveyor belt",
+        "bbox": [
+          0.00286865234375,
+          39.28191375732422,
+          256.0,
+          223.55157470703125
+        ],
+        "confidence": 0.35839831829071045
+      }
+    ],
+    "pilot_detections": [
+      {
+        "bbox": [
+          132,
+          122,
+          204,
+          166
+        ],
+        "area": 736.5,
+        "center_x_fraction": 0.65625
+      },
+      {
+        "bbox": [
+          92,
+          132,
+          110,
+          159
+        ],
+        "area": 361.0,
+        "center_x_fraction": 0.39453125
+      }
+    ],
+    "pilot_spatial_phase": -1,
+    "human_verified": false
+  }
+]

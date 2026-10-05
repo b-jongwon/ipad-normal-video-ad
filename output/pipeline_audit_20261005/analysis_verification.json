@@ -1,0 +1,8 @@
+{
+  "original_model_config_scores_and_grammar_unchanged": true,
+  "visual_reference_sha256": "1ce4e18eaf3ec7dfcf69c133eae52e7c7896c2f18e1f99eb8a31b10d8e40345c",
+  "AI_review_not_human_truth": true,
+  "test_scores_retrospective_not_model_selection": true,
+  "normal_review_frames": 48,
+  "ablation_scene_method_rows": 40
+}

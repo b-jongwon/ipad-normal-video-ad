@@ -1,0 +1,114 @@
+[
+  {
+    "scene": "R01",
+    "case": "normal_prefix",
+    "process_unavailable_observations": 10,
+    "unavailable_fraction": 0.1724137931034483,
+    "scores_changed": false
+  },
+  {
+    "scene": "R01",
+    "case": "reverse_prefix",
+    "process_unavailable_observations": 11,
+    "unavailable_fraction": 0.1896551724137931,
+    "scores_changed": false
+  },
+  {
+    "scene": "R01",
+    "case": "repeat_middle_80",
+    "process_unavailable_observations": 10,
+    "unavailable_fraction": 0.07246376811594203,
+    "scores_changed": false
+  },
+  {
+    "scene": "R01",
+    "case": "repeat_middle_140",
+    "process_unavailable_observations": 10,
+    "unavailable_fraction": 0.050505050505050504,
+    "scores_changed": false
+  },
+  {
+    "scene": "R02",
+    "case": "normal_prefix",
+    "process_unavailable_observations": 5,
+    "unavailable_fraction": 0.078125,
+    "scores_changed": false
+  },
+  {
+    "scene": "R02",
+    "case": "reverse_prefix",
+    "process_unavailable_observations": 5,
+    "unavailable_fraction": 0.078125,
+    "scores_changed": false
+  },
+  {
+    "scene": "R02",
+    "case": "repeat_middle_80",
+    "process_unavailable_observations": 5,
+    "unavailable_fraction": 0.034722222222222224,
+    "scores_changed": false
+  },
+  {
+    "scene": "R02",
+    "case": "repeat_middle_140",
+    "process_unavailable_observations": 5,
+    "unavailable_fraction": 0.024509803921568627,
+    "scores_changed": false
+  },
+  {
+    "scene": "R03",
+    "case": "normal_prefix",
+    "process_unavailable_observations": 5,
+    "unavailable_fraction": 0.078125,
+    "scores_changed": false
+  },
+  {
+    "scene": "R03",
+    "case": "reverse_prefix",
+    "process_unavailable_observations": 7,
+    "unavailable_fraction": 0.109375,
+    "scores_changed": false
+  },
+  {
+    "scene": "R03",
+    "case": "repeat_middle_80",
+    "process_unavailable_observations": 5,
+    "unavailable_fraction": 0.034722222222222224,
+    "scores_changed": false
+  },
+  {
+    "scene": "R03",
+    "case": "repeat_middle_140",
+    "process_unavailable_observations": 5,
+    "unavailable_fraction": 0.024509803921568627,
+    "scores_changed": false
+  },
+  {
+    "scene": "R04",
+    "case": "normal_prefix",
+    "process_unavailable_observations": 3,
+    "unavailable_fraction": 0.046875,
+    "scores_changed": false
+  },
+  {
+    "scene": "R04",
+    "case": "reverse_prefix",
+    "process_unavailable_observations": 1,
+    "unavailable_fraction": 0.015625,
+    "scores_changed": false
+  },
+  {
+    "scene": "R04",
+    "case": "repeat_middle_80",
+    "process_unavailable_observations": 83,
+    "unavailable_fraction": 0.5763888888888888,
+    "scores_changed": false
+  },
+  {
+    "scene": "R04",
+    "case": "repeat_middle_140",
+    "process_unavailable_observations": 143,
+    "unavailable_fraction": 0.7009803921568627,
+    "scores_changed": false
+  }
+]

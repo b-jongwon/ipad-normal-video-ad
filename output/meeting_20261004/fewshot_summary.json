@@ -1,0 +1,42 @@
+[
+  {
+    "normal_train_video_budget": "3",
+    "macro_auroc_mean": 0.7440673239039873,
+    "macro_auroc_min_over_seeds": 0.7334384552228254,
+    "macro_auroc_max_over_seeds": 0.7543237494539663,
+    "macro_normal_test_fpr": 0.30441552297000635,
+    "mean_pca_fit_seconds_per_scene": 0.037145441666325496,
+    "normal_calibration_extra_videos": 1,
+    "seed_count": 3
+  },
+  {
+    "normal_train_video_budget": "5",
+    "macro_auroc_mean": 0.7430522731100725,
+    "macro_auroc_min_over_seeds": 0.7187854012226972,
+    "macro_auroc_max_over_seeds": 0.7635614972193192,
+    "macro_normal_test_fpr": 0.2917899190111799,
+    "mean_pca_fit_seconds_per_scene": 0.03377520833358479,
+    "normal_calibration_extra_videos": 1,
+    "seed_count": 3
+  },
+  {
+    "normal_train_video_budget": "10",
+    "macro_auroc_mean": 0.7491215588402139,
+    "macro_auroc_min_over_seeds": 0.7424862556748056,
+    "macro_auroc_max_over_seeds": 0.7530431633608826,
+    "macro_normal_test_fpr": 0.29339356407515876,
+    "mean_pca_fit_seconds_per_scene": 0.03571863333339328,
+    "normal_calibration_extra_videos": 1,
+    "seed_count": 3
+  },
+  {
+    "normal_train_video_budget": "all",
+    "macro_auroc_mean": 0.7466225427904579,
+    "macro_auroc_min_over_seeds": 0.7466225427904579,
+    "macro_auroc_max_over_seeds": 0.7466225427904579,
+    "macro_normal_test_fpr": 0.2886105339601616,
+    "mean_pca_fit_seconds_per_scene": 0.040062524999484594,
+    "normal_calibration_extra_videos": 1,
+    "seed_count": 1
+  }
+]

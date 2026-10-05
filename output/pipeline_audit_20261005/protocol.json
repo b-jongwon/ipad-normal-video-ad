@@ -1,0 +1,11 @@
+{
+  "scope": "R01-R04 original v3 audit; prior results preserved",
+  "normal_review_selection": "Two first normal evaluation clips, six evenly spaced observations per clip; never score-selected",
+  "reference_authority": "AI visual review candidates; human_verified remains FALSE",
+  "stress_selection": "First normal evaluation clip; first 64 sampled frames, raw reverse and 80 repeated-middle-observation hold",
+  "stress_limitations": "Artificial frame order/hold; not real defect ground truth or independent deployment benchmark",
+  "normal_independence": "No weight fitting on validation; original phase confidence threshold previously used all validation",
+  "test_use": "Previously observed test scores only for retrospective ablation and team-support harmonization",
+  "team_commit": "ab0a72e466cbd602425fb571183163cd34e29a5c",
+  "new_paid_api_calls": 0
+}

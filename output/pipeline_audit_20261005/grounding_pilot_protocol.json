@@ -1,0 +1,21 @@
+{
+  "scene": "R01",
+  "arms": [
+    "manual_noun_full_frame",
+    "manual_noun_belt_roi"
+  ],
+  "prompt": "black object",
+  "normal_train_defined_roi_xyxy_fraction": [
+    0.0,
+    0.27,
+    1.0,
+    0.65
+  ],
+  "selection": "No winner selected; both fixed arms reported",
+  "human_verified": false,
+  "purpose": "Repair candidate for the stationary-instrument role confusion, not downstream AD improvement proof",
+  "test_recordings_used": false,
+  "API_calls": 0,
+  "old_features_phase_heads_PCA_not_reused_as_if_new_detector_compatible": true,
+  "deployment_limitation": "R01 fixed camera only; ROI may suppress real anomalies outside the belt"
+}

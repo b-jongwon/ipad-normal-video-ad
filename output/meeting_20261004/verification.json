@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "completed_configurations": 44,
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "checks": [
+    "equal frame keys and cadence",
+    "normal recording split separation",
+    "normal-only VLM context",
+    "finite cached features and loss",
+    "5/10 epoch history and checkpoints",
+    "track-record alignment",
+    "macro AUROC consistency",
+    "API budget",
+    "no key prefix in shareable artifacts"
+  ],
+  "cache_records": [
+    {
+      "scene": "R01",
+      "encoder": "dino",
+      "records": 2893,
+      "record_digest": "f2c3b5fcd666e0c1fe51cde13852d131a0b4841c83e247c951663e29d35c464d"
+    },
+    {
+      "scene": "R01",
+      "encoder": "clip",
+      "records": 2893,
+      "record_digest": "f2c3b5fcd666e0c1fe51cde13852d131a0b4841c83e247c951663e29d35c464d"
+    },
+    {
+      "scene": "R01",
+      "encoder": "object_clip",
+      "records": 2893,
+      "record_digest": "f2c3b5fcd666e0c1fe51cde13852d131a0b4841c83e247c951663e29d35c464d"
+    },
+    {
+      "scene": "R02",
+      "encoder": "dino",
+      "records": 6378,
+      "record_digest": "3fa5b1548faf686e6f4cb55333ea124054769d0d4377ae1cbd1bad3bb9420966"
+    },
+    {
+      "scene": "R02",
+      "encoder": "clip",
+      "records": 6378,
+      "record_digest": "3fa5b1548faf686e6f4cb55333ea124054769d0d4377ae1cbd1bad3bb9420966"
+    },
+    {
+      "scene": "R02",
+      "encoder": "object_clip",
+      "records": 6378,
+      "record_digest": "3fa5b1548faf686e6f4cb55333ea124054769d0d4377ae1cbd1bad3bb9420966"
+    },
+    {
+      "scene": "R03",
+      "encoder": "dino",
+      "records": 6852,
+      "record_digest": "1edfb1cd1c3562f2a228f710841a24341177ec1d0a8016e331245bff63cdd0c2"
+    },
+    {
+      "scene": "R03",
+      "encoder": "clip",
+      "records": 6852,
+      "record_digest": "1edfb1cd1c3562f2a228f710841a24341177ec1d0a8016e331245bff63cdd0c2"
+    },
+    {
+      "scene": "R03",
+      "encoder": "object_clip",
+      "records": 6852,
+      "record_digest": "1edfb1cd1c3562f2a228f710841a24341177ec1d0a8016e331245bff63cdd0c2"
+    },
+    {
+      "scene": "R04",
+      "encoder": "dino",
+      "records": 4489,
+      "record_digest": "1f9d642abc0032a8ed8d7b24f6d497cc8bf9a61b3c8d06cf4622b35911515b6d"
+    },
+    {
+      "scene": "R04",
+      "encoder": "clip",
+      "records": 4489,
+      "record_digest": "1f9d642abc0032a8ed8d7b24f6d497cc8bf9a61b3c8d06cf4622b35911515b6d"
+    },
+    {
+      "scene": "R04",
+      "encoder": "object_clip",
+      "records": 4489,
+      "record_digest": "1f9d642abc0032a8ed8d7b24f6d497cc8bf9a61b3c8d06cf4622b35911515b6d"
+    }
+  ],
+  "api_estimate_usd": 0.0032704000000000006,
+  "fewshot_verified_cases": 40,
+  "note": "This audit checks protocol consistency, not production accuracy or independent generalization."
+}

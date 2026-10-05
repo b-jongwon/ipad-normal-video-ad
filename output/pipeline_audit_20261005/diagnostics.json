@@ -1,0 +1,293 @@
+[
+  {
+    "scene": "R01",
+    "split": "train",
+    "observations": 1564,
+    "unknown_fraction": 0.07544757033248081,
+    "routed_phase_counts": {
+      "-1": 118,
+      "0": 556,
+      "1": 240,
+      "2": 650
+    },
+    "argmax_phase_counts": [
+      608,
+      264,
+      692
+    ],
+    "process_positive_fraction": 0.13938618925831203,
+    "role_detection_coverage_NOT_recall": {
+      "connector block": 1.0,
+      "conveyor belt": 1.0
+    }
+  },
+  {
+    "scene": "R01",
+    "split": "val",
+    "observations": 402,
+    "unknown_fraction": 0.10199004975124377,
+    "routed_phase_counts": {
+      "-1": 41,
+      "0": 135,
+      "1": 64,
+      "2": 162
+    },
+    "argmax_phase_counts": [
+      149,
+      70,
+      183
+    ],
+    "process_positive_fraction": 0.20398009950248755,
+    "role_detection_coverage_NOT_recall": {
+      "connector block": 1.0,
+      "conveyor belt": 1.0
+    }
+  },
+  {
+    "scene": "R01",
+    "split": "test",
+    "observations": 927,
+    "unknown_fraction": 0.034519956850053934,
+    "routed_phase_counts": {
+      "-1": 32,
+      "0": 168,
+      "1": 515,
+      "2": 212
+    },
+    "argmax_phase_counts": [
+      181,
+      531,
+      215
+    ],
+    "process_positive_fraction": 0.22006472491909385,
+    "role_detection_coverage_NOT_recall": {
+      "connector block": 1.0,
+      "conveyor belt": 0.9935275080906149
+    }
+  },
+  {
+    "scene": "R02",
+    "split": "train",
+    "observations": 3562,
+    "unknown_fraction": 0.2175743964065132,
+    "routed_phase_counts": {
+      "-1": 775,
+      "0": 599,
+      "1": 207,
+      "2": 826,
+      "3": 864,
+      "4": 291
+    },
+    "argmax_phase_counts": [
+      689,
+      314,
+      1186,
+      1031,
+      342
+    ],
+    "process_positive_fraction": 0.008141493542953397,
+    "role_detection_coverage_NOT_recall": {
+      "multimeter": 0.9267265581134194,
+      "scissor lift platform": 0.9890510948905109
+    }
+  },
+  {
+    "scene": "R02",
+    "split": "val",
+    "observations": 886,
+    "unknown_fraction": 0.10045146726862303,
+    "routed_phase_counts": {
+      "-1": 89,
+      "0": 157,
+      "1": 52,
+      "2": 303,
+      "3": 211,
+      "4": 74
+    },
+    "argmax_phase_counts": [
+      168,
+      67,
+      335,
+      230,
+      86
+    ],
+    "process_positive_fraction": 0.011286681715575621,
+    "role_detection_coverage_NOT_recall": {
+      "multimeter": 0.9311512415349887,
+      "scissor lift platform": 0.9864559819413092
+    }
+  },
+  {
+    "scene": "R02",
+    "split": "test",
+    "observations": 1930,
+    "unknown_fraction": 0.29637305699481864,
+    "routed_phase_counts": {
+      "-1": 572,
+      "0": 290,
+      "1": 70,
+      "2": 342,
+      "3": 508,
+      "4": 148
+    },
+    "argmax_phase_counts": [
+      428,
+      122,
+      549,
+      656,
+      175
+    ],
+    "process_positive_fraction": 0.031606217616580314,
+    "role_detection_coverage_NOT_recall": {
+      "multimeter": 0.9373056994818653,
+      "scissor lift platform": 0.9979274611398964
+    }
+  },
+  {
+    "scene": "R03",
+    "split": "train",
+    "observations": 2968,
+    "unknown_fraction": 0.10983827493261455,
+    "routed_phase_counts": {
+      "-1": 326,
+      "0": 882,
+      "1": 490,
+      "2": 785,
+      "3": 485
+    },
+    "argmax_phase_counts": [
+      1066,
+      529,
+      844,
+      529
+    ],
+    "process_positive_fraction": 0.006738544474393531,
+    "role_detection_coverage_NOT_recall": {
+      "yellow forklift": 1.0,
+      "black pallet": 0.9194743935309974,
+      "white rolls": 0.9467654986522911
+    }
+  },
+  {
+    "scene": "R03",
+    "split": "val",
+    "observations": 877,
+    "unknown_fraction": 0.10034207525655645,
+    "routed_phase_counts": {
+      "-1": 88,
+      "0": 296,
+      "1": 133,
+      "2": 235,
+      "3": 125
+    },
+    "argmax_phase_counts": [
+      334,
+      150,
+      260,
+      133
+    ],
+    "process_positive_fraction": 0.005701254275940707,
+    "role_detection_coverage_NOT_recall": {
+      "yellow forklift": 1.0,
+      "black pallet": 0.9464082098061574,
+      "white rolls": 0.9327251995438997
+    }
+  },
+  {
+    "scene": "R03",
+    "split": "test",
+    "observations": 3007,
+    "unknown_fraction": 0.09710675091453276,
+    "routed_phase_counts": {
+      "-1": 292,
+      "0": 1103,
+      "1": 499,
+      "2": 760,
+      "3": 353
+    },
+    "argmax_phase_counts": [
+      1210,
+      565,
+      843,
+      389
+    ],
+    "process_positive_fraction": 0.02394413036248753,
+    "role_detection_coverage_NOT_recall": {
+      "yellow forklift": 1.0,
+      "black pallet": 0.967741935483871,
+      "white rolls": 0.9527768540073163
+    }
+  },
+  {
+    "scene": "R04",
+    "split": "train",
+    "observations": 1949,
+    "unknown_fraction": 0.17496151872755258,
+    "routed_phase_counts": {
+      "-1": 341,
+      "0": 253,
+      "1": 375,
+      "2": 973,
+      "3": 7
+    },
+    "argmax_phase_counts": [
+      266,
+      535,
+      1122,
+      26
+    ],
+    "process_positive_fraction": 0.00513083632632119,
+    "role_detection_coverage_NOT_recall": {
+      "metal blade": 0.6341713699332991,
+      "cardboard sheet": 0.8183683940482298
+    }
+  },
+  {
+    "scene": "R04",
+    "split": "val",
+    "observations": 493,
+    "unknown_fraction": 0.10141987829614604,
+    "routed_phase_counts": {
+      "-1": 50,
+      "0": 70,
+      "1": 94,
+      "2": 279,
+      "3": 0
+    },
+    "argmax_phase_counts": [
+      74,
+      109,
+      310,
+      0
+    ],
+    "process_positive_fraction": 0.02028397565922921,
+    "role_detection_coverage_NOT_recall": {
+      "metal blade": 0.5801217038539553,
+      "cardboard sheet": 0.8052738336713996
+    }
+  },
+  {
+    "scene": "R04",
+    "split": "test",
+    "observations": 2047,
+    "unknown_fraction": 0.1612115290669272,
+    "routed_phase_counts": {
+      "-1": 330,
+      "0": 309,
+      "1": 353,
+      "2": 1055,
+      "3": 0
+    },
+    "argmax_phase_counts": [
+      328,
+      490,
+      1229,
+      0
+    ],
+    "process_positive_fraction": 0.0073277967757694185,
+    "role_detection_coverage_NOT_recall": {
+      "metal blade": 0.6428920371275036,
+      "cardboard sheet": 0.8461162677088422
+    }
+  }
+]

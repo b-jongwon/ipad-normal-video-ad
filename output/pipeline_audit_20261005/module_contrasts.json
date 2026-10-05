@@ -1,0 +1,57 @@
+[
+  {
+    "candidate": "frame_only",
+    "baseline": "frame_global_no_phase",
+    "macro_delta_percentage_points": -4.9380694180443525,
+    "paired_recording_bootstrap_95_interval_pp": [
+      -7.912431720165326,
+      -1.6463721200406316
+    ],
+    "valid_bootstraps": 500,
+    "scope": "Retrospective, fixed four scenes/seed0; no multiple-testing correction or unseen-domain guarantee"
+  },
+  {
+    "candidate": "frame_object_joint",
+    "baseline": "object_global_no_phase",
+    "macro_delta_percentage_points": -3.267624161635385,
+    "paired_recording_bootstrap_95_interval_pp": [
+      -5.42164287753501,
+      -0.6600833423722838
+    ],
+    "valid_bootstraps": 500,
+    "scope": "Retrospective, fixed four scenes/seed0; no multiple-testing correction or unseen-domain guarantee"
+  },
+  {
+    "candidate": "object_global_no_phase",
+    "baseline": "frame_global_no_phase",
+    "macro_delta_percentage_points": 1.1027437368084287,
+    "paired_recording_bootstrap_95_interval_pp": [
+      -4.530744129592964,
+      5.962298131898771
+    ],
+    "valid_bootstraps": 500,
+    "scope": "Retrospective, fixed four scenes/seed0; no multiple-testing correction or unseen-domain guarantee"
+  },
+  {
+    "candidate": "visual_process",
+    "baseline": "visual_fusion",
+    "macro_delta_percentage_points": 0.03998963452789828,
+    "paired_recording_bootstrap_95_interval_pp": [
+      -0.24639441201436338,
+      0.3975548867846815
+    ],
+    "valid_bootstraps": 500,
+    "scope": "Retrospective, fixed four scenes/seed0; no multiple-testing correction or unseen-domain guarantee"
+  },
+  {
+    "candidate": "full_pipeline_10",
+    "baseline": "spatial_temporal_10",
+    "macro_delta_percentage_points": -0.22610166617934857,
+    "paired_recording_bootstrap_95_interval_pp": [
+      -0.7180613896567484,
+      0.15486633752074985
+    ],
+    "valid_bootstraps": 500,
+    "scope": "Retrospective, fixed four scenes/seed0; no multiple-testing correction or unseen-domain guarantee"
+  }
+]
