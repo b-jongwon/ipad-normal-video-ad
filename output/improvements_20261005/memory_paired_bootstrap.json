@@ -1,0 +1,68 @@
+[
+  {
+    "group": "real4",
+    "a": "prototype256",
+    "b": "reference_dino_global_pca",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.02370917732572637,
+      0.0343751207700446
+    ],
+    "warning": "Posthoc, conditional on fixed scenes/seed; no multiple-comparison correction"
+  },
+  {
+    "group": "real4",
+    "a": "prototype_neural_ema",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.01958694205191863,
+      0.007782003744580486
+    ],
+    "warning": "Posthoc, conditional on fixed scenes/seed; no multiple-comparison correction"
+  },
+  {
+    "group": "real4",
+    "a": "prototype_motion_ema",
+    "b": "prototype256",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.06635981194371789,
+      -0.021229346024449813
+    ],
+    "warning": "Posthoc, conditional on fixed scenes/seed; no multiple-comparison correction"
+  },
+  {
+    "group": "all16",
+    "a": "prototype256",
+    "b": "reference_dino_global_pca",
+    "valid_replicates": 482,
+    "auroc_difference_ci95": [
+      -0.02153854914151268,
+      0.03480191197420406
+    ],
+    "warning": "Posthoc, conditional on fixed scenes/seed; no multiple-comparison correction"
+  },
+  {
+    "group": "all16",
+    "a": "prototype_neural_ema",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 482,
+    "auroc_difference_ci95": [
+      -0.02906657238008622,
+      -0.015017293721325943
+    ],
+    "warning": "Posthoc, conditional on fixed scenes/seed; no multiple-comparison correction"
+  },
+  {
+    "group": "all16",
+    "a": "prototype_motion_ema",
+    "b": "prototype256",
+    "valid_replicates": 482,
+    "auroc_difference_ci95": [
+      -0.09721061501151075,
+      -0.06765558446178797
+    ],
+    "warning": "Posthoc, conditional on fixed scenes/seed; no multiple-comparison correction"
+  }
+]

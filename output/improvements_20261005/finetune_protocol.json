@@ -1,0 +1,27 @@
+{
+  "protocol": {
+    "scenes": [
+      "R01",
+      "R04"
+    ],
+    "seed": 0,
+    "max_epochs": 12,
+    "min_epochs": 3,
+    "patience": 3,
+    "relative_improvement": 0.002,
+    "lr": 5e-05,
+    "weight_decay": 0.0001,
+    "batch_size": 16,
+    "trainable": "DINOv2-small last encoder block and final layernorm",
+    "teacher": "cached frozen unaugmented normalized CLS; no teacher weights trained",
+    "augment": "brightness and contrast independently uniform[.9,1.1], no crop/flip/time reversal",
+    "normal_tune": "fixed brightness/contrast RNG20261005 per row, augmented teacher MSE",
+    "split": "same advanced recording-disjoint fit/tune/cal; test labels only after checkpoints and q99 frozen",
+    "scoring": "PCA99% residual on unaugmented adapted CLS; comparison to frozen CLS with identical normal split",
+    "test_status": "posthoc R01/R04 pilot, not 16-scene final model",
+    "risk": "Learning lighting invariance can suppress real color/appearance faults; keep frozen baseline",
+    "default_model_replaced": false
+  },
+  "digest": "2bf53931e3e86b623cb79823608fc046b94646ef1e70042c0fff8fd135896ce2",
+  "locked_utc": "2026-10-05T13:55:56.192247+00:00"
+}

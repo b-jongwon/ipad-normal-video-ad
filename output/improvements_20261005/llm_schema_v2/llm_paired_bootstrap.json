@@ -1,0 +1,24 @@
+[
+  {
+    "scene": "R01",
+    "a": "strong_phase_hard",
+    "b": "mini_phase_hard",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.041084607519697065,
+      0.12566461148985375
+    ],
+    "warning": "1 generated grammar/model, 1 scene, posthoc; not generation variance or multi-scene contribution proof"
+  },
+  {
+    "scene": "R01",
+    "a": "strong_phase_hard",
+    "b": "no_llm_global_pca",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.07919209097768358,
+      0.04119649681664927
+    ],
+    "warning": "1 generated grammar/model, 1 scene, posthoc; not generation variance or multi-scene contribution proof"
+  }
+]

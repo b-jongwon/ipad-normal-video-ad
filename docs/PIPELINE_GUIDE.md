@@ -2,6 +2,8 @@
 
 대상은 원 제안의 **`full_pipeline_v3`, R01~R04**다. 각 stage의 구현 완료와 그 의미/정확도 검증은 구분한다. 후속 `advanced_pipeline`은 이 구성을 그대로16개에 복제한 것이 아니라 별도 화면/객체 비교다.
 
+이 문서의 freeze/학습 미수행 설명은 v3 범위다. E07의 강한 LLM 비교·DINO 화면 일부 층 FT·live guard·신규 MP4 입력은 [후속 문서](IMPROVEMENT_FOLLOWUP.md)를 본다. CLIP 객체 encoder 자체 FT와 사람 phase/결함 GT는 E07에도 미수행이다.
+
 ## 전체 흐름
 
 ```text

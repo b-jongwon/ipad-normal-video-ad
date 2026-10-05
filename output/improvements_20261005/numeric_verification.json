@@ -1,0 +1,261 @@
+{
+  "models_checked": [
+    {
+      "kind": "memory",
+      "scene": "R01",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "d4c47c8736d1ec0569dd8f2dcc9b32af5ab72dbb4672142d077f48a80ffc0729"
+    },
+    {
+      "kind": "memory",
+      "scene": "R02",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "90d9b7f21fa7783d92ded1516b9d6effa7f4e8d1ba099216a30ea5337977e879"
+    },
+    {
+      "kind": "memory",
+      "scene": "R03",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "d2e8e4ca06a610506610c42f978ee560e375bd1787f4d7c57cab7a17a18e70ba"
+    },
+    {
+      "kind": "memory",
+      "scene": "R04",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "514669724ad8b684270db651c6f90bc8455784b7731bec085d6dad5bb81f3cbe"
+    },
+    {
+      "kind": "memory",
+      "scene": "S01",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "b691430abcfe6cf6eddddddb8564b70325b0286361ec179c497a7cdba299e14a"
+    },
+    {
+      "kind": "memory",
+      "scene": "S02",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "93284da03b6223946841c2d685b0f47ec1096e21762e42881c3305721627f52c"
+    },
+    {
+      "kind": "memory",
+      "scene": "S03",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "47b0597194ca78921aa69ab5407800b7cfed7278219cf5b10ae7bfba1b512eee"
+    },
+    {
+      "kind": "memory",
+      "scene": "S04",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "af41658aab8bcaeb3b16d136d02948ff7588972f68062535ccf80c34858e817a"
+    },
+    {
+      "kind": "memory",
+      "scene": "S05",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "d32c3e13bd6e32af2b3aa9a8b8555cda0cc01722ff5fc90c94b70fe7f4ab2222"
+    },
+    {
+      "kind": "memory",
+      "scene": "S06",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "f6616420d746fe5e6dcd5675444fc4259796d565a4debca3b3deae84d17c02eb"
+    },
+    {
+      "kind": "memory",
+      "scene": "S07",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "2d3f170b956774e819717960faebd264ea76bca75139fdaa6e4184c0708afdf8"
+    },
+    {
+      "kind": "memory",
+      "scene": "S08",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "46aaa9539e365718136d8f38c4e1ccd0c67ec13426bf742a1edaa868c60e8120"
+    },
+    {
+      "kind": "memory",
+      "scene": "S09",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "11d40c811365d2c09222ed708ed6aa3d7bf5fc0f2f1d969d9e3a38b44d25ef7d"
+    },
+    {
+      "kind": "memory",
+      "scene": "S10",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "396173e9e8bb85c56813235cf5ce905fa00827d0815aae768e680e908778ba92"
+    },
+    {
+      "kind": "memory",
+      "scene": "S11",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "9898c122eb165c9ad7ac7b7d6c94cd314c4e5cc48cf1bbe4db4d20aa428a8e75"
+    },
+    {
+      "kind": "memory",
+      "scene": "S12",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "9a19fbf72c3abaad261c7484a711d15d4bc5e251884280ada232c4bc4ac9ade0"
+    },
+    {
+      "kind": "covariance",
+      "scene": "R01",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "956f88ab2aeebd436f7baa48d5d474f621dede2a0c121267d73a995f58bd43e3"
+    },
+    {
+      "kind": "covariance",
+      "scene": "R02",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "5fb134cec3f3da668c9942680024efb21c9447c156d5129aa3b81eb25160fcee"
+    },
+    {
+      "kind": "covariance",
+      "scene": "R03",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "ee2ad36dd269c3422c93a16a039d3d3d2799071f62b10dc4f6aae442d6e0c730"
+    },
+    {
+      "kind": "covariance",
+      "scene": "R04",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "3ae050e80816b2b9e9f93c536fe23a5b24d4d5d8e407f60faf906523f648e071"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S01",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "9bde7d4d01ddbdaab33b9d8d52f10be6dfba35c9bd9884f3ba8ec9cbed99edbd"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S02",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "a7d2972d98f18eb01d8934a20131a5f14e12af1eb5fa350783ec680793553433"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S03",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "f80f84a475ac2a609425bba6cd39db40d75af6387187b3bb77190e2d9b2b83f1"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S04",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "a33bcc22b2f81b5f1fdaeb577e6c7f816b31c0cc1cec005b180f5e65039f5aee"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S05",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "67e8269a6a7832b030eb4e87006684e29fbb2d940aa5db1d9e3d95861cfb897c"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S06",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "1d5d6cba5c8f74e275e64857913a42f54220c9ec2175abc32c66e3fa45d08d79"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S07",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "3c8fe83ba7c5e392bb9d7abe71f1bbd7f62bf1bbf3c2915c72fdf5723d2d81b9"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S08",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "c5fa59fcb77f16dac70072d62b28e9ee34a920342439629f719ad442926ec111"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S09",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "7a938490d5db022751e68dc0d16ff56947ae498e05bcf242b8c9a31423914e07"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S10",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "86474e4ce415695c8f024d1fd9870ffdc66596f533a33458df544e932dc09358"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S11",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "6000108f666d390b48fb3212915292ab904962e7148361c76472786076893fd6"
+    },
+    {
+      "kind": "covariance",
+      "scene": "S12",
+      "scores_finite": true,
+      "normal_quantiles_match": true,
+      "recordings_disjoint": true,
+      "score_sha256": "f08fdfc474b5a8dc6b72d2528d515dcb658e77a4d968d7324431e581e21b93ba"
+    }
+  ],
+  "covariance_cpu_gpu_agree": true
+}

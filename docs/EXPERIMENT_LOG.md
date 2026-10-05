@@ -91,6 +91,12 @@ R4 고도화 지표를 본 후 배경의 영향을 줄이는 별도 실험을 �
 
 감사에는 새 neural training과 유료 API 호출이 없다. [감사 보고서](../output/pipeline_audit_20261005/검증결과_팀원설명.md), [최종 확인](../output/pipeline_audit_20261005/final_verification.json).
 
+## E07 — 강한 LLM/정상 메모리/부분 backbone FT 및 실행 경로 개선
+
+강한 GPT 실제 응답6개,accepted grammar4개로 phase MLP4개10ep 학습. R01 matched 비교에서 강한 모델은 mini보다 높은 AUROC지만 no-LLM global 아래이며 오경보가 크다. 16장면 prototype/covariance도 기존 Full EMA를 넘지 못했다. R01/R04 DINO 일부 parameter177.6만개를 실제 학습해 각각5/4epoch 실행,best2/1을 선택했지만 PCA AUROC는 하락했다. 기존 기본 모델을 교체하지 않았다.
+
+추가 구현은32개 저장 모델6,558관측 causal replay,161관측 live guard,normal MP4의 별도 적응/추론 smoke다. 사람 GT나 신규 공장 성능을 만들었다는 의미는 아니다. 후속 실험은 전부 이미 본 테스트에 대한 사후 개발 평가다. [E07 상세](IMPROVEMENT_FOLLOWUP.md), [저장 수치](../output/improvements_20261005/NUMERIC_RESULTS.md).
+
 ## 남은 핵심과 선택 기준
 
 | 과제 | 지금 상태 | 완료를 판단할 근거 |
@@ -98,8 +104,8 @@ R4 고도화 지표를 본 후 배경의 영향을 줄이는 별도 실험을 �
 | R01 객체 역할 교정 | 자동 교정2후보 실패 | 사람 role GT,정상/독립test 재추출·재학습·오탐 비교 |
 | phase 의미/배타성 | weak/AI 후보만 | 사람이 확정한 phase와 연속 구간 GT |
 | 공정 오류 종류별 검증 | oracle/인위 stress만 | 실제 skip/reverse/missing/stop 라벨과 recall |
-| LLM 도입 당위성 | matched no-LLM 대조 없음 | 같은 vocab/phase 수동·LLM 및 설정시간/실패율 |
-| 신규 공정 빠른 적응 | 기존 장면 few-shot만 | feature 추출·설정 포함 end-to-end 적응시간과 성능 |
+| LLM 도입 당위성 | R01 phase-only mini/strong/no-LLM 대조 추가,Full 효과 미확정 | 여러 장면·생성 seed·수동 설정·전체 객체 경로/설정시간 |
+| 신규 공정 빠른 적응 | normal MP4 별도 CLI와 작은 IPAD fixture smoke | 새 공정 feature 추출·설정 포함 end-to-end 적응시간과 성능 |
 | 독립 현장 일반화 | 미수행 | 새 실제 공정/카메라/조명에서 보류 평가 |
 | 상용 배포 | 미검증 | 라이선스,장시간오경보,FPS/지연,운영 안전성 |
 

@@ -1,0 +1,19 @@
+{
+  "normal_model": {
+    "model": "facebook/dinov2-small",
+    "revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "counts": {
+      "normal_fit_videos": 48,
+      "normal_calibration_videos": 48
+    },
+    "prototype_count": 48,
+    "normal_threshold": 0.019448142498731613,
+    "total_seconds_load_decode_extract_fit": 0.7366371999960393
+  },
+  "inference_observations": 24,
+  "finite_scores": true,
+  "recording_disjoint_fit_cal": true,
+  "fixture_container_fps": 25.0,
+  "original_ipad_fps": null,
+  "scope": "4 distinct IPAD normal recordings,24 prefix frames each re-encoded as fixture MP4; not new factory or performance benchmark"
+}

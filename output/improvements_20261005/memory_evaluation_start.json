@@ -1,0 +1,5 @@
+{
+  "all_models_and_normal_thresholds_frozen": true,
+  "independent_final_test": false,
+  "posthoc": true
+}

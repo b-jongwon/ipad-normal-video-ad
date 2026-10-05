@@ -1,0 +1,25 @@
+{
+  "scene": "R01",
+  "arm": "mini",
+  "requested_model": "gpt-4.1-mini-2025-04-14",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 4564,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1230,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5794
+  },
+  "estimated_cost_usd": 0.0037936000000000003,
+  "evidence_digest": "eae0cc9ade55d1e2b06a58993a9ef5b5acc3b3da90a28b41499bcf915b796073",
+  "prompt_digest": "4bd6d4e76f31953ba7f381d494ed8ba66e2576875b772051bef0cf6d2f1030a4",
+  "schema_digest": "5534c4252b377e5f17aaece50f043ddba92acec56ad21cc61c19c80e6a3b5a04",
+  "reservation_usd": 0.075,
+  "transport_recovery": false
+}

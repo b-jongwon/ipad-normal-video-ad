@@ -1,0 +1,25 @@
+{
+  "scene": "R04",
+  "arm": "strong",
+  "requested_model": "gpt-5.4-2026-03-05",
+  "returned_model": "gpt-5.4-2026-03-05",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3495,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1230,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4725
+  },
+  "estimated_cost_usd": 0.0271875,
+  "evidence_digest": "e53142e1e753674fa19950935b4b6d4d6f9de39b5377e04d8490515444d49b65",
+  "prompt_digest": "330b7a8b9e152c2f31cfa977c584021c76b708b82bbc2a7baee9a290b9626f99",
+  "schema_digest": "5e40c8d5f964bea278113911f298a96c4f45929b156d6053aa09ca9374ca186f",
+  "reservation_usd": 0.3,
+  "transport_recovery": true
+}

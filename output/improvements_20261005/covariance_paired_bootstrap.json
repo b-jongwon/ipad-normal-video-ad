@@ -1,0 +1,68 @@
+[
+  {
+    "group": "real4",
+    "a": "mahalanobis",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.05424905057491771,
+      -0.010563083789847673
+    ],
+    "warning": "Posthoc fixed scenes/seed, no multiplicity adjustment, not independent final evidence"
+  },
+  {
+    "group": "real4",
+    "a": "mixture_mahalanobis",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.11840032126740957,
+      -0.030364338905359937
+    ],
+    "warning": "Posthoc fixed scenes/seed, no multiplicity adjustment, not independent final evidence"
+  },
+  {
+    "group": "real4",
+    "a": "covariance_neural_ema",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 500,
+    "auroc_difference_ci95": [
+      -0.013395263798393169,
+      0.005288824986693942
+    ],
+    "warning": "Posthoc fixed scenes/seed, no multiplicity adjustment, not independent final evidence"
+  },
+  {
+    "group": "all16",
+    "a": "mahalanobis",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 482,
+    "auroc_difference_ci95": [
+      -0.09804959625397028,
+      -0.058048811940889705
+    ],
+    "warning": "Posthoc fixed scenes/seed, no multiplicity adjustment, not independent final evidence"
+  },
+  {
+    "group": "all16",
+    "a": "mixture_mahalanobis",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 482,
+    "auroc_difference_ci95": [
+      -0.046742153550268783,
+      0.0016392992548970664
+    ],
+    "warning": "Posthoc fixed scenes/seed, no multiplicity adjustment, not independent final evidence"
+  },
+  {
+    "group": "all16",
+    "a": "covariance_neural_ema",
+    "b": "reference_dino_full_ema",
+    "valid_replicates": 482,
+    "auroc_difference_ci95": [
+      -0.027575339441404036,
+      -0.012071021912771254
+    ],
+    "warning": "Posthoc fixed scenes/seed, no multiplicity adjustment, not independent final evidence"
+  }
+]

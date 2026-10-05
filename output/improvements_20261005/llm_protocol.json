@@ -1,0 +1,36 @@
+{
+  "protocol": {
+    "scenes": [
+      "R01",
+      "R04"
+    ],
+    "models": {
+      "mini": {
+        "name": "gpt-4.1-mini-2025-04-14",
+        "input": 0.4,
+        "output": 1.6,
+        "reservation": 0.2
+      },
+      "strong": {
+        "name": "gpt-5.4-2026-03-05",
+        "input": 2.5,
+        "output": 15.0,
+        "reservation": 0.6
+      }
+    },
+    "prompt_sha256": "330b7a8b9e152c2f31cfa977c584021c76b708b82bbc2a7baee9a290b9626f99",
+    "evidence": "same original 3 normal training recordings x12 keyframes x360px; same schema",
+    "reasoning_strong": "none (fixed cost/output budget; not strongest reasoning configuration)",
+    "max_output_tokens": 5000,
+    "human_verified": false,
+    "manual_or_SPECS_overwrite": false,
+    "phase_training": "normal-only weak nearest-keyframe labels, CLIP frame Projector64, MLP10epochs seed0",
+    "scoring": "global PCA99, hard phase residual, soft probability-weighted residual; unknown falls back global",
+    "calibration": "old recording-disjoint normal validation q99 and margin q10; matches both model arms",
+    "scope": "Phase-only routing comparison, not full noun/tracking/GRU comparison",
+    "test_status": "R01/R04 previously inspected; posthoc pilot, 1 generation/model/scene",
+    "paid_failure_policy": "retain reservation, do not retry automatically, continue local work"
+  },
+  "digest": "70d06e68ff60c073bd6724d825a7ea501566799b8106ad7f67d1ebcca564700c",
+  "locked_utc": "2026-10-05T13:53:05.906459+00:00"
+}

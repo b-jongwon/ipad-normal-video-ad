@@ -1,0 +1,36 @@
+{
+  "protocol": {
+    "version": 1,
+    "scenes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12"
+    ],
+    "seed": 0,
+    "split": "same advanced normal fit/tune/cal",
+    "hypothesis": "CLS prototypes under-cover continuous normal variation; regularized covariance is a bounded follow-up",
+    "global": "LedoitWolf normal-fit covariance, squared Mahalanobis",
+    "mixture": "four prior normal visual states, LedoitWolf per state minimum residual; >=30 samples else global",
+    "fusion": "covariance_neural=.5 global+.3 existing DAE+.2 existing GRU; EMA.4",
+    "all_thresholds": "normal cal q95/97.5/99/99.5/99.9; expose tradeoffs, no test-based default selection",
+    "test_status": "Posthoc fixed-scene development; no unseen-factory claim",
+    "normal_fit_only": true,
+    "human_semantic_labels": false,
+    "default_replaced": false
+  },
+  "digest": "e4eb970531c05e7c0fbd3e7bbaa76b2cb7b44dc9515890b43915b9e1a7e388a7",
+  "locked_utc": "2026-10-05T13:59:11.033528+00:00"
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "objects": [
+      "conveyor belt",
+      "electrical connector",
+      "red electrical connector",
+      "green electrical connector"
+    ],
+    "phases": [
+      {
+        "id": 0,
+        "name": "no connector on conveyor belt",
+        "visual_description": "The conveyor belt is empty with no electrical connector on its green surface. Some tools are visible near the conveyor belt but no connector is present on the conveyor surface.",
+        "expected_objects": [
+          "conveyor belt"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "connector arrives on conveyor belt",
+        "visual_description": "An electrical connector, either red or green depending on the clip, appears on the conveyor belt near the left side. The connector is upright and stationary or beginning to move right.",
+        "expected_objects": [
+          "conveyor belt",
+          "electrical connector"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "connector moves along conveyor belt",
+        "visual_description": "The electrical connector is visibly traveling right on the conveyor belt. The red or green connector is clearly on the belt surface moving farther right from the left side.",
+        "expected_objects": [
+          "conveyor belt",
+          "electrical connector"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "connector nearing right conveyor end",
+        "visual_description": "The connector has traveled closer to the right end of the conveyor belt but remains upright and on the belt. The conveyor surface and connector are visible with no attachments or changes.",
+        "expected_objects": [
+          "conveyor belt",
+          "electrical connector"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "connector at right conveyor end",
+        "visual_description": "The electrical connector reaches the far right end of the conveyor belt. The connector may be close to the fixer clamp (metal clamp device) at the belt end but remains on the belt surface.",
+        "expected_objects": [
+          "conveyor belt",
+          "electrical connector"
+        ]
+      }
+    ],
+    "observable_order": true,
+    "required_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "uncertainties": [
+      "The exact cause or mechanism moving the connector along the conveyor is not visible, so it is unclear if it is automated or manual.",
+      "No grasp, lift, or release actions are visually evident in any frames; the connector appears to continuously move on the belt without visible intervention."
+    ],
+    "confident_evidence_count": 36,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "model": "gpt-5.4-2026-03-05",
+    "objects": [
+      "green conveyor belt",
+      "black rectangular component",
+      "green-faced component",
+      "red-faced component"
+    ],
+    "phases": [
+      {
+        "id": 0,
+        "name": "empty belt",
+        "visual_description": "The green conveyor belt is visible with no carried component on the belt surface.",
+        "expected_objects": [
+          "green conveyor belt"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "component entering from left",
+        "visual_description": "A small upright black rectangular component is partly on the left side of the green conveyor belt, just entering the frame. Its colored face may be visible on the side facing the camera.",
+        "expected_objects": [
+          "green conveyor belt",
+          "black rectangular component"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "component on belt middle",
+        "visual_description": "A small upright black rectangular component is clearly on the belt around the left-middle or center area, standing and moving across the green conveyor belt.",
+        "expected_objects": [
+          "green conveyor belt",
+          "black rectangular component"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "component near right edge",
+        "visual_description": "The upright black rectangular component is on the right side of the green conveyor belt, close to leaving the frame.",
+        "expected_objects": [
+          "green conveyor belt",
+          "black rectangular component"
+        ]
+      }
+    ],
+    "observable_order": true,
+    "required_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "uncertainties": [
+      "The exact moment of first contact with the belt and final exit is not shown continuously, so entry/exit phase boundaries are approximate.",
+      "Two color variants of the carried component are visible across clips; they appear to participate in the same conveyor process.",
+      "The object orientation changes slightly while traveling, but the images do not justify a separate phase for rotation alone."
+    ],
+    "confident_evidence_count": 36,
+    "human_verified": false
+  }
+]

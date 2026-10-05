@@ -155,3 +155,7 @@ advanced 기본값 `--limit100`은 짧은 확인용이다. 전체 동영상 처�
 검증됨: 기존 로컬 환경의 정상 학습,model/scoreSHA,disjointsplit,normalq99,선택epoch,finite,첫test 순차replay,짧은 원본ZIP/MP4,기능 테스트.
 
 미검증: 새PCfreshclone 전체학습,완전bitwise재현,CPU/Linux,전체testraw재처리,장시간production,humanphase/object/pixelGT,신규공장zero-shot,상업재배포허가.
+
+## 12. 최신 E07 재현 범위
+
+E07의 새 코드/명령과 필요한 기존 cache는 [후속 실험 문서](IMPROVEMENT_FOLLOWUP.md)에 정리했다. 기존 모델을 덮어쓰지 않는다. 새 normal MP4 manifest 적응 CLI는 기존 IPAD clip ID가 필요 없는 별도 frame-memory 경로이며,Full13단계 적응과 다르다. 새 API key와 개인 env 파일은 공개하지 않는다. 유료 실행의 누적 예산은 유지해야 한다.

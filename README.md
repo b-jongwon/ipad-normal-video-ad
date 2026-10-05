@@ -6,6 +6,8 @@
 
 > **현재 상태:** 연구용 구현·정상-only 학습·구성별 평가·저장 모델 추론 검증을 완료했다. 산업 현장 검증이나 모든 공정에 적용되는 상용 모델을 완성한 것은 아니다. AUROC는 분류 정확도가 아니며 복잡한 Full pipeline이 가장 좋았다고 주장하지 않는다.
 
+> **최신 E07 후속:** 강한 GPT 실제 비교,16장면 prototype/공분산,2장면 DINO 일부 층 추가 학습,임계치 절충,live guard 및 신규 normal MP4 적응 경로를 구현·검증했다. 새 후보가 기존 화면 복합 모델을 전반적으로 넘지 못해 기본 모델은 보존했다. [상세 결과와 실패](docs/IMPROVEMENT_FOLLOWUP.md).
+
 > **공개 전환:** 사용자가 비공개에서 공개로 전환한 저장소다. 이번 업데이트에는 코드·설명·수치 결과·데이터 이미지가 없는 성능 그래프만 새로 포함한다. 이전 커밋/기존 Release의 시연 이미지·영상·모델 파일은 보존되어 있다. 이를 데이터/가중치 재배포 허가의 증거로 해석하면 안 된다. [공개 범위](docs/REPRODUCIBILITY.md)를 확인한다.
 
 ## 1. 결과부터 보기
@@ -31,6 +33,8 @@
 | 객체/phase 감사 | 정상48표본 프레임 | AI 시각 참고 검토, 사람 정답 아님 |
 | 규칙 계약 검사 | 99개 oracle 사례 | phase 기호를 직접 넣은 기능 검사 |
 | 원본 영상 스트레스 | 16입력, 1,880관측 | 정상/역순/80·140반복을 detector부터 재실행 |
+| E07 후속 개선 | memory16+covariance16,phase MLP4+DINO부분FT2 | 정상-only,사후 평가. 새 architecture32개라는 뜻 아님 |
+| E07 저장 추론/운영 | 32model replay6,558관측,live guard161관측,normal MP4 smoke | cached score 재현과 작은 fixture 확인,현장 장시간 시험 아님 |
 
 232는 **고도화에서 학습한 작은 head 수**다. GPT/DINO/CLIP을232번 처음부터 학습했다는 뜻도, 초기 파일럿을 합산한 전 프로젝트 총 학습 수라는 뜻도 아니다. 628은 평가 표의 행 수이며628개 새 구조가 아니다.
 
@@ -65,6 +69,7 @@ FPR/recall은 **지속 경고 기준**이다. 이전 v3의 프레임 FPR와 섞�
 | [평가 지표 사전](docs/METRICS.md) | AUROC/AP,frame/alarm,event/video,bootstrap와 단위 |
 | [재현·공개 범위](docs/REPRODUCIBILITY.md) | 설치,학습 명령,필수 별도 자료,제외한 파일 |
 | [출처·revision](docs/SOURCES.md) | 데이터/논문/모듈/팀 참고 코드 attribution |
+| [최신 개선 E07](docs/IMPROVEMENT_FOLLOWUP.md) | 강한 LLM·prototype·공분산·실제 backbone FT·판단불가·새 MP4 입력 |
 
 실행 당시 보고서: [초기 비교](output/meeting_20261004/회의용_비교결과.md), [기존v3](output/full_pipeline_20261004/완성결과_읽어주세요.md), [16장면 고도화](output/advanced_20261005/결과보고서.md), [최근 감사](output/pipeline_audit_20261005/검증결과_팀원설명.md). 날짜가 다른 보고서는 해당 실행의 스냅샷이며 현재 전체 범위는 이 README를 기준으로 본다.
 
@@ -125,10 +130,10 @@ split seed20261005, neural seed0/1/2다. 모든 seed에 같은 영상 분할을 
 
 | 구성 | 실제 사용 | 직접 가중치를 학습했나 |
 |---|---|---|
-| GPT-4.1-mini | 초기 정상 객체·단계·전환 후보 생성 | 아니오 |
+| GPT-4.1-mini / E07 GPT-5.4 | 정상 객체·단계·전환 후보 생성,후속 모델 비교 | 아니오 |
 | GroundingDINO tiny | vocabulary 기반 객체 검출 | 아니오,동결 |
 | CLIP ViT-B/16 | 화면/crop 시각 특징 | 아니오,동결 |
-| DINOv2 ViT-S/14 | CLS384 및 별도 중간층 patch | 아니오,동결 |
+| DINOv2 ViT-S/14 | CLS384 및 별도 중간층 patch | 기존 실행은 동결. E07 R01/R04에서 마지막 block+layernorm 추가 학습 비교 |
 | Phase MLP | 정상 keyframe 약한 단계 라벨 → 단계 분류 | 예,v3에서10ep |
 | PCA | 정상 평균·주성분·직교 잔차 | 통계적 fitting,epoch 없음 |
 | KMeans/전이 | 정상 시각 상태·전이 빈도 | 통계적 fitting,공정 의미 정답 아님 |
@@ -141,26 +146,30 @@ split seed20261005, neural seed0/1/2다. 모든 seed에 같은 영상 분할을 
 
 DINO-only 고도화 화면 경로는 LLM을 사용하지 않는다. 객체 경로는 과거 LLM이 만든 vocabulary와 CLIP image encoder를 재사용하므로 외부 API 호출이 없다는 이유로 전체를 VLM-free라고 부르지 않는다. 고도화/최근 감사의 **추가 유료 API 호출0회**다. 기존v3까지 누적 토큰 기반 API 비용 추정은 약$0.0176였고 승인 한도$4/보수적 예약액$1.20과 구분된다. 실제 청구는 계정 내역이 기준이다.
 
+이후 **E07에는 별도 GPT 응답6개**를 실제 받았다(accepted grammar4/validation failed2). 현재 누적 비용 추정약$0.1073,보수적 누적 예약$3.875/$4다. 새 key/새 model을 썼다고 예산을 초기화하지 않았다. DINO부분FT는 R01/R04의 작은 탐색 모델이며 기존 Full/16장면 모델의 가중치를 덮어쓰지 않았다.
+
 ## 5. 멘토 제안1~13단계는 어디까지 했나
 
-| 단계 | 기존 v3 실제 수행 | 아직 입증하지 못한 것 |
-|---|---|---|
-| 1 정상 영상 | 녹화 단위 분할,순서 보존 | 새 현장 정상성 자동 정의 |
-| 2 VLM/LLM | 정상3영상 ×12keyframe 후보 grammar | 사람 공정 정답/LLM 자체 기여 |
-| 3 detection/tracking | GDINO + 클래스별 ByteTrack | 객체 역할/ID 정확도 |
-| 4 object encoder | CLIP full512+crop512+geometry6 | backbone fine-tuning |
-| 5 process consistency | skip/reverse/missing/dwell | 실제 공정 오류 정답 recall |
-| 6 phase subspace | 단계/객체별 PCA + global fallback | 단계 조건의 안정적 이득 |
-| 7 test video | ZIP 연속 이미지 및MP4 | 임의 공정 zero-shot |
-| 8 sampling | 원본4프레임마다1관측 | 모든 짧은 이상 포착 |
-| 9 detection/tracking | 고정 vocabulary,매 관측 검출 | 현장 장시간 안정성 |
-| 10 crops/trajectory | 개별 bbox/class/ID/geometry | 불량 bbox 정답 |
-| 11 encoder/state | CLIP + weak phase MLP | 매 프레임 generative LLM 설명 |
-| 12 visual score | PCA/AE 잔차,DINO patch | pixel-AUROC/IoU |
-| 13 process score | 규칙/GRU 별도 및결합 평가 | 규칙의 사람 확정 |
-| localization | bbox/patch heatmap 후보 | 정확한 결함 위치 증명 |
+| 단계 | 기존 v3 실제 수행 | E07에서 추가한 검증/기능 | 아직 입증하지 못한 것 |
+|---|---|---|---|
+| 1 정상 영상 | 녹화 단위 분할,순서 보존 | 신규 normal MP4 manifest fit/cal 실행 smoke | 새 현장 정상성 자동 정의 |
+| 2 VLM/LLM | 정상3영상 ×12keyframe 후보 grammar | R01 mini/strong matched phase-only 비교,고정 SPECS overwrite 없음 | 사람 정답/여러 장면 Full LLM 자체 기여 |
+| 3 detection/tracking | GDINO + 클래스별 ByteTrack | 새 vocabulary 정상 keyframe bbox 진단 | 객체 역할/ID 정확도 |
+| 4 object encoder | CLIP full512+crop512+geometry6 | DINO 화면 backbone 일부 층 실제 FT2장면,점수 하락 | CLIP 객체 backbone FT와 효과 |
+| 5 process consistency | skip/reverse/missing/dwell | live guard로 uncertain/미검증 판단 상태 분리 | 실제 공정 오류 정답 recall |
+| 6 phase subspace | 단계/객체별 PCA + global fallback | hard/soft routing 비교,normal mixture covariance 비교 | 단계 조건의 안정적 이득 |
+| 7 test video | ZIP 연속 이미지 및MP4 | 기존 clip ID 없는 normal MP4 fit/infer CLI | 임의 공정 zero-shot/새 현장 성능 |
+| 8 sampling | 원본4프레임마다1관측 | sampling/threshold 단위를 보존한 추가 평가 | 모든 짧은 이상 포착 |
+| 9 detection/tracking | 고정 vocabulary,매 관측 검출 | sparse 정상 진단·직렬화 causal replay | 현장 장시간 안정성 |
+| 10 crops/trajectory | 개별 bbox/class/ID/geometry | 기존 결과 보존,새 noun bbox metadata | 불량 bbox 정답 |
+| 11 encoder/state | CLIP + weak phase MLP | 새 grammar phase MLP4개10ep 학습 | 매 프레임 generative LLM 설명/사람 phase 정확도 |
+| 12 visual score | PCA/AE 잔차,DINO patch | 16장면 prototype/공분산·normal 임계치1280profile | pixel-AUROC/IoU |
+| 13 process score | 규칙/GRU 별도 및결합 평가 | 기존 점수를 유지하는 opt-in runtime guard | 규칙의 사람 확정 |
+| localization | bbox/patch heatmap 후보 | 사람 정답 없음을 유지,정확도 수치 생성 안 함 | 정확한 결함 위치 증명 |
 
 **13단계 전체 연결 범위는 R01~R04다.** 이후16장면에서는 DINO 화면+AE/GRU/시각 상태 경로를 전체에 적용했고 R4 객체 특징을 재사용했다. S12에 LLM+GDINO+semantic phase 전체를 새로 돌리지 않았다. [상세 단계별 입력/출력/코드](docs/PIPELINE_GUIDE.md).
+
+E07도 S12 Full object/LLM 파이프라인을 새로 완성한 것이 아니다. 새 공정 adaptation CLI는 frame appearance memory 경로이며 Full13단계 적응과 구분한다. [새 비교의 조건과 아직 남은 문제](docs/IMPROVEMENT_FOLLOWUP.md).
 
 ## 6. 초기/v3: Full보다 단순 구성이 좋았다
 
@@ -372,6 +381,7 @@ local_experiments/
   full_pipeline/                      원 제안 R4 개별객체/phase/rule
   advanced_pipeline/                  정상3분할/early stopping/16장면/crop
   pipeline_audit/                     지각/규칙 진단,raw stress,교정 실패
+  improvement_pipeline/               E07 메모리/공분산/부분FT/LLM 비교/guard/MP4 적응
   tests/                              데이터/전처리 회귀 검사
 docs/                                 단계/방법/지표/연대기/재현/전체 표
 output/
@@ -381,24 +391,25 @@ output/
     exploratory_crop_roi/             추가48지표/24head검증
     standalone/                       실제 입력 속도 summary만 새 공개
   pipeline_audit_20261005/             48참고프레임/99계약/16raw 요약
+  improvements_20261005/               E07 수치/loss/재현/임계치/유료요청 결과
 ```
 
 `cache/`,`runs/`,원본 ZIP,API 키,`.venv`는 새 Git 업로드에 없다. hash는 **로컬 실행 무결성 기록**이지 해당 모델/점수가 모두 GitHub에 있다는 뜻은 아니다. [공개 복사 manifest](docs/PUBLICATION_MANIFEST.json), [이번 업로드의 테스트·수치·파일 확인 기록](docs/PUBLICATION_CHECKS.md).
 
 ## 15. 지금 주장할 수 있는 것과 남은 것
 
-주장 가능한 것: 정상-only 학습 수행,동결 표현+PCA/AE/GRU 비교,16장면 화면 경로의 효과/trade-off 평가,객체/phase 실패 전파 발견,인과적 저장모델 추론/무결성 검사.
+주장 가능한 것: 정상-only 학습 수행,동결 표현+PCA/AE/GRU 비교,16장면 화면 경로의 효과/trade-off 평가,객체/phase 실패 전파 발견,인과적 저장모델 추론/무결성 검사. E07에서는 CLS prototype/공분산/강한 LLM의 좁은 비교,DINO 일부 층 실제 추가 학습과 그 하락,새 normal MP4 적응 경로도 확인했다.
 
 아직 주장할 수 없는 것:
 
 - 모든 신규 공장 무학습 범용성/빠른 적응 보장.
-- backbone fine-tuning/자체 foundation model.
+- CLIP 객체 backbone fine-tuning의 효과/자체 foundation model. DINO 화면의 일부 층 FT 실행은 E07에서 완료했지만 이득은 입증되지 않았다.
 - LLM의 detection 개선/설정 비용 절감 실측.
 - human phase accuracy,객체 역할mAP/ID,pixel 불량 위치 성능.
 - 실제 skip/reverse/stop/missing 종류별 recall.
 - 공식 전체IPAD SOTA/팀원 대비 공정한 우월성.
 - 상용 라이선스,장시간 현장오경보/초 단위지연/멀티카메라 검증.
 
-다음 우선순위는 ①정상 객체·phase 사람 검수와 R01 역할 교정 ②동일split/support의 DINO prototype/PCA/AE/GRU 대조 ③temporal/tracking 한 요소씩 효과·비용 ④별도 실제 공정 평가다. Prototype memory는 팀원이 제안한 다음 비교 후보이며 **이번 자체 완료 결과가 아니다.**
+다음 우선순위는 ①정상 객체·phase 사람 검수와 R01 역할 교정 ②patch/고해상도/다른 backbone 표현의 동일조건 대조 ③temporal/tracking 한 요소씩 효과·비용 ④별도 실제 공정 평가다. E07의 **DINO-S/14 CLS prototype memory는 자체 실행 완료**했으나 팀원/공식IPAD/patch-memory 구현의 동일조건 재현은 아니다. 더 큰 LLM이나 더 많은 epoch가 자동으로 최선은 아니었다.
 
 기존 모듈을 이어붙였다는 사실만으로 novelty를 주장하지 않는다. 의미는 정상-only 문제 설정,동일조건 비교,효과/실패 분석,인과적 구현·평가 근거를 기록하는 데 있다. 데이터/모듈 권리는 각 출처에 있으며 별도 상업 이용/재배포 허가는 확보하지 않았다.

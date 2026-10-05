@@ -1,0 +1,8 @@
+{
+  "models": {
+    "R01": "646176b4f347873bf37397d1cf954099023edda457ebffd31d6ddead4219605f",
+    "R04": "116b9ffeda3d5c9f6d199dea8d3e075f6ee03813540ba6c1cc8386055ad6022a"
+  },
+  "posthoc": true,
+  "all_heads_and_thresholds_frozen": true
+}

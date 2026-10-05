@@ -1,0 +1,1306 @@
+[
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "01",
+    "ordinal": 0,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          42.51802062988281,
+          255.99542236328125,
+          225.16957092285156
+        ],
+        "confidence": 0.38183000683784485,
+        "geometry": [
+          1.0,
+          0.4999910593032837,
+          0.5228273272514343,
+          0.9999821186065674,
+          0.7134826183319092,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.59107971191406,
+          200.170166015625,
+          218.85206604003906,
+          255.94122314453125
+        ],
+        "confidence": 0.6483608484268188,
+        "geometry": [
+          1.0,
+          0.7352405190467834,
+          0.8908425569534302,
+          0.23930072784423828,
+          0.21785569190979004,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 5,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "01",
+    "ordinal": 56,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          41.84032440185547,
+          255.99688720703125,
+          224.00625610351562
+        ],
+        "confidence": 0.3732280135154724,
+        "geometry": [
+          1.0,
+          0.4999939203262329,
+          0.5192316174507141,
+          0.9999878406524658,
+          0.7115856409072876,
+          5.108969602929392e-08,
+          -6.420910358428955e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.7338409423828,
+          200.24627685546875,
+          218.7263641357422,
+          255.94415283203125
+        ],
+        "confidence": 0.675320565700531,
+        "geometry": [
+          1.0,
+          0.7352738380432129,
+          0.8909969329833984,
+          0.23825204372406006,
+          0.21756982803344727,
+          5.949820547357376e-07,
+          2.7567148208618164e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 5,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "01",
+    "ordinal": 112,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          44.54402160644531,
+          255.9833984375,
+          223.38160705566406
+        ],
+        "confidence": 0.3679741322994232,
+        "geometry": [
+          1.0,
+          0.4999675750732422,
+          0.5232922434806824,
+          0.9999351501464844,
+          0.6985843181610107,
+          -4.7045094220266037e-07,
+          7.251118222484365e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.71560668945312,
+          200.1597900390625,
+          218.76058959960938,
+          255.94635009765625
+        ],
+        "confidence": 0.6746825575828552,
+        "geometry": [
+          1.0,
+          0.7353050708770752,
+          0.8908323049545288,
+          0.23845696449279785,
+          0.21791625022888184,
+          5.577291517511185e-07,
+          -2.939786327260663e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 4,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "01",
+    "ordinal": 168,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          41.74089813232422,
+          255.98980712890625,
+          223.96090698242188
+        ],
+        "confidence": 0.3694727420806885,
+        "geometry": [
+          1.0,
+          0.499980092048645,
+          0.5189488530158997,
+          0.99996018409729,
+          0.7117968797683716,
+          2.2351741790771484e-07,
+          -7.756054401397705e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.67889404296875,
+          200.1226043701172,
+          218.800537109375,
+          255.93641662597656
+        ],
+        "confidence": 0.6633608341217041,
+        "geometry": [
+          1.0,
+          0.7353113889694214,
+          0.8907402753829956,
+          0.23875641822814941,
+          0.21802270412445068,
+          1.1282308065574398e-07,
+          -1.643385189709079e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 3,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "17",
+    "ordinal": 0,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.489593505859375,
+          255.97177124023438,
+          223.42007446289062
+        ],
+        "confidence": 0.3534007966518402,
+        "geometry": [
+          1.0,
+          0.49994486570358276,
+          0.5154485702514648,
+          0.9998897314071655,
+          0.7145721912384033,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.69981384277344,
+          200.00010681152344,
+          218.97779846191406,
+          255.93336486816406
+        ],
+        "confidence": 0.6709835529327393,
+        "geometry": [
+          1.0,
+          0.7356984615325928,
+          0.8904950618743896,
+          0.23936712741851807,
+          0.21848928928375244,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 5,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "17",
+    "ordinal": 63,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          42.13959503173828,
+          255.9737548828125,
+          223.22854614257812
+        ],
+        "confidence": 0.3788754940032959,
+        "geometry": [
+          1.0,
+          0.49994874000549316,
+          0.5182971358299255,
+          0.9998974800109863,
+          0.7073787450790405,
+          6.149685560785656e-08,
+          4.521532537182793e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.72576904296875,
+          200.17677307128906,
+          218.87274169921875,
+          255.9286346435547
+        ],
+        "confidence": 0.6473129391670227,
+        "geometry": [
+          1.0,
+          0.735543966293335,
+          0.8908308744430542,
+          0.23885536193847656,
+          0.2177807092666626,
+          -2.4523053525626892e-06,
+          5.330358362698462e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 5,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "17",
+    "ordinal": 148,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          41.31000518798828,
+          255.96083068847656,
+          223.09310913085938
+        ],
+        "confidence": 0.33018407225608826,
+        "geometry": [
+          1.0,
+          0.4999234974384308,
+          0.5164123177528381,
+          0.9998469948768616,
+          0.7100902795791626,
+          -2.969713648326433e-07,
+          -2.2174330297275446e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.64483642578125,
+          200.17820739746094,
+          218.8447265625,
+          255.93931579589844
+        ],
+        "confidence": 0.6411032676696777,
+        "geometry": [
+          1.0,
+          0.7353311777114868,
+          0.89085453748703,
+          0.23906207084655762,
+          0.21781682968139648,
+          -2.5033950805664062e-06,
+          2.783887396162754e-07
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 4,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "17",
+    "ordinal": 211,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.05656433105469,
+          255.98330688476562,
+          223.70228576660156
+        ],
+        "confidence": 0.3621504008769989,
+        "geometry": [
+          1.0,
+          0.49996739625930786,
+          0.5151540040969849,
+          0.9999347925186157,
+          0.717366099357605,
+          6.968066941226425e-07,
+          -1.9973233065684326e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.7288360595703,
+          200.21722412109375,
+          218.96839904785156,
+          255.932861328125
+        ],
+        "confidence": 0.6789168119430542,
+        "geometry": [
+          1.0,
+          0.7357367873191833,
+          0.8909181356430054,
+          0.23921704292297363,
+          0.21763920783996582,
+          6.438247964979382e-06,
+          1.0094945537275635e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 3,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "33",
+    "ordinal": 20,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          46.45466613769531,
+          255.9878387451172,
+          225.10655212402344
+        ],
+        "confidence": 0.4338233470916748,
+        "geometry": [
+          1.0,
+          0.499976247549057,
+          0.5303930044174194,
+          0.999952495098114,
+          0.6978589296340942,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          156.88986206054688,
+          203.2410125732422,
+          217.938232421875,
+          255.9029998779297
+        ],
+        "confidence": 0.5920600891113281,
+        "geometry": [
+          1.0,
+          0.7320861220359802,
+          0.8967656493186951,
+          0.238470196723938,
+          0.20571088790893555,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 4000001,
+        "class_id": 3,
+        "class": "green electrical connector",
+        "bbox": [
+          0.020349502563476562,
+          82.66759490966797,
+          24.25832176208496,
+          133.18905639648438
+        ],
+        "confidence": 0.49485325813293457,
+        "geometry": [
+          1.0,
+          0.04741927981376648,
+          0.42159503698349,
+          0.0946795791387558,
+          0.1973494589328766,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 7,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "33",
+    "ordinal": 82,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          44.69031524658203,
+          255.99549865722656,
+          225.4718017578125
+        ],
+        "confidence": 0.39117658138275146,
+        "geometry": [
+          1.0,
+          0.49999120831489563,
+          0.5276603698730469,
+          0.9999824166297913,
+          0.7061777114868164,
+          2.4130267206601275e-07,
+          -4.4074749894207343e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          157.28475952148438,
+          203.02806091308594,
+          218.28826904296875,
+          255.9105987548828
+        ],
+        "confidence": 0.5935003757476807,
+        "geometry": [
+          1.0,
+          0.7335410714149475,
+          0.8963645696640015,
+          0.23829495906829834,
+          0.20657241344451904,
+          2.3466925995307975e-05,
+          -6.469026629929431e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 6,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "33",
+    "ordinal": 145,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          43.934181213378906,
+          255.99525451660156,
+          224.81051635742188
+        ],
+        "confidence": 0.35099831223487854,
+        "geometry": [
+          1.0,
+          0.4999907314777374,
+          0.5248919725418091,
+          0.9999814629554749,
+          0.7065482139587402,
+          -7.568844218042159e-09,
+          -4.3942814954789355e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          156.7688751220703,
+          202.70687866210938,
+          217.8439178466797,
+          255.90863037109375
+        ],
+        "confidence": 0.6333381533622742,
+        "geometry": [
+          1.0,
+          0.7316656112670898,
+          0.8957334160804749,
+          0.23857438564300537,
+          0.20781934261322021,
+          -2.9769209504593164e-05,
+          -1.0018310604209546e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 4,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "clip": "33",
+    "ordinal": 228,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "conveyor belt",
+        "bbox": [
+          0.0,
+          40.939125061035156,
+          255.96978759765625,
+          222.19699096679688
+        ],
+        "confidence": 0.3442215919494629,
+        "geometry": [
+          1.0,
+          0.49994099140167236,
+          0.5139377117156982,
+          0.9998819828033447,
+          0.7080385684967041,
+          -5.99278052959562e-07,
+          -0.00013197904627304524
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "red electrical connector",
+        "bbox": [
+          156.58799743652344,
+          199.6683807373047,
+          217.4019012451172,
+          255.92625427246094
+        ],
+        "confidence": 0.6654683351516724,
+        "geometry": [
+          1.0,
+          0.7304490208625793,
+          0.8898332715034485,
+          0.23755431175231934,
+          0.2197573184967041,
+          -1.4657715837529395e-05,
+          -7.108607678674161e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 3,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "01",
+    "ordinal": 0,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "green conveyor belt",
+        "bbox": [
+          0.0309906005859375,
+          39.75084686279297,
+          256.0,
+          254.43295288085938
+        ],
+        "confidence": 0.4068675637245178,
+        "geometry": [
+          1.0,
+          0.5000605583190918,
+          0.5745777487754822,
+          0.9998789429664612,
+          0.8386019468307495,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.11236572265625,
+          200.0510711669922,
+          219.09255981445312,
+          255.9584197998047
+        ],
+        "confidence": 0.5529479384422302,
+        "geometry": [
+          1.0,
+          0.7347752451896667,
+          0.8906435370445251,
+          0.24211013317108154,
+          0.21838808059692383,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 6,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "01",
+    "ordinal": 56,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "green conveyor belt",
+        "bbox": [
+          0.0194091796875,
+          39.36750030517578,
+          256.0,
+          254.45050048828125
+        ],
+        "confidence": 0.38210201263427734,
+        "geometry": [
+          1.0,
+          0.5000379085540771,
+          0.5738632678985596,
+          0.9999241828918457,
+          0.8401679992675781,
+          -4.044600814268051e-07,
+          -1.2758587217831519e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.3252716064453,
+          200.21710205078125,
+          218.9712371826172,
+          255.94921875
+        ],
+        "confidence": 0.5729017853736877,
+        "geometry": [
+          1.0,
+          0.7349541187286377,
+          0.8909498453140259,
+          0.2408045530319214,
+          0.21770358085632324,
+          3.1941704037308227e-06,
+          5.469790721690515e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 8,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "01",
+    "ordinal": 112,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "green conveyor belt",
+        "bbox": [
+          0.0207366943359375,
+          40.22869110107422,
+          256.0,
+          254.63909912109375
+        ],
+        "confidence": 0.34284868836402893,
+        "geometry": [
+          1.0,
+          0.5000405311584473,
+          0.575913667678833,
+          0.9999189972877502,
+          0.8375406265258789,
+          4.6832219879888726e-08,
+          3.661428127088584e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.2567138671875,
+          200.1395721435547,
+          219.02163696289062,
+          255.9634246826172
+        ],
+        "confidence": 0.5744070410728455,
+        "geometry": [
+          1.0,
+          0.7349186539649963,
+          0.8908261656761169,
+          0.24126923084259033,
+          0.2180619239807129,
+          -6.332993507385254e-07,
+          -2.2085648652137024e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 5,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "01",
+    "ordinal": 168,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "green conveyor belt",
+        "bbox": [
+          0.0105743408203125,
+          39.81964874267578,
+          256.0,
+          254.41461181640625
+        ],
+        "confidence": 0.3678494393825531,
+        "geometry": [
+          1.0,
+          0.5000206232070923,
+          0.5746762752532959,
+          0.9999586939811707,
+          0.838261604309082,
+          -3.5549913945942535e-07,
+          -2.2096293832873926e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.23516845703125,
+          200.08810424804688,
+          219.0751953125,
+          255.96090698242188
+        ],
+        "confidence": 0.5653295516967773,
+        "geometry": [
+          1.0,
+          0.7349811792373657,
+          0.8907207250595093,
+          0.2415626049041748,
+          0.21825313568115234,
+          1.1165227533638244e-06,
+          -1.8828681049853913e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 5,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "17",
+    "ordinal": 0,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.27102661132812,
+          199.9971923828125,
+          219.21871948242188,
+          255.943115234375
+        ],
+        "confidence": 0.5499027371406555,
+        "geometry": [
+          1.0,
+          0.7353315353393555,
+          0.8905084133148193,
+          0.24198317527770996,
+          0.21853876113891602,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 7,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "17",
+    "ordinal": 63,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.30767822265625,
+          200.1663818359375,
+          219.04537963867188,
+          255.94100952148438
+        ],
+        "confidence": 0.5705589652061462,
+        "geometry": [
+          1.0,
+          0.7350645661354065,
+          0.8908347487449646,
+          0.24116289615631104,
+          0.21786963939666748,
+          -4.23760639023385e-06,
+          5.179927484277869e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 8,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "17",
+    "ordinal": 148,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "green conveyor belt",
+        "bbox": [
+          0.01788330078125,
+          39.65742492675781,
+          256.0,
+          254.4187469482422
+        ],
+        "confidence": 0.3432655334472656,
+        "geometry": [
+          1.0,
+          0.5000349283218384,
+          0.5743675231933594,
+          0.9999301433563232,
+          0.8389114141464233,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.2217254638672,
+          200.13369750976562,
+          219.02586364746094,
+          255.95562744140625
+        ],
+        "confidence": 0.5573678612709045,
+        "geometry": [
+          1.0,
+          0.7348585724830627,
+          0.8907994627952576,
+          0.24142241477966309,
+          0.2180544137954712,
+          -2.4234548163803993e-06,
+          -4.1512882376082416e-07
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 8,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "17",
+    "ordinal": 211,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 1000001,
+        "class_id": 0,
+        "class": "green conveyor belt",
+        "bbox": [
+          0.0166168212890625,
+          39.19293975830078,
+          256.0,
+          254.43756103515625
+        ],
+        "confidence": 0.37133345007896423,
+        "geometry": [
+          1.0,
+          0.5000324249267578,
+          0.5734970569610596,
+          0.9999350905418396,
+          0.8407993316650391,
+          -3.973643103449831e-08,
+          -1.3816924365528394e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          157.3421173095703,
+          200.19302368164062,
+          219.19871520996094,
+          255.95608520507812
+        ],
+        "confidence": 0.5857880711555481,
+        "geometry": [
+          1.0,
+          0.7354313135147095,
+          0.8909162282943726,
+          0.24162733554840088,
+          0.21782445907592773,
+          9.091127139981836e-06,
+          1.8534205992182251e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 5,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "33",
+    "ordinal": 20,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          156.31895446777344,
+          203.1510009765625,
+          218.3450469970703,
+          255.92239379882812
+        ],
+        "confidence": 0.5346660614013672,
+        "geometry": [
+          1.0,
+          0.731765627861023,
+          0.8966277241706848,
+          0.24228942394256592,
+          0.2061382532119751,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      },
+      {
+        "id": 3000002,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          0.040146827697753906,
+          82.72257232666016,
+          24.575180053710938,
+          133.11412048339844
+        ],
+        "confidence": 0.3746272921562195,
+        "geometry": [
+          1.0,
+          0.0480768084526062,
+          0.4215560555458069,
+          0.0958399772644043,
+          0.1968419849872589,
+          0.0,
+          0.0
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 9,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "33",
+    "ordinal": 82,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          156.7941436767578,
+          202.90296936035156,
+          218.6252899169922,
+          255.92124938964844
+        ],
+        "confidence": 0.5240352153778076,
+        "geometry": [
+          1.0,
+          0.733241081237793,
+          0.8961410522460938,
+          0.24152791500091553,
+          0.20710265636444092,
+          2.3797634639777243e-05,
+          -7.849546818761155e-06
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 7,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "33",
+    "ordinal": 145,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          156.34878540039062,
+          202.55870056152344,
+          218.09878540039062,
+          255.92588806152344
+        ],
+        "confidence": 0.5416492223739624,
+        "geometry": [
+          1.0,
+          0.7313429117202759,
+          0.8954777121543884,
+          0.2412109375,
+          0.208465576171875,
+          -3.012967499671504e-05,
+          -1.0529207429499365e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 7,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  },
+  {
+    "scene": "R01",
+    "arm": "strong",
+    "clip": "33",
+    "ordinal": 228,
+    "width": 256,
+    "height": 256,
+    "objects": [
+      {
+        "id": 3000001,
+        "class_id": 2,
+        "class": "green-faced component",
+        "bbox": [
+          156.19033813476562,
+          199.62435913085938,
+          217.70590209960938,
+          255.93109130859375
+        ],
+        "confidence": 0.5410091280937195,
+        "geometry": [
+          1.0,
+          0.7302660942077637,
+          0.8897567391395569,
+          0.2402951717376709,
+          0.2199481725692749,
+          -1.2973704542673659e-05,
+          -6.892738747410476e-05
+        ],
+        "source": "GroundingDINO+ByteTrack"
+      }
+    ],
+    "raw_detection_count": 7,
+    "warning": "Normal sparse-keyframe boxes, not detection/ID accuracy or full trajectory evaluation",
+    "human_reference": null,
+    "human_verified": false
+  }
+]

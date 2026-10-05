@@ -1,0 +1,62 @@
+{
+  "scene": "R04",
+  "protocol_digest": "2bf53931e3e86b623cb79823608fc046b94646ef1e70042c0fff8fd135896ce2",
+  "records_digest": "1f9d642abc0032a8ed8d7b24f6d497cc8bf9a61b3c8d06cf4622b35911515b6d",
+  "splits": {
+    "fit_clips": [
+      "03",
+      "04",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "13",
+      "14",
+      "15",
+      "17",
+      "18",
+      "19",
+      "21",
+      "22",
+      "23"
+    ],
+    "tune_clips": [
+      "01",
+      "02",
+      "16",
+      "24"
+    ],
+    "calibration_clips": [
+      "05",
+      "11",
+      "12",
+      "20",
+      "25"
+    ],
+    "counts": {
+      "fit": 1582,
+      "tune": 367,
+      "cal": 493,
+      "test": 2047
+    }
+  },
+  "best_epoch": 1,
+  "epochs_ran": 4,
+  "best_normal_tune_loss": 2.5272568809445847e-06,
+  "trainable_parameter_count": 1776000,
+  "changed_parameter_l2": 0.15136157296353203,
+  "thresholds": {
+    "frozen_pca": 0.0069501325488090515,
+    "finetuned_pca": 0.006842116359621286
+  },
+  "pca_ranks": {
+    "frozen_pca": 179,
+    "finetuned_pca": 176
+  },
+  "backbone": "facebook/dinov2-small",
+  "revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+  "total_seconds_train_reextract_fit": 33.59916910000902,
+  "peak_gpu_allocated_gib": 0.27323436737060547,
+  "test_labels_used_for_fit": false
+}

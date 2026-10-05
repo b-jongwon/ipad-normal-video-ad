@@ -1,0 +1,25 @@
+[
+  {
+    "scene": "R01",
+    "observations": 58,
+    "score_max_absolute_difference": 0.0016326904296875,
+    "scores_preserved": true,
+    "normal_certifications": 0,
+    "statuses": {
+      "anomaly_candidate": 58
+    },
+    "scope": "old v3 first test recording <=120 cached-feature observations; no raw detector rerun"
+  },
+  {
+    "scene": "R04",
+    "observations": 103,
+    "score_max_absolute_difference": 0.001129150390625,
+    "scores_preserved": true,
+    "normal_certifications": 0,
+    "statuses": {
+      "no_full_pipeline_alarm_process_unverified": 100,
+      "anomaly_candidate": 3
+    },
+    "scope": "old v3 first test recording <=120 cached-feature observations; no raw detector rerun"
+  }
+]

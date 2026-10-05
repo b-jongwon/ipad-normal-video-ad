@@ -1,0 +1,8 @@
+{
+  "models": {
+    "R01/mini": "5c1ea05d5278df4ea0f6804de649a6714fad879c0d160c248796220e4b3f3105",
+    "R04/strong": "caa61cc91560e718421cd40186130522c9f3325fa5f501c4d3550741d5573945"
+  },
+  "no_new_test_metrics_until_all_available_heads_fitted": true,
+  "posthoc": true
+}

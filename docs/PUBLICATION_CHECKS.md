@@ -30,3 +30,15 @@
 이 감사는 자격증명/금지파일의 일반 패턴·범위 검사이지 모든 종류 secret를 수학적으로 증명한 보안감사가 아니다. 기존 비공개 시절 이미지/시연/Release를 자동 삭제하지 않았고, 별도 공개 재배포 조건 확인이 필요하다.
 
 공개 상태 및 원격 커밋/README blob도 push 후 별도로 확인한다. 커밋SHA는 자기참조 문서에 고정하지 않고 Git 이력과 원격 확인 receipt에 기록한다.
+## E07 후속 공개 확인
+
+2026-10-05 후속은 [추가 manifest](IMPROVEMENT_PUBLICATION_MANIFEST.json)에 allowlist와 SHA를 기록했다. source/numeric artifact78개와 수동 narrative 변경이며 새 raw/fixture 영상,weights,feature 배열,API key는 없다.
+
+- 신규 기능 테스트10개 통과.
+- memory/covariance32개 모델 finite/정상분할/normal quantile 확인.
+- 6,558관측 직렬화 replay: relative+absolute tolerance 통과,경고값 모두 동일. 완전 bitwise 동일 아님.
+- v3 live guard161관측: 이전 score 보존 tolerance 통과,normal certification0개.
+- R01/R04 일부 DINO backbone 가중치 실제 변경 확인,best 정상 tune checkpoint.
+- normal MP496관측 fit/cal +24관측 infer smoke. 실제 새 공장 holdout 아님.
+- 공개 전체 Python73파일 syntax/JSON/Markdown link/기존 수치와 신규allowlist 검사 통과. secret 검출0개.
+- 이전 모델보다 좋지 않았던 결과와 형식 검증에 실패한 유료 응답도 문서화. 기본 model 교체 없음.

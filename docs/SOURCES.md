@@ -36,3 +36,9 @@
 - VERA/LAVAD/LogicAD/LogicQA 등은 프로젝트 논의의 배경 자료입니다. 본 실행에 해당 논문의 전체 공식 파이프라인을 재현한 결과가 있다는 뜻은 아닙니다.
 - 원 IPAD 프레임워크의 완전 재현, SubspaceAD 원 논문의 DINO-G/해상도/증강/평가 전체 재현 또는 최신 SOTA 비교를 수행했다고 주장하지 않습니다.
 - 공개 상태가 모듈/데이터/가중치의 상업 라이선스를 자동 부여하지 않습니다. 웹사이트 라이선스와 데이터 이용 조건을 구분합니다.
+## E07 후속 출처
+
+- [GPT-5.4 공식 모델/가격](https://developers.openai.com/api/docs/models/gpt-5.4), [GPT-4.1-mini](https://developers.openai.com/api/docs/models/gpt-4.1-mini), [이미지 입력](https://developers.openai.com/api/docs/guides/images-vision)을 실제 조회 후 snapshot/가격을 기록했다. 모델 선택은 품질·예산의 제한된 비교이며 최고 tier 전체 탐색은 아니다.
+- [PatchCore 논문](https://arxiv.org/abs/2106.08265)의 nominal feature memory 아이디어를 참고했지만 이번 구현은 CLS KMeans prototype이다. patch coreset/원 checkpoint/원 평가를 재현했다고 주장하지 않는다.
+- [DINOv2 논문](https://arxiv.org/abs/2304.07193): 사전학습 visual representation 출처. E07 일부 층 normal augmentation-to-teacher 실험은 별도 downstream adaptation이며 DINO pretraining 재현 아님.
+- [scikit-learn LedoitWolf](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.LedoitWolf.html): shrinkage covariance 모듈 출처. 설치 버전은 기존 환경1.6.1이며 현재 stable 문서 버전과 다를 수 있다.

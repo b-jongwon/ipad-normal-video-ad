@@ -1,0 +1,37 @@
+{
+  "protocol": {
+    "scenes": [
+      "R01"
+    ],
+    "models": {
+      "mini": {
+        "name": "gpt-4.1-mini-2025-04-14",
+        "input": 0.4,
+        "output": 1.6,
+        "reservation": 0.075
+      },
+      "strong": {
+        "name": "gpt-5.4-2026-03-05",
+        "input": 2.5,
+        "output": 15.0,
+        "reservation": 0.2
+      }
+    },
+    "prompt_sha256": "4bd6d4e76f31953ba7f381d494ed8ba66e2576875b772051bef0cf6d2f1030a4",
+    "evidence": "same original 3 normal training recordings x12 keyframes x360px; same schema",
+    "reasoning_strong": "none (fixed cost/output budget; not strongest reasoning configuration)",
+    "max_output_tokens": 5000,
+    "human_verified": false,
+    "manual_or_SPECS_overwrite": false,
+    "phase_training": "normal-only weak nearest-keyframe labels, CLIP frame Projector64, MLP10epochs seed0",
+    "scoring": "global PCA99, hard phase residual, soft probability-weighted residual; unknown falls back global",
+    "calibration": "old recording-disjoint normal validation q99 and margin q10; matches both model arms",
+    "scope": "new R01 paired schema-constrained pilot; not a silent retry of v1",
+    "test_status": "R01/R04 previously inspected; posthoc pilot, 1 generation/model/scene",
+    "paid_failure_policy": "retain reservation, do not retry automatically, continue local work",
+    "version": 2,
+    "schema_digest": "5534c4252b377e5f17aaece50f043ddba92acec56ad21cc61c19c80e6a3b5a04"
+  },
+  "digest": "04ea42c204ceedbe2703baafed47c3d4ac318f6a5416202a0f8df1def5df96e9",
+  "locked_utc": "2026-10-05T13:57:23.093071+00:00"
+}

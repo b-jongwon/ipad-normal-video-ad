@@ -1,0 +1,26 @@
+[
+  {
+    "epoch": 1,
+    "normal_train_augmented_mse": 7.317946093670409e-06,
+    "normal_tune_augmented_mse": 2.5272568809445847e-06,
+    "relative_improvement": true
+  },
+  {
+    "epoch": 2,
+    "normal_train_augmented_mse": 2.6876921698817655e-06,
+    "normal_tune_augmented_mse": 2.8985079300976617e-06,
+    "relative_improvement": false
+  },
+  {
+    "epoch": 3,
+    "normal_train_augmented_mse": 2.813654589245731e-06,
+    "normal_tune_augmented_mse": 2.900546487506523e-06,
+    "relative_improvement": false
+  },
+  {
+    "epoch": 4,
+    "normal_train_augmented_mse": 2.9144790504965094e-06,
+    "normal_tune_augmented_mse": 2.864596143875651e-06,
+    "relative_improvement": false
+  }
+]

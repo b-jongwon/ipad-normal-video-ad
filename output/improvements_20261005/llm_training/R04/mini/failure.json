@@ -1,0 +1,6 @@
+{
+  "scene": "R04",
+  "arm": "mini",
+  "error": "Response/schema validation failed",
+  "automatic_retry": false
+}

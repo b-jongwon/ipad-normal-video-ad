@@ -1,0 +1,112 @@
+[
+  {
+    "scene": "R01",
+    "arm": "mini",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "objects": [
+      "red electronic component",
+      "green electronic component",
+      "conveyor belt"
+    ],
+    "phases": [
+      {
+        "id": 0,
+        "name": "No component on conveyor belt",
+        "visual_description": "The conveyor belt is visible without any electronic component on it; tools and wiring seen nearby but belt area is empty.",
+        "expected_objects": [
+          "conveyor belt"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Red component present on conveyor belt",
+        "visual_description": "A red electronic component is resting or moving on the conveyor belt, no other components on belt.",
+        "expected_objects": [
+          "red electronic component",
+          "conveyor belt"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Green component present on conveyor belt",
+        "visual_description": "A green electronic component is resting or moving on the conveyor belt, no other components on belt.",
+        "expected_objects": [
+          "green electronic component",
+          "conveyor belt"
+        ]
+      }
+    ],
+    "observable_order": true,
+    "required_order": [
+      0,
+      1
+    ],
+    "uncertainties": [
+      "Exact motion mechanism of components is not visible, only positional changes are seen."
+    ],
+    "confident_evidence_count": 36,
+    "human_verified": false
+  },
+  {
+    "scene": "R04",
+    "arm": "strong",
+    "model": "gpt-5.4-2026-03-05",
+    "objects": [
+      "cardboard strip",
+      "cardboard piece",
+      "metal blade arm",
+      "red gripper"
+    ],
+    "phases": [
+      {
+        "id": 0,
+        "name": "empty cutter area",
+        "visual_description": "The metal blade arm and the lower metal channel are visible with no cardboard strip crossing the cutting area and no fresh cardboard piece under the blade.",
+        "expected_objects": [
+          "metal blade arm"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "strip positioned at cutter",
+        "visual_description": "A long cardboard strip extends across or into the cutting area near the blade hinge, while the blade arm is raised or partly raised. No separated falling piece is visible yet.",
+        "expected_objects": [
+          "cardboard strip",
+          "metal blade arm"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "blade crossing strip",
+        "visual_description": "The metal blade arm is swung down across the cardboard strip at the cutting area. The strip is still present at the blade, and the cut is actively being made or just being completed.",
+        "expected_objects": [
+          "cardboard strip",
+          "metal blade arm"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "separated piece below blade",
+        "visual_description": "A short cardboard piece is visible below/in front of the cutting area after separation, often lying on or leaning against earlier pieces, while another cardboard strip segment may still remain near the blade or be held above by the red gripper.",
+        "expected_objects": [
+          "cardboard piece",
+          "metal blade arm"
+        ]
+      }
+    ],
+    "observable_order": true,
+    "required_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "uncertainties": [
+      "The exact actuator sequence is only partly visible; the red gripper appears in some frames but is not consistently visible across all phases.",
+      "Some frames show both a newly positioned strip and previously cut pieces at once, so the boundary between 'positioned' and 'post-cut' is conservative.",
+      "The precise instant of separation is not always visible in the sampled images, so some labels around the cut moment are lower confidence."
+    ],
+    "confident_evidence_count": 34,
+    "human_verified": false
+  }
+]

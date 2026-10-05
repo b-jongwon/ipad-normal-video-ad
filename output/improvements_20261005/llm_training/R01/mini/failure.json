@@ -1,0 +1,6 @@
+{
+  "scene": "R01",
+  "arm": "mini",
+  "error": "connection/timeout",
+  "automatic_retry": false
+}

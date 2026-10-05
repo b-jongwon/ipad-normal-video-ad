@@ -1,0 +1,6 @@
+{
+  "scene": "R04",
+  "arm": "strong",
+  "error": "connection/timeout",
+  "automatic_retry": false
+}

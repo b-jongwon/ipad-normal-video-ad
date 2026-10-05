@@ -1,0 +1,322 @@
+[
+  {
+    "scene": "R01",
+    "kind": "memory",
+    "observations": 109,
+    "max_absolute_score_error": 4.025262917028982e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "R02",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 3.503427926118685e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "R03",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 2.2270572967358904e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "R04",
+    "kind": "memory",
+    "observations": 213,
+    "max_absolute_score_error": 3.532979957443505e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S01",
+    "kind": "memory",
+    "observations": 65,
+    "max_absolute_score_error": 5.3537459741903604e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S02",
+    "kind": "memory",
+    "observations": 126,
+    "max_absolute_score_error": 1.1385042557710001e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S03",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 1.7265223897666715e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S04",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 1.7305021588198688e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S05",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 0.0002329648018351005,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S06",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 4.228654868859705e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S07",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 2.539806434187497e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S08",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 1.7862113469518937e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S09",
+    "kind": "memory",
+    "observations": 126,
+    "max_absolute_score_error": 1.1394000931586046e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S10",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 6.653350848984108e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S11",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 1.972630142432763e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S12",
+    "kind": "memory",
+    "observations": 240,
+    "max_absolute_score_error": 2.6554383969756845e-05,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "R01",
+    "kind": "covariance",
+    "observations": 109,
+    "max_absolute_score_error": 0.00146484375,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "R02",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.00439453125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "R03",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.00146484375,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "R04",
+    "kind": "covariance",
+    "observations": 213,
+    "max_absolute_score_error": 0.0009765625,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S01",
+    "kind": "covariance",
+    "observations": 65,
+    "max_absolute_score_error": 0.00146484375,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S02",
+    "kind": "covariance",
+    "observations": 126,
+    "max_absolute_score_error": 0.001953125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S03",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.0018310546875,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S04",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.0078125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S05",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.002716064453125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S06",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.0028076171875,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S07",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.0048828125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S08",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.00439453125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S09",
+    "kind": "covariance",
+    "observations": 126,
+    "max_absolute_score_error": 0.001953125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S10",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.005615234375,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S11",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.00250244140625,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  },
+  {
+    "scene": "S12",
+    "kind": "covariance",
+    "observations": 240,
+    "max_absolute_score_error": 0.0040283203125,
+    "atol": 0.002,
+    "rtol": 0.0005,
+    "alarm_identical": true,
+    "scope": "first cal + first test recordings <=120 each; cached features"
+  }
+]

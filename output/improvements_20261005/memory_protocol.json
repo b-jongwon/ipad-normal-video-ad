@@ -1,0 +1,48 @@
+{
+  "protocol": {
+    "version": 1,
+    "scenes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12"
+    ],
+    "seed": 0,
+    "stride": 4,
+    "data_split": "same recording-disjoint normal fit/tune/cal as advanced_20261005",
+    "cls_prototype_counts": [
+      64,
+      256
+    ],
+    "delta_prototype_count": 128,
+    "delta": "current minus previous CLS, recording reset; startup falls back to visual score",
+    "metric": "unit-normalized CLS cosine distance; unnormalized delta Euclidean squared distance",
+    "clustering": "MiniBatchKMeans random_state0 n_init3 batch1024 max_iter100 reassignment_ratio0",
+    "fusion": "memory_motion=.7 visual+.3 motion; memory_neural=.5 visual+.3 frozen DAE+.2 frozen GRU",
+    "calibration": "normal calibration robust scale; quantiles [.95,.975,.99,.995,.999]",
+    "ema_alpha": 0.4,
+    "fewshot": "first3 normal fit recordings; tune/cal additional recordings",
+    "primary_candidate": "prototype_neural_ema; fixed before new metrics, NOT deployment selection",
+    "test_selection": false,
+    "test_status": "all16 already inspected in older work; post-hoc development",
+    "limitations": [
+      "CLS prototypes are not patch memory or new pretrained representation.",
+      "No unseen-factory or real object/localization ground truth.",
+      "Fewer false alarms alone is not improvement if recall collapses."
+    ]
+  },
+  "digest": "e84c2c58a9b672425de27d7eff50ddf44b5eb6a0b81f9d55385793b44f454277",
+  "locked_utc": "2026-10-05T13:50:33.222334+00:00"
+}

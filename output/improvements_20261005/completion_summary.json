@@ -1,0 +1,42 @@
+{
+  "normal_memory_scene_models": 16,
+  "normal_covariance_scene_models": 16,
+  "memory_metric_rows": 160,
+  "covariance_metric_rows": 96,
+  "threshold_profile_rows": 1280,
+  "new_phase_mlp_heads": 4,
+  "new_partially_finetuned_backbones": 2,
+  "finetune_epochs_ran": [
+    5,
+    4
+  ],
+  "finetune_best_epochs": [
+    2,
+    1
+  ],
+  "default_model_replaced": false,
+  "human_ground_truth_created": false,
+  "roundtrip_models": 32,
+  "api_cumulative_ledger": {
+    "limit_usd": 4.0,
+    "reserved_usd": 3.8750000000000004,
+    "measured_estimate_usd": 0.1073417,
+    "attempts": 19,
+    "successful_calls": 14,
+    "followup_model_prices_usd_per_million": {
+      "gpt-4.1-mini-2025-04-14": {
+        "input": 0.4,
+        "output": 1.6
+      },
+      "gpt-5.4-2026-03-05": {
+        "input": 2.5,
+        "output": 15.0
+      }
+    },
+    "followup_pricing_source": "https://developers.openai.com/api/docs/models/gpt-5.4",
+    "pricing_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "price_as_checked": "0.40 USD input / 1.60 USD output per 1M tokens",
+    "note": "Price estimate; actual account invoice is authoritative. Failed-call reservations retained."
+  },
+  "public_policy": "code, narrative, numeric metadata and scientific plots only; no keys/data/weights"
+}

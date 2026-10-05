@@ -1,0 +1,32 @@
+{
+  "scene": "R01",
+  "arm": "mini",
+  "input": "frozen CLIP frame only",
+  "records_digest": "f2c3b5fcd666e0c1fe51cde13852d131a0b4841c83e247c951663e29d35c464d",
+  "grammar_digest": "facdd7410163347c0156ce5aac82b2f4117cf48917868bb303ec7c35c80a72fa",
+  "phase_count": 5,
+  "phase_fit_counts": {
+    "0": 7,
+    "1": 88,
+    "2": 279,
+    "3": 260,
+    "4": 520
+  },
+  "phase_pca_ranks": {
+    "1": 65,
+    "2": 137,
+    "3": 138,
+    "4": 177
+  },
+  "phase_cutoff": 0.02,
+  "normal_cal_unknown_fraction": 0.31840796019900497,
+  "thresholds": {
+    "global_pca": 0.0012818978866562247,
+    "phase_hard": 0.0035498789511621,
+    "phase_soft": 0.0027091442607343197
+  },
+  "epochs": 10,
+  "human_phase_accuracy": null,
+  "test_labels_used_for_fit": false,
+  "frame_object_encoder_reextracted": false
+}

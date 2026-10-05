@@ -1,0 +1,6 @@
+{
+  "scene": "R01",
+  "arm": "strong",
+  "error": "Response/schema validation failed",
+  "automatic_retry": false
+}
