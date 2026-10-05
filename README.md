@@ -305,7 +305,6 @@ R01은 정상 prefix에도 순서 오류 이유가 발생했다. R02/R03은 선�
 
 ## 11. 팀원과 숫자가 다른 이유
 
-[팀원vLLM 저장소](https://github.com/PigeonLabs/KNU_Capstone1_VAD_vLLM)는 읽기 전용 참고였다. 비교 commit `ab0a72e466cbd602425fb571183163cd34e29a5c`. 팀 코드/실험을 우리의 실행이나 독창적 구현으로 표시하지 않는다.
 
 초기 experiment01과 v3는 R01단일 vs R4평균, CLIP-B/32 vs B/16, image/text phase vs weakMLP, HungarianIoU vs ByteTrack, PCA95%/rank32 vs99%/무32상한, splitseed42 vs0, full-frame causal hold vsstride4 등 조건이 달랐다.
 
