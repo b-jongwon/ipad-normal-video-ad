@@ -1,0 +1,194 @@
+{
+  "version": "mentor-direct-reference-v2",
+  "grammar_sha256": "ec5d9d89161262459661c9452d5ede80361711ebff106865932dafbdd7d37a85",
+  "records_sha256": "f38d38d848cddbb834a44427af9f1e4fbcc5932b696e61eea78f59a545dfa7a7",
+  "spaces": {
+    "frame_global": {
+      "fit_observations": 72,
+      "rank": 52,
+      "feature_dim": 512
+    },
+    "frame_phase0": {
+      "fit_observations": 12,
+      "rank": 10,
+      "feature_dim": 512
+    },
+    "frame_phase1": {
+      "fit_observations": 15,
+      "rank": 13,
+      "feature_dim": 512
+    },
+    "frame_phase2": {
+      "fit_observations": 8,
+      "rank": 7,
+      "feature_dim": 512
+    },
+    "frame_phase3": {
+      "fit_observations": 37,
+      "rank": 30,
+      "feature_dim": 512
+    },
+    "object0_global": {
+      "fit_observations": 50,
+      "rank": 39,
+      "feature_dim": 518
+    },
+    "object0_phase1": {
+      "fit_observations": 10,
+      "rank": 9,
+      "feature_dim": 518
+    },
+    "object0_phase2": {
+      "fit_observations": 8,
+      "rank": 7,
+      "feature_dim": 518
+    },
+    "object0_phase3": {
+      "fit_observations": 32,
+      "rank": 25,
+      "feature_dim": 518
+    },
+    "object1_global": {
+      "fit_observations": 6,
+      "rank": 5,
+      "feature_dim": 518
+    },
+    "object2_global": {
+      "fit_observations": 58,
+      "rank": 36,
+      "feature_dim": 518
+    },
+    "object2_phase1": {
+      "fit_observations": 14,
+      "rank": 11,
+      "feature_dim": 518
+    },
+    "object2_phase3": {
+      "fit_observations": 31,
+      "rank": 21,
+      "feature_dim": 518
+    },
+    "object3_global": {
+      "fit_observations": 39,
+      "rank": 28,
+      "feature_dim": 518
+    },
+    "object3_phase3": {
+      "fit_observations": 28,
+      "rank": 22,
+      "feature_dim": 518
+    }
+  },
+  "phase_fit_counts": {
+    "-1": 0,
+    "0": 12,
+    "1": 15,
+    "2": 8,
+    "3": 37
+  },
+  "process": {
+    "transition_counts": [
+      [
+        8,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        8,
+        4,
+        3
+      ],
+      [
+        0,
+        2,
+        4,
+        2
+      ],
+      [
+        2,
+        2,
+        0,
+        30
+      ]
+    ],
+    "transition_probabilities": [
+      [
+        0.6071428571428571,
+        0.25,
+        0.03571428571428571,
+        0.10714285714285714
+      ],
+      [
+        0.029411764705882353,
+        0.5,
+        0.2647058823529412,
+        0.20588235294117646
+      ],
+      [
+        0.05,
+        0.25,
+        0.45,
+        0.25
+      ],
+      [
+        0.06944444444444445,
+        0.06944444444444445,
+        0.013888888888888888,
+        0.8472222222222222
+      ]
+    ],
+    "transition_observations": 69,
+    "label_source": "direct VLM states on normal FIT recordings only",
+    "normal_grammar_validation": "machine proposed, NOT human verified",
+    "human_verified": false
+  },
+  "calibration": {
+    "frame_global": {
+      "center": 0.010201949626207352,
+      "scale": 0.004260861771866198
+    },
+    "frame_phase": {
+      "center": 0.022630291059613228,
+      "scale": 0.016656359657645226
+    },
+    "object_global": {
+      "center": 0.019298702478408813,
+      "scale": 0.06746622150981217
+    },
+    "object_phase": {
+      "center": 0.029710819944739342,
+      "scale": 0.07404794483052397
+    },
+    "process": {
+      "center": 0.12474779039621353,
+      "scale": 0.317260280251503
+    },
+    "ae_baseline": {
+      "center": 0.5359152257442474,
+      "scale": 0.24149838089942932
+    }
+  },
+  "thresholds": {
+    "frame_global": 3.2473721504211426,
+    "frame_phase": 1.548811674118042,
+    "object_global": 4.066990375518799,
+    "object_phase": 4.187790870666504,
+    "process": 2.583643913269043,
+    "ae_baseline": 1.3283246755599976,
+    "visual_global": 2.4938805103302,
+    "visual_phase": 2.5450217723846436,
+    "mentor_full": 2.087686061859131,
+    "global_plus_process": 1.9245636463165283
+  },
+  "normal_fit_n": 72,
+  "normal_cal_n": 32,
+  "vlm_phase_proxy_used": false,
+  "min_phase_fit": 8,
+  "test_labels_used_for_fit": false,
+  "api_vlm_weights_updated": false,
+  "clip_weights_updated": false,
+  "ae_baseline_epochs": 10,
+  "pca_method": "variance99 normal residual; not exact SubspaceAD reproduction"
+}

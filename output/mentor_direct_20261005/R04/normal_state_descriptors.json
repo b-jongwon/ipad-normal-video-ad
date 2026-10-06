@@ -1,0 +1,161 @@
+{
+  "source": "direct VLM, normal FIT only, diagnostic NOT human GT",
+  "counts": [
+    {
+      "state": "cardboard piece below blade",
+      "count": 16
+    },
+    {
+      "state": "metal blade arm swung down",
+      "count": 14
+    },
+    {
+      "state": "blade arm swung down",
+      "count": 9
+    },
+    {
+      "state": "metal blade arm raised",
+      "count": 9
+    },
+    {
+      "state": "red gripper visible, not holding piece",
+      "count": 9
+    },
+    {
+      "state": "red gripper visible not holding piece",
+      "count": 9
+    },
+    {
+      "state": "cardboard strip under blade",
+      "count": 8
+    },
+    {
+      "state": "cardboard strip positioned at cutter",
+      "count": 7
+    },
+    {
+      "state": "cardboard strip at cutter",
+      "count": 6
+    },
+    {
+      "state": "separated cardboard piece below blade",
+      "count": 6
+    },
+    {
+      "state": "red gripper holding cardboard piece",
+      "count": 6
+    },
+    {
+      "state": "metal blade arm down crossing strip",
+      "count": 6
+    },
+    {
+      "state": "cardboard strip near blade",
+      "count": 5
+    },
+    {
+      "state": "metal blade arm down over piece",
+      "count": 5
+    },
+    {
+      "state": "red gripper present",
+      "count": 3
+    },
+    {
+      "state": "red gripper holding piece",
+      "count": 3
+    },
+    {
+      "state": "red gripper near cutting area, no piece held",
+      "count": 3
+    },
+    {
+      "state": "unknown",
+      "count": 2
+    },
+    {
+      "state": "red gripper present near piece",
+      "count": 2
+    },
+    {
+      "state": "metal blade arm down across piece",
+      "count": 2
+    },
+    {
+      "state": "cardboard strip at cutter, under blade arm",
+      "count": 2
+    },
+    {
+      "state": "metal blade arm swung down across strip",
+      "count": 2
+    },
+    {
+      "state": "metal blade arm present, raised",
+      "count": 2
+    },
+    {
+      "state": "red gripper visible but not holding piece",
+      "count": 2
+    },
+    {
+      "state": "blade arm raised",
+      "count": 1
+    },
+    {
+      "state": "cardboard strip below blade",
+      "count": 1
+    },
+    {
+      "state": "blade arm down cutting",
+      "count": 1
+    },
+    {
+      "state": "cardboard strip partly cut, hanging at blade",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm down across strip",
+      "count": 1
+    },
+    {
+      "state": "blade arm down across piece",
+      "count": 1
+    },
+    {
+      "state": "not visible",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm down across separated piece",
+      "count": 1
+    },
+    {
+      "state": "short cardboard piece below blade",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm raised above piece",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm raised, no cut visible",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm base visible",
+      "count": 1
+    },
+    {
+      "state": "cardboard strip present near blade",
+      "count": 1
+    },
+    {
+      "state": "red gripper raised not holding",
+      "count": 1
+    },
+    {
+      "state": "red gripper holding strip",
+      "count": 1
+    }
+  ]
+}

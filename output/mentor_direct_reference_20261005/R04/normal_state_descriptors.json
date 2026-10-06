@@ -1,0 +1,133 @@
+{
+  "source": "direct VLM, normal FIT only, diagnostic NOT human GT",
+  "counts": [
+    {
+      "state": "red gripper present",
+      "count": 29
+    },
+    {
+      "state": "metal blade arm raised",
+      "count": 13
+    },
+    {
+      "state": "blade arm down",
+      "count": 13
+    },
+    {
+      "state": "metal blade arm down",
+      "count": 12
+    },
+    {
+      "state": "short cardboard piece below blade",
+      "count": 11
+    },
+    {
+      "state": "metal blade arm swung down",
+      "count": 10
+    },
+    {
+      "state": "separated cardboard piece below blade",
+      "count": 8
+    },
+    {
+      "state": "cardboard piece below blade",
+      "count": 7
+    },
+    {
+      "state": "cardboard strip positioned",
+      "count": 6
+    },
+    {
+      "state": "cardboard strip positioned at cutter",
+      "count": 5
+    },
+    {
+      "state": "red gripper holding strip",
+      "count": 5
+    },
+    {
+      "state": "blade arm raised",
+      "count": 4
+    },
+    {
+      "state": "strip positioned at cutter",
+      "count": 4
+    },
+    {
+      "state": "strip under blade, uncut or cutting",
+      "count": 4
+    },
+    {
+      "state": "cardboard strip above blade",
+      "count": 3
+    },
+    {
+      "state": "metal blade arm swung down crossing strip",
+      "count": 2
+    },
+    {
+      "state": "red gripper present above piece",
+      "count": 2
+    },
+    {
+      "state": "metal blade arm raised above cutting area",
+      "count": 1
+    },
+    {
+      "state": "not visible",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm raised, no cardboard strip",
+      "count": 1
+    },
+    {
+      "state": "small cardboard piece near cutter, not under blade",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm raised, no strip under blade",
+      "count": 1
+    },
+    {
+      "state": "small cardboard piece below blade",
+      "count": 1
+    },
+    {
+      "state": "unknown metal object, not blade arm",
+      "count": 1
+    },
+    {
+      "state": "cardboard piece falling",
+      "count": 1
+    },
+    {
+      "state": "metal blade arm base",
+      "count": 1
+    },
+    {
+      "state": "red gripper near blade",
+      "count": 1
+    },
+    {
+      "state": "strip under blade",
+      "count": 1
+    },
+    {
+      "state": "strip segment present",
+      "count": 1
+    },
+    {
+      "state": "strip positioned near blade, uncut",
+      "count": 1
+    },
+    {
+      "state": "red gripper holding strip above",
+      "count": 1
+    },
+    {
+      "state": "red gripper present above pieces",
+      "count": 1
+    }
+  ]
+}

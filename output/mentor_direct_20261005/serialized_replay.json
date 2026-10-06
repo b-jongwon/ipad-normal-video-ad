@@ -1,0 +1,18 @@
+[
+  {
+    "scene": "R01",
+    "observations": 229,
+    "max_abs_score_error": 3.2100298241743985e-06,
+    "alarms_identical": true,
+    "raw_api_recalled": false,
+    "scope": "all selected cached-feature/direct-state observations"
+  },
+  {
+    "scene": "R04",
+    "observations": 368,
+    "max_abs_score_error": 1.2904831621085577e-06,
+    "alarms_identical": true,
+    "raw_api_recalled": false,
+    "scope": "all selected cached-feature/direct-state observations"
+  }
+]

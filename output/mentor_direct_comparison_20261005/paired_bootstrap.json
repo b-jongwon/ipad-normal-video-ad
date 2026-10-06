@@ -1,0 +1,132 @@
+[
+  {
+    "run": "mentor_direct_20261005",
+    "scene": "R01",
+    "comparison": "phase+semantic vs global visual",
+    "auroc_difference_pp": -3.5778175313059046,
+    "ci95_pp": [
+      -13.74405310713627,
+      6.594260838663817
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "mentor_direct_20261005",
+    "scene": "R01",
+    "comparison": "semantic added to same phase visual",
+    "auroc_difference_pp": 0.4770423375074495,
+    "ci95_pp": [
+      -1.193427132252691,
+      2.2918720727157247
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "mentor_direct_20261005",
+    "scene": "R04",
+    "comparison": "phase+semantic vs global visual",
+    "auroc_difference_pp": -5.473039357336862,
+    "ci95_pp": [
+      -9.670690342850218,
+      -1.7879669607300233
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "mentor_direct_20261005",
+    "scene": "R04",
+    "comparison": "semantic added to same phase visual",
+    "auroc_difference_pp": 0.6761833208114187,
+    "ci95_pp": [
+      -0.9553630449152879,
+      2.2200134770889575
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "mentor_direct_reference_20261005",
+    "scene": "R01",
+    "comparison": "phase+semantic vs global visual",
+    "auroc_difference_pp": -6.768038163387002,
+    "ci95_pp": [
+      -15.05804774193938,
+      0.7884895393463598
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "mentor_direct_reference_20261005",
+    "scene": "R01",
+    "comparison": "semantic added to same phase visual",
+    "auroc_difference_pp": 0.4472271914132353,
+    "ci95_pp": [
+      -0.6171025864574259,
+      1.3804725274725205
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "mentor_direct_reference_20261005",
+    "scene": "R04",
+    "comparison": "phase+semantic vs global visual",
+    "auroc_difference_pp": -3.3346818470785244,
+    "ci95_pp": [
+      -8.511593519390754,
+      1.297679619462335
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "mentor_direct_reference_20261005",
+    "scene": "R04",
+    "comparison": "semantic added to same phase visual",
+    "auroc_difference_pp": -1.363925330867477,
+    "ci95_pp": [
+      -3.027342794622989,
+      0.270811563915005
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "reference v2 minus v1",
+    "scene": "R01",
+    "comparison": "matched mentor_full",
+    "auroc_difference_pp": -3.1902206320810977,
+    "ci95_pp": [
+      -10.872620741041795,
+      6.0989883412223085
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  },
+  {
+    "run": "reference v2 minus v1",
+    "scene": "R04",
+    "comparison": "matched mentor_full",
+    "auroc_difference_pp": 2.1383575102583374,
+    "ci95_pp": [
+      -3.2916199097591665,
+      6.62171353589649
+    ],
+    "valid_bootstrap": 500,
+    "requested_bootstrap": 500,
+    "unit": "whole test recording"
+  }
+]

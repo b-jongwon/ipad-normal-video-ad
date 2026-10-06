@@ -1,0 +1,145 @@
+{
+  "source": "direct VLM, normal FIT only, diagnostic NOT human GT",
+  "counts": [
+    {
+      "state": "green conveyor belt visible",
+      "count": 41
+    },
+    {
+      "state": "green conveyor belt",
+      "count": 31
+    },
+    {
+      "state": "green conveyor belt present",
+      "count": 18
+    },
+    {
+      "state": "unknown component",
+      "count": 11
+    },
+    {
+      "state": "not visible",
+      "count": 9
+    },
+    {
+      "state": "black rectangular component near right edge",
+      "count": 7
+    },
+    {
+      "state": "black rectangular component on belt middle",
+      "count": 6
+    },
+    {
+      "state": "unknown component, mismatched label",
+      "count": 5
+    },
+    {
+      "state": "unknown component, not black rectangular",
+      "count": 4
+    },
+    {
+      "state": "green-faced component on belt",
+      "count": 4
+    },
+    {
+      "state": "green-faced component on belt middle",
+      "count": 4
+    },
+    {
+      "state": "unknown component, green face not black rectangular",
+      "count": 4
+    },
+    {
+      "state": "black rectangular component entering from left",
+      "count": 3
+    },
+    {
+      "state": "green-faced component on left edge",
+      "count": 3
+    },
+    {
+      "state": "unknown component on belt",
+      "count": 3
+    },
+    {
+      "state": "green-faced component",
+      "count": 2
+    },
+    {
+      "state": "green-faced component off belt",
+      "count": 2
+    },
+    {
+      "state": "green-faced component on right edge",
+      "count": 2
+    },
+    {
+      "state": "component present but color mismatch",
+      "count": 2
+    },
+    {
+      "state": "not visible on belt",
+      "count": 2
+    },
+    {
+      "state": "small green-faced component top left",
+      "count": 2
+    },
+    {
+      "state": "unknown component visible, green face not black rectangular",
+      "count": 2
+    },
+    {
+      "state": "unknown component, black rectangular component not visible",
+      "count": 2
+    },
+    {
+      "state": "empty green conveyor belt",
+      "count": 1
+    },
+    {
+      "state": "red-faced component",
+      "count": 1
+    },
+    {
+      "state": "off belt component",
+      "count": 1
+    },
+    {
+      "state": "absent",
+      "count": 1
+    },
+    {
+      "state": "green-faced component present",
+      "count": 1
+    },
+    {
+      "state": "component color mismatch, not black rectangular",
+      "count": 1
+    },
+    {
+      "state": "component color mismatch, green-faced",
+      "count": 1
+    },
+    {
+      "state": "unknown",
+      "count": 1
+    },
+    {
+      "state": "mismatched",
+      "count": 1
+    },
+    {
+      "state": "black rectangular component entering left",
+      "count": 1
+    },
+    {
+      "state": "green-faced component near right edge",
+      "count": 1
+    },
+    {
+      "state": "unknown component small top left",
+      "count": 1
+    }
+  ]
+}

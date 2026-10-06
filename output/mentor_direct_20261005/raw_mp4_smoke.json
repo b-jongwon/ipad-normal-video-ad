@@ -1,0 +1,18 @@
+{
+  "scene": "R04",
+  "observations": 6,
+  "seconds": 10.88314459999674,
+  "raw_detector_tracking_clip_executed": true,
+  "direct_vlm_api_observations": 6,
+  "mlp_phase_used": false,
+  "test_labels_read": false,
+  "certified_normal": false,
+  "source_fps": 25.0,
+  "localization": "object bounding-box candidates; no defect/pixel GT",
+  "warning": "API latency included; no real-time certification. IPAD source FPS unknown.",
+  "fixture_frames": 192,
+  "fixture_playback_fps": 25.0,
+  "original_ipad_source_fps": null,
+  "fixture_source": "R04/testing/01 original first192 ordered frames, no label-based selection",
+  "heldout_new_factory_proof": false
+}

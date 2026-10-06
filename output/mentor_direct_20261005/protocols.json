@@ -1,0 +1,88 @@
+{
+  "R01": {
+    "version": "mentor-direct-v1",
+    "scene": "R01",
+    "grammar_sha256": "663f75045df7e58d0a76256d93da4409710d4c4c69724a1ce5556e776cf82543",
+    "grammar_source": "runs\\improvements_20261005\\schema_v2\\llm\\R01\\strong\\grammar.json",
+    "grammar_model": "gpt-5.4-2026-03-05",
+    "state_model": "gpt-4.1-mini-2025-04-14",
+    "normal_fit_recordings": [
+      "01",
+      "17",
+      "33"
+    ],
+    "normal_cal_recordings": [
+      "03",
+      "05"
+    ],
+    "normal_fit_images_per_recording": 24,
+    "normal_cal_images_per_recording": 16,
+    "test_stride": 32,
+    "test_selection": "all strict-eligible original cached test clips; no label-value selection",
+    "records_sha256": "69526752247c6d79df23c34019ccb6766b6c4b1ab341c631bf0472cbe0a84ecc",
+    "human_verified": false,
+    "posthoc_development": true,
+    "phase_source": "direct VLM pixels at EVERY selected fit/cal/test observation; no MLP",
+    "encoder": "frozen CLIP ViT-B/16 full and individual crops; real GDINO+ByteTrack extraction",
+    "process": "direct VLM consistency + normal-fitted transition surprisal; past-only context",
+    "min_phase_fit": 8,
+    "pca_variance": 0.99,
+    "phase_unknown": "global feature fallback; semantic unavailable is not normal",
+    "full_weights": {
+      "phase_visual": 0.8,
+      "semantic_process": 0.2
+    },
+    "visual_weights": {
+      "frame": 0.5,
+      "object": 0.5
+    },
+    "threshold": "separate normal calibration q99; strict >; fixed before test metrics",
+    "api_encoder_finetuned": false,
+    "clip_encoder_finetuned": false,
+    "ae_baseline_epochs": 10,
+    "limitations": "small normal fit/cal, coarse sampling, previously inspected tests, no human state/bbox GT; not all16"
+  },
+  "R04": {
+    "version": "mentor-direct-v1",
+    "scene": "R04",
+    "grammar_sha256": "ec5d9d89161262459661c9452d5ede80361711ebff106865932dafbdd7d37a85",
+    "grammar_source": "runs\\improvements_20261005\\llm\\R04\\strong\\grammar.json",
+    "grammar_model": "gpt-5.4-2026-03-05",
+    "state_model": "gpt-4.1-mini-2025-04-14",
+    "normal_fit_recordings": [
+      "01",
+      "13",
+      "24"
+    ],
+    "normal_cal_recordings": [
+      "05",
+      "11"
+    ],
+    "normal_fit_images_per_recording": 24,
+    "normal_cal_images_per_recording": 16,
+    "test_stride": 32,
+    "test_selection": "all strict-eligible original cached test clips; no label-value selection",
+    "records_sha256": "8abc0d7c71e20c0eba8c876bc60ab05bd8d42d78277da49e0c5c55b5fbf1c827",
+    "human_verified": false,
+    "posthoc_development": true,
+    "phase_source": "direct VLM pixels at EVERY selected fit/cal/test observation; no MLP",
+    "encoder": "frozen CLIP ViT-B/16 full and individual crops; real GDINO+ByteTrack extraction",
+    "process": "direct VLM consistency + normal-fitted transition surprisal; past-only context",
+    "min_phase_fit": 8,
+    "pca_variance": 0.99,
+    "phase_unknown": "global feature fallback; semantic unavailable is not normal",
+    "full_weights": {
+      "phase_visual": 0.8,
+      "semantic_process": 0.2
+    },
+    "visual_weights": {
+      "frame": 0.5,
+      "object": 0.5
+    },
+    "threshold": "separate normal calibration q99; strict >; fixed before test metrics",
+    "api_encoder_finetuned": false,
+    "clip_encoder_finetuned": false,
+    "ae_baseline_epochs": 10,
+    "limitations": "small normal fit/cal, coarse sampling, previously inspected tests, no human state/bbox GT; not all16"
+  }
+}

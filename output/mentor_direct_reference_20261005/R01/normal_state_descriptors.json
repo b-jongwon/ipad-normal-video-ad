@@ -1,0 +1,77 @@
+{
+  "source": "direct VLM, normal FIT only, diagnostic NOT human GT",
+  "counts": [
+    {
+      "state": "green conveyor belt visible",
+      "count": 94
+    },
+    {
+      "state": "black rectangular component on belt middle with green face",
+      "count": 19
+    },
+    {
+      "state": "black rectangular component with green face on belt middle",
+      "count": 16
+    },
+    {
+      "state": "upright black rectangular component with green face on belt middle",
+      "count": 14
+    },
+    {
+      "state": "black rectangular component near right edge with green face",
+      "count": 9
+    },
+    {
+      "state": "small green-faced component off belt top-left",
+      "count": 8
+    },
+    {
+      "state": "not visible on belt",
+      "count": 4
+    },
+    {
+      "state": "upright black rectangular component near right edge with green face",
+      "count": 3
+    },
+    {
+      "state": "black rectangular component entering from left with green face",
+      "count": 2
+    },
+    {
+      "state": "upright black rectangular component with green face entering left side",
+      "count": 2
+    },
+    {
+      "state": "upright black rectangular component near right edge with black top",
+      "count": 2
+    },
+    {
+      "state": "upright black rectangular component on belt middle with green face",
+      "count": 2
+    },
+    {
+      "state": "black rectangular component near right edge",
+      "count": 1
+    },
+    {
+      "state": "unknown component off belt right",
+      "count": 1
+    },
+    {
+      "state": "green-faced component off belt",
+      "count": 1
+    },
+    {
+      "state": "unknown",
+      "count": 1
+    },
+    {
+      "state": "unknown small green-faced object off belt top-left",
+      "count": 1
+    },
+    {
+      "state": "upright black rectangular component entering from left with green face",
+      "count": 1
+    }
+  ]
+}

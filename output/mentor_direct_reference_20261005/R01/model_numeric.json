@@ -1,0 +1,164 @@
+{
+  "version": "mentor-direct-reference-v2",
+  "grammar_sha256": "663f75045df7e58d0a76256d93da4409710d4c4c69724a1ce5556e776cf82543",
+  "records_sha256": "e4111e8dd2c8b8e91d7a422f2b35c95daa2314d1b9cda8683078eac653cdad07",
+  "spaces": {
+    "frame_global": {
+      "fit_observations": 72,
+      "rank": 56,
+      "feature_dim": 512
+    },
+    "frame_phase2": {
+      "fit_observations": 51,
+      "rank": 42,
+      "feature_dim": 512
+    },
+    "frame_phase3": {
+      "fit_observations": 15,
+      "rank": 13,
+      "feature_dim": 512
+    },
+    "object0_global": {
+      "fit_observations": 94,
+      "rank": 36,
+      "feature_dim": 518
+    },
+    "object0_phase2": {
+      "fit_observations": 63,
+      "rank": 30,
+      "feature_dim": 518
+    },
+    "object0_phase3": {
+      "fit_observations": 27,
+      "rank": 15,
+      "feature_dim": 518
+    },
+    "object2_global": {
+      "fit_observations": 86,
+      "rank": 45,
+      "feature_dim": 518
+    },
+    "object2_phase2": {
+      "fit_observations": 59,
+      "rank": 36,
+      "feature_dim": 518
+    },
+    "object2_phase3": {
+      "fit_observations": 20,
+      "rank": 14,
+      "feature_dim": 518
+    }
+  },
+  "phase_fit_counts": {
+    "-1": 0,
+    "0": 1,
+    "1": 5,
+    "2": 51,
+    "3": 15
+  },
+  "process": {
+    "transition_counts": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        4,
+        39,
+        6
+      ],
+      [
+        0,
+        0,
+        7,
+        8
+      ]
+    ],
+    "transition_probabilities": [
+      [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.5,
+        0.16666666666666666
+      ],
+      [
+        0.08333333333333333,
+        0.08333333333333333,
+        0.5833333333333334,
+        0.25
+      ],
+      [
+        0.00980392156862745,
+        0.08823529411764706,
+        0.7745098039215687,
+        0.12745098039215685
+      ],
+      [
+        0.029411764705882353,
+        0.029411764705882353,
+        0.4411764705882353,
+        0.5
+      ]
+    ],
+    "transition_observations": 69,
+    "label_source": "direct VLM states on normal FIT recordings only",
+    "normal_grammar_validation": "machine proposed, NOT human verified",
+    "human_verified": false
+  },
+  "calibration": {
+    "frame_global": {
+      "center": 0.0024789641611278057,
+      "scale": 0.0008157440461218357
+    },
+    "frame_phase": {
+      "center": 0.004004229791462421,
+      "scale": 0.0024726440897211432
+    },
+    "object_global": {
+      "center": 0.004669075831770897,
+      "scale": 0.0014230920933187008
+    },
+    "object_phase": {
+      "center": 0.006585848517715931,
+      "scale": 0.004177015740424395
+    },
+    "process": {
+      "center": 0.09931518509984016,
+      "scale": 0.21830341592431068
+    },
+    "ae_baseline": {
+      "center": 0.21028506755828857,
+      "scale": 0.08676840737462044
+    }
+  },
+  "thresholds": {
+    "frame_global": 2.5631980895996094,
+    "frame_phase": 2.2712531089782715,
+    "object_global": 2.8072633743286133,
+    "object_phase": 1.6196379661560059,
+    "process": 3.062865734100342,
+    "ae_baseline": 1.288136601448059,
+    "visual_global": 2.324547529220581,
+    "visual_phase": 1.727057695388794,
+    "mentor_full": 1.7624837160110474,
+    "global_plus_process": 1.9860575199127197
+  },
+  "normal_fit_n": 72,
+  "normal_cal_n": 32,
+  "vlm_phase_proxy_used": false,
+  "min_phase_fit": 8,
+  "test_labels_used_for_fit": false,
+  "api_vlm_weights_updated": false,
+  "clip_weights_updated": false,
+  "ae_baseline_epochs": 10,
+  "pca_method": "variance99 normal residual; not exact SubspaceAD reproduction"
+}

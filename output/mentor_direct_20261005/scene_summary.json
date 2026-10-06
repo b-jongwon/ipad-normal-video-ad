@@ -1,0 +1,322 @@
+[
+  {
+    "scene": "R01",
+    "observations": 229,
+    "counts": {
+      "train": 72,
+      "val": 32,
+      "test": 125
+    },
+    "unknown_phase_fraction": 0.4672489082969432,
+    "test_consistency": {
+      "consistent": 61,
+      "violation": 64,
+      "unobservable": 0
+    },
+    "human_phase_accuracy": null,
+    "object_state_accuracy": null,
+    "human_verified": false,
+    "test_labels_supplied_to_vlm": false,
+    "phase_fit_counts": {
+      "-1": 44,
+      "0": 5,
+      "1": 4,
+      "2": 11,
+      "3": 8
+    },
+    "spaces": {
+      "frame_global": {
+        "fit_observations": 72,
+        "rank": 56,
+        "feature_dim": 512
+      },
+      "frame_phase2": {
+        "fit_observations": 11,
+        "rank": 10,
+        "feature_dim": 512
+      },
+      "frame_phase3": {
+        "fit_observations": 8,
+        "rank": 7,
+        "feature_dim": 512
+      },
+      "object0_global": {
+        "fit_observations": 94,
+        "rank": 36,
+        "feature_dim": 518
+      },
+      "object0_phase2": {
+        "fit_observations": 14,
+        "rank": 9,
+        "feature_dim": 518
+      },
+      "object0_phase3": {
+        "fit_observations": 14,
+        "rank": 9,
+        "feature_dim": 518
+      },
+      "object2_global": {
+        "fit_observations": 86,
+        "rank": 45,
+        "feature_dim": 518
+      },
+      "object2_phase2": {
+        "fit_observations": 14,
+        "rank": 11,
+        "feature_dim": 518
+      },
+      "object2_phase3": {
+        "fit_observations": 13,
+        "rank": 10,
+        "feature_dim": 518
+      }
+    },
+    "process_normal_fit": {
+      "transition_counts": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          5,
+          4
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ]
+      ],
+      "transition_probabilities": [
+        [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        [
+          0.125,
+          0.125,
+          0.625,
+          0.125
+        ],
+        [
+          0.041666666666666664,
+          0.125,
+          0.4583333333333333,
+          0.375
+        ],
+        [
+          0.21428571428571427,
+          0.21428571428571427,
+          0.21428571428571427,
+          0.35714285714285715
+        ]
+      ],
+      "transition_observations": 17,
+      "label_source": "direct VLM states on normal FIT recordings only",
+      "normal_grammar_validation": "machine proposed, NOT human verified",
+      "human_verified": false
+    },
+    "extraction": {
+      "records_sha256": "69526752247c6d79df23c34019ccb6766b6c4b1ab341c631bf0472cbe0a84ecc",
+      "grammar_sha256": "663f75045df7e58d0a76256d93da4409710d4c4c69724a1ce5556e776cf82543",
+      "observations": 229,
+      "seconds": 31.639607100005378,
+      "fresh_vocab_extraction": true,
+      "tracked_frames": 229,
+      "detector": "GroundingDINO tiny pinned",
+      "tracker": "class-separated ByteTrack reset per recording",
+      "encoder": "frozen CLIP ViT-B/16 full+individual crops",
+      "tracking_accuracy": null
+    },
+    "model_sha256": "0161fd2ebcdc5e9d70a4e56853c380abde2d1bdc58d70581fbde63dad94bf5dc",
+    "grammar_sha256": "663f75045df7e58d0a76256d93da4409710d4c4c69724a1ce5556e776cf82543"
+  },
+  {
+    "scene": "R04",
+    "observations": 368,
+    "counts": {
+      "train": 72,
+      "val": 32,
+      "test": 264
+    },
+    "unknown_phase_fraction": 0.002717391304347826,
+    "test_consistency": {
+      "consistent": 263,
+      "violation": 0,
+      "unobservable": 1
+    },
+    "human_phase_accuracy": null,
+    "object_state_accuracy": null,
+    "human_verified": false,
+    "test_labels_supplied_to_vlm": false,
+    "phase_fit_counts": {
+      "-1": 0,
+      "0": 8,
+      "1": 12,
+      "2": 17,
+      "3": 35
+    },
+    "spaces": {
+      "frame_global": {
+        "fit_observations": 72,
+        "rank": 52,
+        "feature_dim": 512
+      },
+      "frame_phase0": {
+        "fit_observations": 8,
+        "rank": 7,
+        "feature_dim": 512
+      },
+      "frame_phase1": {
+        "fit_observations": 12,
+        "rank": 10,
+        "feature_dim": 512
+      },
+      "frame_phase2": {
+        "fit_observations": 17,
+        "rank": 15,
+        "feature_dim": 512
+      },
+      "frame_phase3": {
+        "fit_observations": 35,
+        "rank": 28,
+        "feature_dim": 512
+      },
+      "object0_global": {
+        "fit_observations": 50,
+        "rank": 39,
+        "feature_dim": 518
+      },
+      "object0_phase2": {
+        "fit_observations": 21,
+        "rank": 18,
+        "feature_dim": 518
+      },
+      "object0_phase3": {
+        "fit_observations": 22,
+        "rank": 18,
+        "feature_dim": 518
+      },
+      "object1_global": {
+        "fit_observations": 6,
+        "rank": 5,
+        "feature_dim": 518
+      },
+      "object2_global": {
+        "fit_observations": 58,
+        "rank": 36,
+        "feature_dim": 518
+      },
+      "object2_phase1": {
+        "fit_observations": 10,
+        "rank": 8,
+        "feature_dim": 518
+      },
+      "object2_phase2": {
+        "fit_observations": 15,
+        "rank": 11,
+        "feature_dim": 518
+      },
+      "object2_phase3": {
+        "fit_observations": 31,
+        "rank": 22,
+        "feature_dim": 518
+      },
+      "object3_global": {
+        "fit_observations": 39,
+        "rank": 28,
+        "feature_dim": 518
+      },
+      "object3_phase3": {
+        "fit_observations": 27,
+        "rank": 21,
+        "feature_dim": 518
+      }
+    },
+    "process_normal_fit": {
+      "transition_counts": [
+        [
+          6,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          5,
+          1
+        ],
+        [
+          0,
+          2,
+          5,
+          10
+        ],
+        [
+          0,
+          4,
+          7,
+          23
+        ]
+      ],
+      "transition_probabilities": [
+        [
+          0.65,
+          0.25,
+          0.05,
+          0.05
+        ],
+        [
+          0.041666666666666664,
+          0.375,
+          0.4583333333333333,
+          0.125
+        ],
+        [
+          0.02631578947368421,
+          0.13157894736842105,
+          0.2894736842105263,
+          0.5526315789473685
+        ],
+        [
+          0.013888888888888888,
+          0.125,
+          0.20833333333333334,
+          0.6527777777777778
+        ]
+      ],
+      "transition_observations": 69,
+      "label_source": "direct VLM states on normal FIT recordings only",
+      "normal_grammar_validation": "machine proposed, NOT human verified",
+      "human_verified": false
+    },
+    "extraction": {
+      "records_sha256": "8abc0d7c71e20c0eba8c876bc60ab05bd8d42d78277da49e0c5c55b5fbf1c827",
+      "grammar_sha256": "ec5d9d89161262459661c9452d5ede80361711ebff106865932dafbdd7d37a85",
+      "observations": 368,
+      "seconds": 48.91505869998946,
+      "fresh_vocab_extraction": true,
+      "tracked_frames": 314,
+      "detector": "GroundingDINO tiny pinned",
+      "tracker": "class-separated ByteTrack reset per recording",
+      "encoder": "frozen CLIP ViT-B/16 full+individual crops",
+      "tracking_accuracy": null
+    },
+    "model_sha256": "fef5e5aca46a472b80c67de365608b12a8c10cf29aab376619414fd9d3a6bd4d",
+    "grammar_sha256": "ec5d9d89161262459661c9452d5ede80361711ebff106865932dafbdd7d37a85"
+  }
+]

@@ -159,3 +159,15 @@ advanced 기본값 `--limit100`은 짧은 확인용이다. 전체 동영상 처�
 ## 12. 최신 E07 재현 범위
 
 E07의 새 코드/명령과 필요한 기존 cache는 [후속 실험 문서](IMPROVEMENT_FOLLOWUP.md)에 정리했다. 기존 모델을 덮어쓰지 않는다. 새 normal MP4 manifest 적응 CLI는 기존 IPAD clip ID가 필요 없는 별도 frame-memory 경로이며,Full13단계 적응과 다르다. 새 API key와 개인 env 파일은 공개하지 않는다. 유료 실행의 누적 예산은 유지해야 한다.
+
+## 13. 실제 직접VLM 경로의 재현 범위 — 2026-10-06
+
+새 `mentor_pipeline`은 추론에서도 이미지/crop을외부VLM API에보낸다. 위역사적v3/advanced의 "외부API 미사용" 설명을이경로에적용하지않는다. GPT가중치를학습한것은아니며 phase/PCA/전이를normal-only fitting했다. 비교용AE는장면별10ep다.
+
+```powershell
+& .\.venv\Scripts\python.exe -m local_experiments.mentor_pipeline.tests
+```
+
+직접VLM 12개offline계약검사는유료API나원본IPAD다운로드없이실행한다. 전체재평가/새MP4추론에는공식backbone,CLIPframecache,originalgrammar,privateweights/acceptedresponsecache,자기APIkey와예산원장이별도로필요하다. public clone만으로저자API응답을재생성할수있다고주장하지않는다.
+
+R01/R04 원본정상grammar를숫자/텍스트로공개했으나검증된phase정답이아니다. ZIP경로및GRAMMARS/RUN/OUT은저자환경용경로가남아있다. 새환경의필수파일/순서/유료명령은 [직접VLM 상세재현](MENTOR_DIRECT_VLM.md#11-코드실행재현-제한)에정리했다. 원모델/비용원장을public에올리거나새예산승인을실행한것은아니다.

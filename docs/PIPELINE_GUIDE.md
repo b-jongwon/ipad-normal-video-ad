@@ -2,6 +2,8 @@
 
 대상은 원 제안의 **`full_pipeline_v3`, R01~R04**다. 각 stage의 구현 완료와 그 의미/정확도 검증은 구분한다. 후속 `advanced_pipeline`은 이 구성을 그대로16개에 복제한 것이 아니라 별도 화면/객체 비교다.
 
+**2026-10-06 경로 구분:** 이 문서 아래의 MLP/rule 설명은 역사적v3를 설명한다. 새 `mentor_pipeline`은 실제 이미지 입력 VLM이 phase·객체 state·공정 일치 여부를 직접 추정한다. 새 실험에도 아래의 "온라인 GPT 미사용" 설명을 적용하면 안 된다. [새 전체 단계와 결과](MENTOR_DIRECT_VLM.md), [실제 코드 대응](../local_experiments/mentor_pipeline/README.md)를 별도로 본다. v3를 삭제하거나 새 방식으로 실험 당시 결과를 소급 수정하지 않았다.
+
 이 문서의 freeze/학습 미수행 설명은 v3 범위다. E07의 강한 LLM 비교·DINO 화면 일부 층 FT·live guard·신규 MP4 입력은 [후속 문서](IMPROVEMENT_FOLLOWUP.md)를 본다. CLIP 객체 encoder 자체 FT와 사람 phase/결함 GT는 E07에도 미수행이다.
 
 ## 전체 흐름

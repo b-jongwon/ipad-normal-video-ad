@@ -6,6 +6,8 @@
 
 > **현재 상태:** 연구용 구현·정상-only 학습·구성별 평가·저장 모델 추론 검증을 완료했다. 산업 현장 검증이나 모든 공정에 적용되는 상용 모델을 완성한 것은 아니다. AUROC는 분류 정확도가 아니며 복잡한 Full pipeline이 가장 좋았다고 주장하지 않는다.
 
+> **최신 업데이트 — 2026-10-06, 직접 VLM 경로:** 이전 v3의 MLP 단계 추정을 대신하지 않고, 실제 현재 프레임·객체 crop·과거 관측을 이미지 입력 VLM에 제공해 **객체 상태·공정 단계·공정 일치 여부를 직접 추정**하는 별도 실험을 완료했다. R01/R04 동일조건 평균 AUROC는 시각 기준69.59%, 멘토 Full65.06%, 정상 참고 추가 Full64.53%다. **역할 구현은 완료했지만 성능 향상은 입증되지 않았다.** [상세 과정·결과·개선 우선순위](docs/MENTOR_DIRECT_VLM.md), [코드와1~13 대응](local_experiments/mentor_pipeline/README.md), [실행 결과 비교](output/mentor_direct_comparison_20261005/COMPARISON.md).
+
 > **최신 E07 후속:** 강한 GPT 실제 비교,16장면 prototype/공분산,2장면 DINO 일부 층 추가 학습,임계치 절충,live guard 및 신규 normal MP4 적응 경로를 구현·검증했다. 새 후보가 기존 화면 복합 모델을 전반적으로 넘지 못해 기본 모델은 보존했다. [상세 결과와 실패](docs/IMPROVEMENT_FOLLOWUP.md).
 
 > **공개 전환:** 사용자가 비공개에서 공개로 전환한 저장소다. 이번 업데이트에는 코드·설명·수치 결과·데이터 이미지가 없는 성능 그래프만 새로 포함한다. 이전 커밋/기존 Release의 시연 이미지·영상·모델 파일은 보존되어 있다. 이를 데이터/가중치 재배포 허가의 증거로 해석하면 안 된다. [공개 범위](docs/REPRODUCIBILITY.md)를 확인한다.
@@ -19,6 +21,7 @@
 - 기존 phase-conditioned subspace/process는 넣었다는 사실만으로 기여가 입증되지 않았다. 동일조건 제거 비교에서는 phase 조건이 불리했다.
 - crop-only 후속 실험은 오경보를 줄였지만 미탐·성능 저하가 따른다. 독립 검증된 최종 해결책이 아니다.
 - 객체/단계 지각이 틀리면 올바른 규칙 코드도 공정 이상을 판단하지 못한다. 원본 프레임 재추론 감사에서 이 문제를 확인했다.
+- 최신 직접 VLM 경로에서도 phase 분할이 불리했다. 다만 global 시각 기준에 process만 추가하면69.59%→70.16%로 소폭 올라, 이 결과만으로 LLM 전체가 무용하다고 결론내리지 않는다. 효과 크기·독립 평가·의미 정확도는 추가 검증해야 한다.
 
 ### 완료한 실험의 규모
 
@@ -35,6 +38,8 @@
 | 원본 영상 스트레스 | 16입력, 1,880관측 | 정상/역순/80·140반복을 detector부터 재실행 |
 | E07 후속 개선 | memory16+covariance16,phase MLP4+DINO부분FT2 | 정상-only,사후 평가. 새 architecture32개라는 뜻 아님 |
 | E07 저장 추론/운영 | 32model replay6,558관측,live guard161관측,normal MP4 smoke | cached score 재현과 작은 fixture 확인,현장 장시간 시험 아님 |
+| 직접 VLM 멘토 경로 | R01/R04 × 기본/정상참고2버전,40평가 행 | 각각597관측, 실제 VLM 추론1,194건; 같은관측을 두번 평가한 것이며 독립1,194프레임 아님 |
+| 직접 VLM 검증 | 계약12검사,저장replay1,194관측,MP4실행12관측 | 비교용 AE4헤드×10ep. VLM 파인튜닝0ep,16장면 전체 완료 아님 |
 
 232는 **고도화에서 학습한 작은 head 수**다. GPT/DINO/CLIP을232번 처음부터 학습했다는 뜻도, 초기 파일럿을 합산한 전 프로젝트 총 학습 수라는 뜻도 아니다. 628은 평가 표의 행 수이며628개 새 구조가 아니다.
 
@@ -56,6 +61,22 @@ FPR/recall은 **지속 경고 기준**이다. 이전 v3의 프레임 FPR와 섞�
 
 ![16개 공통 비교](output/advanced_20261005/plots/all16_comparison.png)
 
+### 최신 직접 VLM 실험 — 같은 조건끼리만 비교
+
+정상FIT72/정상calibration32시점씩, 테스트R01 125/R04 264시점, stride32다. 위16장면 고도화 및 기존v3 stride4와 분할·샘플 수가 달라 숫자를 직접 비교하지 않는다.
+
+| 방법 | R01 AUROC | R04 AUROC | 두 장면 동등 평균 |
+|---|---:|---:|---:|
+| CLIP 화면+객체 global 정상 공간 | 68.66% | 70.51% | **69.59%** |
+| 위 기준+직접 VLM process, phase 분할 없음 | 68.87% | 71.46% | **70.16%** |
+| 직접 VLM phase별 화면+객체 공간 | 64.61% | 64.36% | 64.48% |
+| 멘토 Full: phase visual80%+process20% | 65.09% | 65.03% | **65.06%** |
+| Full+정상FIT3참고 이미지/정상 설명 | 61.90% | 67.17% | **64.53%** |
+
+이 파이프라인의 **VLM 가중치는 추가 학습하지 않았다(0에포크)**. GPT가 상태를 직접 추정하고, 우리는 정상 특징의 PCA 공간과 정상 단계 전이 확률을 fitting했다. 장면당10에포크 AE는 별도 비교 기준이며 Full 점수에 포함되지 않는다. 실제 관측/API 추론과 신경망 gradient 학습을 구분한다.
+
+핵심 미해결은 정상 표본/phase별 support 부족, 사람 미검증 phase/state, 객체 오검출, 학습·테스트 관측 간격 불일치와 고정 가중치다. R01 기본FIT72중44관측은 phase 불확실이며, phase0/1은 각각5/4개여서 global 공간으로 fallback했다. 정상 참고 추가로 unknown이 줄어도 정답률이 올라갔다고 주장하지 않는다. 새 code/numeric report만 공개하며 이번 실행의 이미지·MP4·모델·API원장은 제외했다.
+
 ### 읽는 순서
 
 | 문서 | 내용 |
@@ -70,6 +91,7 @@ FPR/recall은 **지속 경고 기준**이다. 이전 v3의 프레임 FPR와 섞�
 | [재현·공개 범위](docs/REPRODUCIBILITY.md) | 설치,학습 명령,필수 별도 자료,제외한 파일 |
 | [출처·revision](docs/SOURCES.md) | 데이터/논문/모듈/팀 참고 코드 attribution |
 | [최신 개선 E07](docs/IMPROVEMENT_FOLLOWUP.md) | 강한 LLM·prototype·공분산·실제 backbone FT·판단불가·새 MP4 입력 |
+| [직접 VLM 멘토 경로](docs/MENTOR_DIRECT_VLM.md) | 실제 VLM 상태/순서 판단,1~13 구현,학습 범위,동일조건 ablation,실패와 다음 실험 |
 
 실행 당시 보고서: [초기 비교](output/meeting_20261004/회의용_비교결과.md), [기존v3](output/full_pipeline_20261004/완성결과_읽어주세요.md), [16장면 고도화](output/advanced_20261005/결과보고서.md), [최근 감사](output/pipeline_audit_20261005/검증결과_팀원설명.md). 날짜가 다른 보고서는 해당 실행의 스냅샷이며 현재 전체 범위는 이 README를 기준으로 본다.
 
@@ -130,7 +152,7 @@ split seed20261005, neural seed0/1/2다. 모든 seed에 같은 영상 분할을 
 
 | 구성 | 실제 사용 | 직접 가중치를 학습했나 |
 |---|---|---|
-| GPT-4.1-mini / E07 GPT-5.4 | 정상 객체·단계·전환 후보 생성,후속 모델 비교 | 아니오 |
+| GPT-4.1-mini / E07 GPT-5.4 | 정상 객체·단계·전환 후보 생성,후속 모델 비교. 최신 mentor-direct는 GPT-4.1-mini가 테스트 상태/일치 여부도 직접 추정 | 아니오,API 모델 fine-tuning0ep |
 | GroundingDINO tiny | vocabulary 기반 객체 검출 | 아니오,동결 |
 | CLIP ViT-B/16 | 화면/crop 시각 특징 | 아니오,동결 |
 | DINOv2 ViT-S/14 | CLS384 및 별도 중간층 patch | 기존 실행은 동결. E07 R01/R04에서 마지막 block+layernorm 추가 학습 비교 |
@@ -146,9 +168,13 @@ split seed20261005, neural seed0/1/2다. 모든 seed에 같은 영상 분할을 
 
 DINO-only 고도화 화면 경로는 LLM을 사용하지 않는다. 객체 경로는 과거 LLM이 만든 vocabulary와 CLIP image encoder를 재사용하므로 외부 API 호출이 없다는 이유로 전체를 VLM-free라고 부르지 않는다. 고도화/최근 감사의 **추가 유료 API 호출0회**다. 기존v3까지 누적 토큰 기반 API 비용 추정은 약$0.0176였고 승인 한도$4/보수적 예약액$1.20과 구분된다. 실제 청구는 계정 내역이 기준이다.
 
-이후 **E07에는 별도 GPT 응답6개**를 실제 받았다(accepted grammar4/validation failed2). 현재 누적 비용 추정약$0.1073,보수적 누적 예약$3.875/$4다. 새 key/새 model을 썼다고 예산을 초기화하지 않았다. DINO부분FT는 R01/R04의 작은 탐색 모델이며 기존 Full/16장면 모델의 가중치를 덮어쓰지 않았다.
+이후 **E07에는 별도 GPT 응답6개**를 실제 받았다(accepted grammar4/validation failed2). **E07 종료 당시** 누적 비용 추정약$0.1073,보수적 누적 예약$3.875/$4다. 새 key/새 model을 썼다고 예산을 초기화하지 않았다. DINO부분FT는 R01/R04의 작은 탐색 모델이며 기존 Full/16장면 모델의 가중치를 덮어쓰지 않았다.
+
+그 뒤 직접VLM 경로는main1,194건+raw12건의 실제추론을 추가했다. 과거비용을포함한최신누적사용량추정은약$1.0995, 실패/미확인예약을보존한reserved는약$3.8851/$4다. 현재가중치학습이아니라API관측추론이며,실제청구서가최종기준이다.
 
 ## 5. 멘토 제안1~13단계는 어디까지 했나
+
+**이 절의 기존 표는 v3/E07 기록이다.** 특히 v3의11번은MLP proxy였으며 실제VLM이테스트phase/state를직접추정한것이아니다. 최신직접VLM 경로는아래별도표와 [전체1~13대응](local_experiments/mentor_pipeline/README.md)을본다. 모듈실행완료를의미정확도/전체16장면완료로해석하지않는다.
 
 | 단계 | 기존 v3 실제 수행 | E07에서 추가한 검증/기능 | 아직 입증하지 못한 것 |
 |---|---|---|---|
@@ -167,9 +193,21 @@ DINO-only 고도화 화면 경로는 LLM을 사용하지 않는다. 객체 경�
 | 13 process score | 규칙/GRU 별도 및결합 평가 | 기존 점수를 유지하는 opt-in runtime guard | 규칙의 사람 확정 |
 | localization | bbox/patch heatmap 후보 | 사람 정답 없음을 유지,정확도 수치 생성 안 함 | 정확한 결함 위치 증명 |
 
-**13단계 전체 연결 범위는 R01~R04다.** 이후16장면에서는 DINO 화면+AE/GRU/시각 상태 경로를 전체에 적용했고 R4 객체 특징을 재사용했다. S12에 LLM+GDINO+semantic phase 전체를 새로 돌리지 않았다. [상세 단계별 입력/출력/코드](docs/PIPELINE_GUIDE.md).
+**기존 v3 연결 범위는 R01~R04이며 state/phase에는MLP대체경로를사용했다.** 이후16장면에서는 DINO 화면+AE/GRU/시각 상태 경로를 전체에 적용했고 R4 객체 특징을 재사용했다. S12에 LLM+GDINO+semantic phase 전체를 새로 돌리지 않았다. [역사적v3 단계별 입력/출력/코드](docs/PIPELINE_GUIDE.md).
 
 E07도 S12 Full object/LLM 파이프라인을 새로 완성한 것이 아니다. 새 공정 adaptation CLI는 frame appearance memory 경로이며 Full13단계 적응과 구분한다. [새 비교의 조건과 아직 남은 문제](docs/IMPROVEMENT_FOLLOWUP.md).
+
+### 최신 실제VLM 경로 — R01/R04만 완료
+
+| 단계 묶음 | 지금 실제 수행한 것 | 미검증/제한 |
+|---|---|---|
+| 1~2 정상/grammar | GPT-5.4 정상grammar 원본재사용,normalFIT/cal 녹화분리 | human grammar정답 없음 |
+| 3~4/9~10 객체·표현 | 새 vocabulary GDINO/ByteTrack 재실행,개별CLIP crop+geometry | 객체role/bbox/ID 정답률 없음 |
+| 5~6 정상 기준 | 직접VLM phase의전이와phase별PCA fitting | R01 phase0/1 support부족→global fallback |
+| 7~8 영상/관측 | ZIP/MP4 지원,test stride32 | 전체프레임/초단위시간모델 아님 |
+| 11 상태 추정 | 현재전체화면/crop/과거-only 실제VLM API,MLP미사용 | 사람 phase/state 정확도없음,VLM FT0ep |
+| 12~13 점수 | visual residual + VLM 직접consistency/위반 + 전이likelihood | Full65.06%로global69.59%보다낮음 |
+| 위치·실행 | candidate bbox,저장replay1,194관측,실제MP4 12관측 | pixel결함위치/현장실시간/모든16장면 미입증 |
 
 ## 6. 초기/v3: Full보다 단순 구성이 좋았다
 
@@ -364,6 +402,7 @@ python -m venv .venv
 & .\.venv\Scripts\python.exe -m local_experiments.full_pipeline.tests
 & .\.venv\Scripts\python.exe -m local_experiments.advanced_pipeline.tests
 & .\.venv\Scripts\python.exe -m local_experiments.pipeline_audit.tests
+& .\.venv\Scripts\python.exe -m local_experiments.mentor_pipeline.tests
 ```
 
 Supervision 메타데이터는 `opencv-python`을 요구하지만 검증 환경은 `opencv-python-headless`다. 중복설치를 피했고 `pip check` 이름 불일치가 남는다. 완벽한 fresh-install 검증이나 CPU 대체 실행은 주장하지 않는다.
@@ -381,6 +420,7 @@ local_experiments/
   advanced_pipeline/                  정상3분할/early stopping/16장면/crop
   pipeline_audit/                     지각/규칙 진단,raw stress,교정 실패
   improvement_pipeline/               E07 메모리/공분산/부분FT/LLM 비교/guard/MP4 적응
+  mentor_pipeline/                    실제이미지VLM 상태/일치 추정,phasePCA,정상전이,두버전검증
   tests/                              데이터/전처리 회귀 검사
 docs/                                 단계/방법/지표/연대기/재현/전체 표
 output/
@@ -391,9 +431,12 @@ output/
     standalone/                       실제 입력 속도 summary만 새 공개
   pipeline_audit_20261005/             48참고프레임/99계약/16raw 요약
   improvements_20261005/               E07 수치/loss/재현/임계치/유료요청 결과
+  mentor_direct_20261005/              직접VLM 기본20지표/정상기준/AEhistory/raw숫자요약
+  mentor_direct_reference_20261005/    정상FIT참고추가20지표/동일조건비교
+  mentor_direct_comparison_20261005/   두버전수치/paired-bootstrap/정합성검사
 ```
 
-`cache/`,`runs/`,원본 ZIP,API 키,`.venv`는 새 Git 업로드에 없다. hash는 **로컬 실행 무결성 기록**이지 해당 모델/점수가 모두 GitHub에 있다는 뜻은 아니다. [공개 복사 manifest](docs/PUBLICATION_MANIFEST.json), [이번 업로드의 테스트·수치·파일 확인 기록](docs/PUBLICATION_CHECKS.md).
+`cache/`,`runs/`,원본 ZIP,API 키,`.venv`는 새 Git 업로드에 없다. hash는 **로컬 실행 무결성 기록**이지 해당 모델/점수가 모두 GitHub에 있다는 뜻은 아니다. [이전 공개 복사 manifest](docs/PUBLICATION_MANIFEST.json), [이전 공개 검증](docs/PUBLICATION_CHECKS.md), [최신 직접VLM 공개파일·수치·보안 검사](docs/MENTOR_PUBLICATION_CHECKS.json).
 
 ## 15. 지금 주장할 수 있는 것과 남은 것
 

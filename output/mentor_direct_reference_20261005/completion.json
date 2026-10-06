@@ -1,0 +1,22 @@
+{
+  "version": "mentor-direct-reference-v2",
+  "scenes": [
+    "R01",
+    "R04"
+  ],
+  "metric_rows": 20,
+  "direct_vlm_accepted_observations": 597,
+  "new_ae_heads": 2,
+  "new_ae_epochs": 10,
+  "mlp_phase_used": false,
+  "states_human_verified": false,
+  "normal_only_fit": true,
+  "test_selection": "all eligible recordings in R01/R04, stride32",
+  "new_response_cost_estimate_usd": 0.5620636,
+  "cumulative_usage_cost_estimate_usd": 1.099537300000001,
+  "budget_limit_usd": 4.0,
+  "conservative_reserved_usd": 3.885056100000002,
+  "existing_default_model_replaced": false,
+  "all16_mentor_pipeline_evaluated": false,
+  "posthoc_test_not_independent": true
+}

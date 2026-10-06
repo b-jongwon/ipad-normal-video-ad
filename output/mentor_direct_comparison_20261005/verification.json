@@ -1,0 +1,50 @@
+[
+  {
+    "run": "mentor_direct_20261005",
+    "scene": "R01",
+    "observations": 229,
+    "direct_vlm_accepted": 229,
+    "normal_split_disjoint": true,
+    "all_scores_finite": true,
+    "normal_q99_verified": true,
+    "seal_verified": true,
+    "ae_epochs": 10,
+    "phase_proxy_used": false
+  },
+  {
+    "run": "mentor_direct_20261005",
+    "scene": "R04",
+    "observations": 368,
+    "direct_vlm_accepted": 368,
+    "normal_split_disjoint": true,
+    "all_scores_finite": true,
+    "normal_q99_verified": true,
+    "seal_verified": true,
+    "ae_epochs": 10,
+    "phase_proxy_used": false
+  },
+  {
+    "run": "mentor_direct_reference_20261005",
+    "scene": "R01",
+    "observations": 229,
+    "direct_vlm_accepted": 229,
+    "normal_split_disjoint": true,
+    "all_scores_finite": true,
+    "normal_q99_verified": true,
+    "seal_verified": true,
+    "ae_epochs": 10,
+    "phase_proxy_used": false
+  },
+  {
+    "run": "mentor_direct_reference_20261005",
+    "scene": "R04",
+    "observations": 368,
+    "direct_vlm_accepted": 368,
+    "normal_split_disjoint": true,
+    "all_scores_finite": true,
+    "normal_q99_verified": true,
+    "seal_verified": true,
+    "ae_epochs": 10,
+    "phase_proxy_used": false
+  }
+]

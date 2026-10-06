@@ -1,0 +1,13 @@
+{
+  "scene": "R04",
+  "observations": 6,
+  "seconds": 10.88314459999674,
+  "raw_detector_tracking_clip_executed": true,
+  "direct_vlm_api_observations": 6,
+  "mlp_phase_used": false,
+  "test_labels_read": false,
+  "certified_normal": false,
+  "source_fps": 25.0,
+  "localization": "object bounding-box candidates; no defect/pixel GT",
+  "warning": "API latency included; no real-time certification. IPAD source FPS unknown."
+}
